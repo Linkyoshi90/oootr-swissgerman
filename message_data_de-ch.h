@@ -13782,22 +13782,22 @@ DEFINE_MESSAGE(0x7153, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7154, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Was ist das denn? Das sieht\n"
-"nicht besonders unheimlich aus...\n"
-"Na ja, vielleicht unheimlich\n"
-"bescheuert..."
+"Was isch das de? Gseht nid\n"
+"sehr unheimlech uus...\n"
+"Na ja, villecht unheimlech\n"
+"deppert..."
 )
 
 DEFINE_MESSAGE(0x7155, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey! Eine Fuchs-Maske! \n"
-"Abgefahren! Mein Daddy wollte \n"
-"mir so eine besorgen!"
+"Hey! E Fuchs-Maske! \n" /*EDIT! Item Name*/
+"Geil! Mi Daddy het mir so eini\n" /*EDIT! Father word / Daddy*/
+"wöue chouffe!"
 )
 
 DEFINE_MESSAGE(0x7156, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Du siehst aus wie\n"
-"der Totengräber...\n"
-"Das macht mir keine Angscht!"
+"Du gsehsch uus wie\n"
+"dr Totengräber...\n" /*EDIT! Totengräber / Dampé*/
+"Das macht mir ke Angscht!"
 )
 
 DEFINE_MESSAGE(0x7157, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
