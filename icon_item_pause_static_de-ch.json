@@ -1,0 +1,31 @@
+[
+  {
+    "pause_botw_title": "Grund vom Brunne",
+    "pause_current_position": "ORT",
+    "pause_deku_title": "Dekuboum",
+    "pause_dodongo_title": "Dodongo's Höhli",
+    "pause_equipment": "UUSRÜSCHTIG",
+    "pause_fire_title": "Füürtämpu",
+    "pause_forest_title": "Waudtämpu",
+    "pause_ice_cavern_title": "Iishöhli",
+    "pause_inside_jabu_title": "Jabu-Jabu's Buch",
+    "pause_map": "CHARTE",
+    "pause_no": "Nei",
+    "pause_quest_status": "STATUS",
+    "pause_save": "SICHERE",
+    "pause_save_confirmation": "Spiustand gspiicheret.",
+    "pause_save_prompt": "Spiustand spiichere ?",
+    "pause_select_item": "GEGESTÄND",
+    "pause_shadow_title": "Schattetämpu",
+    "pause_spirit_title": "Geischtertämpu",
+    "pause_to_decide": "Bestätige mit",
+    "pause_to_equip": "Uusrüschte mit",
+    "pause_to_equipment": "Uusrüschtig",
+    "pause_to_map": "Charte",
+    "pause_to_play_melody": "Melodie alose mit",
+    "pause_to_quest_status": "Status",
+    "pause_to_select_item": "Gegeständ",
+    "pause_water_title": "Wassertämpu",
+    "pause_yes": "Ja"
+  }
+]
