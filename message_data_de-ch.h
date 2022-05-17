@@ -708,7 +708,7 @@ ITEM_ICON("\x77")  QUICKTEXT_ENABLE "D hesch e " COLOR(RED) "Chliine Schlüssu" 
 DEFINE_MESSAGE(0x0061, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  COLOR(RED) "Schnaagmine  (20 Stück)  180 Rubine\n"
 COLOR(DEFAULT) "Gseht uus wie en Ratte, aber\n"
-"s isch en säubschtloufendi Zyt-\n"
+"s isch en säubschtlouffendi Zyt-\n"
 "Bombe!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
@@ -1060,7 +1060,7 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Chouffe\n"
 
 DEFINE_MESSAGE(0x0096, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE "Entschuudigung, cha diir ds nid\n"
-"verchouffe, wenn ke Fläsche \n"
+"verchoufe, wenn ke Fläsche \n"
 "hesch." QUICKTEXT_DISABLE  PERSISTENT
 )
 
@@ -1325,7 +1325,7 @@ COLOR(DEFAULT) "D bruuchsch e lääri Fläsche zum\n"
 DEFINE_MESSAGE(0x00BC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  COLOR(RED) "Schnaagmine  (10 Stück)  100 Rubine\n"
 COLOR(DEFAULT) "Gseht uus wie en Ratte, aber\n"
-"s isch en säubschtloufendi Zyt-\n"
+"s isch en säubschtlouffendi Zyt-\n"
 "Bombe!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
@@ -2593,7 +2593,7 @@ DEFINE_MESSAGE(0x0207, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
 QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Maskelade\n"
 COLOR(DEFAULT) "Bitte lis ds Schiud bevor dr\n"
 "Lade bruuchsch." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE  COLOR(RED) "Dr Lade funzt so:\n"
-COLOR(DEFAULT) "Mir verchouffe keh Maske.\n"
+COLOR(DEFAULT) "Mir verchoufe keh Maske.\n"
 "Mir " COLOR(RED) "lehne" COLOR(DEFAULT) " se uus." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "D verchouffsch se\n"
 "säuber." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "D zausch ds " COLOR(RED) "Gäud" COLOR(DEFAULT) " für d\n"
 "Maske und mir lehne diir en \n"
@@ -2954,7 +2954,7 @@ QUICKTEXT_ENABLE  SHIFT("\x28")  COLOR(RED) "Wäg zum Todesbärg" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x030A, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE  SHIFT("\x36")  COLOR(YELLOW) "Dodongo Höhli\n"
+QUICKTEXT_ENABLE  SHIFT("\x36")  COLOR(YELLOW) "Dodongo-Höhli\n"
 COLOR(DEFAULT)  SHIFT("\x0A") "Ke Durchgang ohni Erloubnis!" QUICKTEXT_DISABLE
 )
 
@@ -3135,7 +3135,7 @@ COLOR(DEFAULT) "Lehn nid übere Trese.\n"
 
 DEFINE_MESSAGE(0x032A, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE  SHIFT("\x28")  COLOR(LIGHTBLUE) "Schatzchischtespiu" COLOR(DEFAULT) "\n"
-SHIFT("\x06") "Verchouffe nüüt..." QUICKTEXT_DISABLE
+SHIFT("\x06") "verchoufe nüüt..." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x032B, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
@@ -4072,7 +4072,7 @@ COLOR(LIGHTBLUE) "Dises Irrliecht verschwindet\n"
 )
 
 DEFINE_MESSAGE(0x065B, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Killergrosle\n"
+QUICKTEXT_ENABLE "Todgrosle\n"
 COLOR(LIGHTBLUE) "Dsch d kombinierti Form vo\n"
 "Kotake und Koume. Reflektier d\n"
 COLOR(DEFAULT) "Magie " COLOR(LIGHTBLUE) "zrugg!" COLOR(DEFAULT)  QUICKTEXT_DISABLE
@@ -5615,7 +5615,7 @@ DEFINE_MESSAGE(0x10B9, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x10BA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Mir verchouffe Schiuder, nid Schwärter!" EVENT
+"Mir verchoufe Schiuder, nid Schwärter!" EVENT
 )
 
 DEFINE_MESSAGE(0x10BB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -7071,7 +7071,7 @@ UNSKIPPABLE "I bi eine vo de " COLOR(RED) "Gorone" COLOR(DEFAULT) ",\n"
 "ds steifrässende Volk wo ufm\n"
 "Todesbärg läbt." BOX_BREAK UNSKIPPABLE "Lueg dä risige Stei\n"
 "a!" BOX_BREAK UNSKIPPABLE "Er blockiert dr Iigang vor\n"
-COLOR(RED) "Dodongo Höhli" COLOR(DEFAULT) ", wo en\n"
+COLOR(RED) "Dodongo-Höhli" COLOR(DEFAULT) ", wo en\n"
 "sehr wichtige Ort isch für üüs\n"
 "Gorone..." BOX_BREAK UNSKIPPABLE "Aber uufzmau si Dodongos\n"
 "ir Höhli uuftoucht, wie usm\n"
@@ -7085,174 +7085,173 @@ DEFINE_MESSAGE(0x3009, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I wünscht i chönnt dr Bärg\n"
 "zdürab röuelle mit ere\n"
 COLOR(RED) "Bombeblueme " COLOR(DEFAULT) "und..." BOX_BREAK QUICKTEXT_ENABLE  SHIFT("\x3C")  COLOR(RED) "BOOOOOOM!" COLOR(DEFAULT)  QUICKTEXT_DISABLE  BOX_BREAK "Wenn i ds chönnt, denn\n"
-"wär i en richtige Ma." /*EDIT! Here*/
+"wär i en richtige Ma."
 )
 
 DEFINE_MESSAGE(0x300A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm standing here to shade the\n"
-COLOR(RED) "Bombeblueme " COLOR(DEFAULT) "from the sun." BOX_BREAK "Do you have a question for me?\n"
+"I stang hie damit ig Schatte uf d\n"
+COLOR(RED) "Bombeblueme " COLOR(DEFAULT) "cha wärfe." BOX_BREAK "Hesch e frag?\n"
 "\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Ask about Bombeblueme\n"
-"Ask about Dodongo Höhli" COLOR(DEFAULT)
+TWO_CHOICE  COLOR(ADJUSTABLE) "Frag über Bombeblueme\n"
+"Frag über d Dodongo-Höhli" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x300B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Those plants growing over there \n"
-"are " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ". They are\n"
-"\"mining plants\" that grow only on\n"
-"this mountain." BOX_BREAK "The flower's fruit is the raw \n"
-"material for Bombe." BOX_BREAK "But a non-Goron amateur should \n"
-"never pick the Bombeblueme' \n"
-"fruit!" BOX_BREAK "They usually grow only in dark \n"
-"places, so Bombeblueme that grow\n"
-"in a place like this are extremely\n"
-"rare."
+"Die Pflanze wo dert wachse\n"
+"sii " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ". Si si\n"
+"\"Minepflanze\" wo nume hie uf däm\n"
+"Bärg wachse." BOX_BREAK "D rohi Blueme isch ds\n"
+"Materiau für Bombe." BOX_BREAK "Aber en non-Gorone sött niemaus\n"
+"die Bombeblueme uuflüpfe!" BOX_BREAK "Normalerwiis wachse si a schattige\n"
+"Orte, auso Bombeblueme a söttige\n"
+"Orte wie hie z'ha isch sehr\n"
+"säute."
 )
 
 DEFINE_MESSAGE(0x300C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Those plants growing over there \n"
-"are " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ". They are\n"
-"\"mining plants\" that grow only on\n"
-"this mountain." BOX_BREAK "They usually grow only in dark \n"
-"places, like caves, so Bombe \n"
-"Blueme that grow in a place like\n"
-"this are extremely rare." BOX_BREAK "Wenn d have the " COLOR(RED) "Goronearmband" COLOR(DEFAULT) ",\n"
-"even a chlii kid like you could\n"
-"easily pick it with " COLOR(BLUE) "[A]" COLOR(DEFAULT) "."
+"Die Pflanze wo dert wachse\n"
+"sii " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ". Si si\n"
+"\"Minepflanze\" wo nume hie uf däm\n"
+"Bärg wachse." BOX_BREAK "Normalerwiis wachse si a schattige\n"
+"Orte, wie Höhline, Bombe-\n"
+"blueme a söttige Orte z'finde\n"
+"isch e säuteni Sach." BOX_BREAK "Wenn ds " COLOR(RED) "Goronearmband" COLOR(DEFAULT) "anne hesch,\n"
+"cha sogar en Grögu wie du\n"
+"so eini uuflüpfe mit " COLOR(BLUE) "[A]" COLOR(DEFAULT) "."
 )
 
 DEFINE_MESSAGE(0x300D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Did you see the cavern on your \n"
-"way here? That is the " COLOR(RED) "Dodongo's \n"
-"Höhli" COLOR(DEFAULT) "." BOX_BREAK "Because the light inside is very \n"
-"dim, the " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ", a plant \n"
-"unique to this mountain, grow like\n"
-"crazy in there!"
+"Hesch d Höhli ufm Wäg hie häre\n"
+"gseh? S wär d " COLOR(RED) "Dodongo-\n"
+"Höhli" COLOR(DEFAULT) "." BOX_BREAK "Wöu dört dinn sehr dunku isch\n"
+"wachse " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) ",\n"
+"wo houptsächlech am Bärg wachse,\n"
+"zu tuusige!"
 )
 
 DEFINE_MESSAGE(0x300E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Oh?" BOX_BREAK UNSKIPPABLE "We don't get many visitors way\n"
-"up here. Where are you from?" BOX_BREAK UNSKIPPABLE "The Waud?" BOX_BREAK UNSKIPPABLE "What's a \"Waud\"?" BOX_BREAK UNSKIPPABLE "Eh?" BOX_BREAK UNSKIPPABLE "It's where a lot of \"trees\" und \n"
-"\"plants\" grow?" BOX_BREAK UNSKIPPABLE "Now I'm even more confused! \n"
-"Nothing grows around here besides\n"
-"the " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "We don't have \"seeds\" or \"Nüss\"\n"
-"around here either." BOX_BREAK UNSKIPPABLE "Even Dekustöck are very scarce\n"
-"around here!" TEXTID("\x30\x22")
+UNSKIPPABLE "Oh?" BOX_BREAK UNSKIPPABLE "Mir bechöme nid viu Bsuecher hie\n"
+"obe. Vo wo bisch?" BOX_BREAK UNSKIPPABLE "Waud?" BOX_BREAK UNSKIPPABLE "Was isch e \"Waud\"?" BOX_BREAK UNSKIPPABLE "Eh?" BOX_BREAK UNSKIPPABLE "Da wachse \"Böim\" und \n"
+"\"Pflanze\"?" BOX_BREAK UNSKIPPABLE "Itz bini no meh verwirrt! \n"
+"Nüt wachst hie ume usser\n"
+"d " COLOR(RED) "Bombeblueme" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Mir hei keh \"Same\" odr \"Nüss\"\n"
+"hie." BOX_BREAK UNSKIPPABLE "Sogar Dekustöck sii e Säuteheit\n"
+"hie desume!" TEXTID("\x30\x22")
 )
 
 DEFINE_MESSAGE(0x300F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I sealed the entrance because I\n"
-"don't have much merchandise to\n"
-"sell. But you're quite a persistent\n"
-"customer, aren't you." EVENT
+"I ha d Türe zue ta, wöu i nid\n"
+"sehr viu Sache zum verchoufe ha.\n"
+"Und trotzdäm hesch d Tür kabutt\n"
+"gmacht... Ds wird choschte..." EVENT
 )
 
 DEFINE_MESSAGE(0x3010, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I'm sorry...\n"
-"That Bombe is just for display. \n"
-"I'm " COLOR(RED) "sold out " COLOR(DEFAULT) "of real ones." EVENT
+"Tschuudigung...\n"
+"Die Bombe isch zum Uussteue. \n"
+"I ha " COLOR(RED) "keh " COLOR(DEFAULT) "ächti Bombe meh." EVENT
 )
 
 DEFINE_MESSAGE(0x3011, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Why did you stop me?\n"
-"Don't stop me here!" BOX_BREAK "You can't stop my wild rolling!" BOX_BREAK "This wild rolling is the only way\n"
-"to relieve my stress!" BOX_BREAK "Now stand in awe of my wild, wild\n"
-"rolling!!"
+"Wieso hesch mi aaghaute?\n"
+"Nid hie!" BOX_BREAK "D chasch ds wiude Roue nid stoppe!" BOX_BREAK "Eso bini momentan am Stress\n"
+"abboue!" BOX_BREAK "Itze bestuun mis wiude, wiude\n"
+"Roue!!"
 )
 
 DEFINE_MESSAGE(0x3012, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "All right! I'll give you this\n"
-"in praise of your Muet!" EVENT
+UNSKIPPABLE "Ok, i gibe diir ds, wöu du\n"
+"so muetig bisch!" EVENT
 )
 
 DEFINE_MESSAGE(0x3013, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Merci! Let me exDrück my joy\n"
-"with more wild rolling!"
+"Merci! Lah mi lah fiire mit\n"
+"meh Umeröuele!"
 )
 
 DEFINE_MESSAGE(0x3014, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE  SHIFT("\x21") "Oh...I'm so hungry..." BOX_BREAK UNSKIPPABLE "Everyone feels faint from hunger\n"
-"because of the food shortage in \n"
-"this town. We are in danger of \n"
-"extinction!" BOX_BREAK UNSKIPPABLE "It's all because we can't enter\n"
-"our quarry, the " COLOR(RED) "Dodongo Höhli" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "We Gorone live on a diet of \n"
-"rocks..." BOX_BREAK UNSKIPPABLE "And the most delicious und \n"
-"nutritious rocks around are found \n"
-"in the Dodongo Höhli! But that \n"
-"seems like ancient history now..." BOX_BREAK UNSKIPPABLE "We've become such gourmets that \n"
-"we can't stand to eat rocks from\n"
-"anywhere else!" TEXTID("\x30\x15")
+UNSKIPPABLE  SHIFT("\x21") "Oh... I ha Hunger..." BOX_BREAK UNSKIPPABLE "Jede hie isch schwach wäge dr\n"
+"Hungersnot wo momentan hie\n"
+"passiert. Mir stärbe itz de\n"
+"uus!" BOX_BREAK UNSKIPPABLE "Aues nume wöu mir nid i üse\n"
+"Steibruch, d " COLOR(RED) "Dodongo-Höhli" COLOR(DEFAULT) " chöi." BOX_BREAK UNSKIPPABLE "Mir Gorone frässe nämlech\n"
+"steine..." BOX_BREAK UNSKIPPABLE "D feinschte und gsündischte\n"
+"Steine wärde aui uus dr\n"
+"Dodongo-Höhli ghout! Aber s\n"
+"isch eh kes Thema meh..." BOX_BREAK UNSKIPPABLE "Mir si so extrem pinggelig,\n"
+"ds mir keh Steine vo nöime schüsch\n"
+"meh näh chöi!" TEXTID("\x30\x15")
 )
 
 DEFINE_MESSAGE(0x3015, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Sigh... I want to eat the top\n"
-"sirloin rocks from the " COLOR(RED) "Dodongo's \n"
+"*Seufz*... I möcht en guete\n"
+"Röststei us dr " COLOR(RED) "Dodongo- \n"
 "Höhli" COLOR(DEFAULT) "!"
 )
 
 DEFINE_MESSAGE(0x3016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Hey!" BOX_BREAK UNSKIPPABLE "It's dangerous for a chlii kid like\n"
-"you to come out here. You might \n"
-"fall down!" BOX_BREAK UNSKIPPABLE "If I'm not mistaken, you came out\n"
-"here to eat the " COLOR(RED) "red stone" COLOR(DEFAULT) "!\n"
-"Well, too bad! It's not here!" BOX_BREAK UNSKIPPABLE "What? That's not why you're\n"
-"here?" BOX_BREAK UNSKIPPABLE "You're looking for a \"Spiritual\n"
-"Stone?\" You must mean that \n"
-"delicious-looking red stone\n"
-"that was once displayed here!" BOX_BREAK UNSKIPPABLE "I was so hungry that I thought\n"
-"it would be OK to just give it one\n"
-"tiny chlii lick...so I snuck out\n"
-"here. But, it was already gone!" BOX_BREAK UNSKIPPABLE "I think Big Brother took it away." BOX_BREAK UNSKIPPABLE "He always says that everyone\n"
-"is after that red stone!" TEXTID("\x30\x17")
+UNSKIPPABLE "Hey!" BOX_BREAK UNSKIPPABLE "S isch gfährlech hie umezlouffe,\n"
+"erscht rächt für es Chind. D\n"
+"chönntisch abekeie!" BOX_BREAK UNSKIPPABLE "Wenn i richtig lige bisch hie häre\n"
+"cho wägm " COLOR(RED) "rote Stei" COLOR(DEFAULT) "!\n"
+"Gäu scheisse? Er isch nid da!" BOX_BREAK UNSKIPPABLE "Was? D bisch nid wäg däm da?" 
+BOX_BREAK UNSKIPPABLE "D suechsch en \"heilige\n"
+"Stei?\" D meinsch sicher dise \n"
+"fein uussehend rote Stei\n"
+"wo hie wär gsii!" BOX_BREAK UNSKIPPABLE "I bi so hungrig gsii, ds i ne\n"
+"churz nume es Bitzli hätt wöue\n"
+"abschläcke... Auso bini hie häre\n"
+"cho. Aber dise isch furt gsii!" BOX_BREAK UNSKIPPABLE "Big Brother het ne gno." BOX_BREAK UNSKIPPABLE "Er seit, ds jede dise sueche würd,\n"
+"was o immer ds heisst!" TEXTID("\x30\x17")/*EDIT! Big Brother*/
 )
 
 DEFINE_MESSAGE(0x3017, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Big Brother has shut himself up in\n"
-"his room saying,\n"
-"\"" COLOR(RED) "I will wait in here for the \n"
-"Chönigsfamilie's messenger!" COLOR(DEFAULT) "\""
+"Big Brother het sech iigschlosse\n"
+"i sim Zimmer.\n"
+"\"" COLOR(RED) "I wirde hie warte ufe Bote vor\n"
+"Chönigsfamilie!" COLOR(DEFAULT) "\""
 )
 
 DEFINE_MESSAGE(0x3018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I'm so hungry that I can't think\n"
-"about anything but food!" BOX_BREAK UNSKIPPABLE "Ask Big Brother about complicated\n"
-"things." BOX_BREAK UNSKIPPABLE "If he's in a bad mood, he'll \n"
-"probably get mad at you...it\n"
-"can be pretty scary. But..." BOX_BREAK UNSKIPPABLE "I know his SECRET." BOX_BREAK UNSKIPPABLE "He may not look like the type,\n"
-"but Big Brother Liebis to dance!\n"
-"If he gets in a rhythm, he'll surely..." TEXTID("\x30\x19")
+UNSKIPPABLE "I bi so hungrig, ds i a Nüüt\n"
+"angers aus Ässe dänke cha!" BOX_BREAK UNSKIPPABLE "Frag Big Brother über komplizierti\n"
+"Sache." BOX_BREAK UNSKIPPABLE "Wenn er schlächt zwäg isch\n"
+"wird er zwar sauer, was zimli\n"
+"gruslig sii cha. Aber... " BOX_BREAK UNSKIPPABLE "I kenne siis Gheimnis." BOX_BREAK UNSKIPPABLE "Er gseht zwar nid so uus,\n"
+"aber Big Brother liebts z'tanze!\n"
+"Wennr en Beat ghört wirdr sicher..." TEXTID("\x30\x19")
 )
 
 DEFINE_MESSAGE(0x3019, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I remember Big Brother used to\n"
-"always listen to the " COLOR(ADJUSTABLE) "music that\n"
-"comes from the Waud" COLOR(DEFAULT) "..." BOX_BREAK "Ah yes, the good old days...\n"
-"That music makes me feel\n"
-"nostalgic, too..." TEXTID("\x30\x2C")
+"I cha mi no dra erinnere wie\n"
+"Big Brother aube d " COLOR(ADJUSTABLE) "Musig wo\n"
+"vom Waud chunnt" COLOR(DEFAULT) " glost het..." BOX_BREAK "Ah, die gueti auti Zyt...\n"
+"Mi macht si o zimli nostalgisch,\n"
+"die Musig..." TEXTID("\x30\x2C")
 )
 
 DEFINE_MESSAGE(0x301A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "What the heck! Who are you?!" BOX_BREAK UNSKIPPABLE "When I heard the " COLOR(BLUE) "Lied of the\n"
-"Chönigsfamilie" COLOR(DEFAULT) ", I expected their \n"
-"messenger had arrived, but...\n"
-"you're just a chlii kid!" BOX_BREAK UNSKIPPABLE "Has " COLOR(RED) "Darunia" COLOR(DEFAULT) ", the big boss of\n"
-"the Gorone, really lost so much\n"
-"status to be treated like this\n"
-"by his Sworn Brother, the Chönig?" BOX_BREAK UNSKIPPABLE "Now, I'm REALLY angry!\n"
-"Get out of my face, now!" BOX_BREAK UNSKIPPABLE "Are you asking why I'm in such a\n"
-"bad mood right now?" BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Ancient creatures have \n"
-"infested the Dodongo Höhli!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "We've had a poor harvest of our\n"
-"special crop, Bombeblueme!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Starvation und hunger because\n"
-"of the rock shortage!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  SHIFT("\x48") "But..." TEXTID("\x30\x1B")
+UNSKIPPABLE "Was zum...! Wär bisch du?!" BOX_BREAK UNSKIPPABLE "Woni ds " COLOR(BLUE) "Lied vor\n"
+"Chönigsfamilie" COLOR(DEFAULT) " ghört ha, hani doch\n"
+"dr Bote erwartet...\n"
+"Aber d bisch en Goof!" BOX_BREAK UNSKIPPABLE "Het " COLOR(RED) "Darunia" COLOR(DEFAULT) ", dr Aafüehrer\n"
+"vo de Gorone, so viu Status\n"
+"verlore, ds er vom Chönig, sim\n"
+"Bluetbrüetsch, so behandlet wird?" BOX_BREAK UNSKIPPABLE "Itze bini würk STOCKSAUER!\n"
+"Hou ab, SOFORT!" BOX_BREAK UNSKIPPABLE "Hä? D fragsch wieso i so sauer\n"
+"bi?" BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Urauti Kreature hei d Dodongo-\n"
+"Höhli bsetzt!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "E schlächti Ernte vo üsne\n"
+"Bombeblueme!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Hungersnot wäge Steimangu wöu\n"
+"d Höhli blockiert isch!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  SHIFT("\x48") "Aber..." TEXTID("\x30\x1B")
 )
 
 DEFINE_MESSAGE(0x301B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE  SHIFT("\x19") "This is a Goron problem!" QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE  SHIFT("\x11") "We don't need any help from\n"
-SHIFT("\x46") "strangers!" QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE  SHIFT("\x19") "Ds isch es Goroneproblem!" QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE  SHIFT("\x11") "Mir bruche ke hiuf vo unbeteiligte\n"
+SHIFT("\x46") "Ussesiiter!" QUICKTEXT_DISABLE
 )
-
+/*EDIT! Here*/
 DEFINE_MESSAGE(0x301C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x15") "Heeey!! What a nice tune!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "Just like that, my deDrückion is\n"
+UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x15") "Heeey!! What a nice tune!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "Just like that, my depression is\n"
 "all gone! Something just came \n"
 "over me! I suddenly wanted to\n"
 "dance like crazy!" BOX_BREAK UNSKIPPABLE  SHIFT("\x3C") "I am " COLOR(RED) "Darunia" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "I'm the big boss of the Gorone!\n"
@@ -7263,7 +7262,7 @@ UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x15") "Heeey!! What a nice tune!" QUICKTE
 "race's hidden treasure...." BOX_BREAK UNSKIPPABLE "But hold on--I'm not going to give\n"
 "it to you that easily.\n"
 "Wenn d want it so badly..." BOX_BREAK UNSKIPPABLE "Why don't you go destroy the \n"
-"monsters inside of the Dodongo's \n"
+"monsters inside of the Dodongo- \n"
 "Höhli und prove you're a real man?" BOX_BREAK UNSKIPPABLE "That way, everybody will be \n"
 "happy again! Wenn d do it, I \n"
 "will give you anything you want,\n"
@@ -7277,7 +7276,7 @@ UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x15") "Heeey!! What a nice tune!" QUICKTE
 
 DEFINE_MESSAGE(0x301D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Destroy the monsters in the\n"
-COLOR(RED) "Dodongo Höhli " COLOR(DEFAULT) "and become a \n"
+COLOR(RED) "Dodongo-Höhli " COLOR(DEFAULT) "and become a \n"
 "real man! Then, we can talk about\n"
 "the Stei!"
 )
@@ -7319,14 +7318,14 @@ DEFINE_MESSAGE(0x3023, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "It's me, " COLOR(RED) "Darunia" COLOR(DEFAULT) "!\n"
 "Well done!" BOX_BREAK UNSKIPPABLE "Thanks to you, we can once again\n"
 "eat the delicious rocks from the\n"
-"Dodongo Höhli until our \n"
+"Dodongo-Höhli until our \n"
 "stomachs burst!"
 )
 
 DEFINE_MESSAGE(0x3024, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "I'm so hungry that I can't think\n"
 "about anything but food!" BOX_BREAK UNSKIPPABLE "\"Stei?\"\n"
-"That " COLOR(RED) "red stone" COLOR(DEFAULT) " that was lighting\n"
+"That " COLOR(RED) "red Stei" COLOR(DEFAULT) " that was lighting\n"
 "up our city?" BOX_BREAK UNSKIPPABLE "Big Brother " COLOR(RED) "Darunia" COLOR(DEFAULT) " took it\n"
 "away. Then, he shut himself up in\n"
 "his room und won't come out." BOX_BREAK UNSKIPPABLE "Since then, it feels like all\n"
@@ -7820,7 +7819,7 @@ QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Look! A " COLOR(DEFAULT) "chicken " COLOR(LI
 )
 
 DEFINE_MESSAGE(0x3067, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Did you get the red stone?\n"
+"Did you get the red Stei?\n"
 "Let me get one chlii lick!" BOX_BREAK "No? Booooo!"
 )
 
@@ -8479,7 +8478,7 @@ UNSKIPPABLE "Are you still hanging around here?\n"
 "Lord Jabu-Jabu's Buch since I was\n"
 "chlii, but..." BOX_BREAK UNSKIPPABLE "Lord Jabu-Jabu is very strange \n"
 "today..." BOX_BREAK UNSKIPPABLE "There are electrified Qualle und\n"
-"strange holes around..." BOX_BREAK UNSKIPPABLE "On top of that, my precious stone \n"
+"strange holes around..." BOX_BREAK UNSKIPPABLE "On top of that, my precious Stei \n"
 "was...but...\n"
 QUICKTEXT_ENABLE "That's none of your business!" QUICKTEXT_DISABLE "\n"
 "Anyway..." BOX_BREAK UNSKIPPABLE "You! " QUICKTEXT_ENABLE "Go home now!" QUICKTEXT_DISABLE "\n"
@@ -8516,7 +8515,7 @@ TEXT_SPEED("\x02") "But" TEXT_SPEED("\x00") " why Prinzässin Ruto?"
 DEFINE_MESSAGE(0x4051, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Oh my goodness!\n"
 "I finally found... \n"
-"My mother's stone..." BOX_BREAK UNSKIPPABLE "I got very upset when Lord Jabu-\n"
+"My mother's Stei..." BOX_BREAK UNSKIPPABLE "I got very upset when Lord Jabu-\n"
 "Jabu swallowed it..." BOX_BREAK UNSKIPPABLE "While I was feeding him, he\n"
 "suddenly swallowed me! I was \n"
 "so surprised I dropped it inside..." BOX_BREAK UNSKIPPABLE "But, now that I've found it, \n"
@@ -9652,7 +9651,7 @@ COLOR(PURPLE) "Schattetämpu " COLOR(DEFAULT) "to seal it again,\n"
 DEFINE_MESSAGE(0x5032, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Go around! Go around und around\n"
 "and around! What fun! I'm so \n"
-"happy!" BOX_BREAK "I'm a music man who Liebis\n"
+"happy!" BOX_BREAK "I'm a music man who liebts\n"
 "to go around und around!\n"
 "Go around und around!!!" BOX_BREAK "I'm trying to come up with a\n"
 "musical theme inspired by this \n"
@@ -11609,7 +11608,7 @@ DEFINE_MESSAGE(0x7037, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "is the entrance through which you\n"
 "can enter the heilige Riich from\n"
 "our world." BOX_BREAK "But the entrance is sealed with\n"
-"a stone wall called the \n"
+"a Stei wall called the \n"
 COLOR(LIGHTBLUE) "Zyttür" COLOR(DEFAULT) "." BOX_BREAK "And, in order to open the Tür,\n"
 "it is said that you need to collect\n"
 "three " COLOR(RED) "Steine" COLOR(DEFAULT) "." BOX_BREAK "And another thing you need...is\n"
@@ -12902,7 +12901,7 @@ DEFINE_MESSAGE(0x70FB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Then...then...you wouldn't happen to\n"
 "have...the " COLOR(ADJUSTABLE) "Stei of the \n"
 "Waud" COLOR(DEFAULT) ", would you?! That Grüen \n"
-"and shining stone..." EVENT
+"and shining Stei..." EVENT
 )
 
 DEFINE_MESSAGE(0x70FC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12911,7 +12910,7 @@ UNSKIPPABLE "I had a dream...In the dream,\n"
 "over the land of Hyrule..." BOX_BREAK UNSKIPPABLE "But suddenly, a ray of light shot\n"
 "out of the Waud, parted the\n"
 "clouds und lit up the ground..." BOX_BREAK UNSKIPPABLE "The light turned into a figure\n"
-"holding a " COLOR(ADJUSTABLE) "Grüen und shining stone" COLOR(DEFAULT) ",\n"
+"holding a " COLOR(ADJUSTABLE) "Grüen und shining Stei" COLOR(DEFAULT) ",\n"
 "followed by a " COLOR(LIGHTBLUE) "Fee" COLOR(DEFAULT) "..." EVENT
 )
 
