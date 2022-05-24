@@ -7767,80 +7767,80 @@ QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Di " COLOR(DEFAULT) "Schiud " COLOR(LIGHTBLU
 "D " COLOR(DEFAULT) "Chleider " COLOR(LIGHTBLUE) "wo anne gha hesch\n"
 "si o furt!" COLOR(DEFAULT)  QUICKTEXT_DISABLE  FADE("\x3C")
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x3062, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "You've done well to come all the\n"
-"way up here, " NAME ". \n"
-"This is the summit of the sacred\n"
-"Todesbärg! Huu!" BOX_BREAK UNSKIPPABLE "It is said that the clouds \n"
-"surrounding this peak reflect the\n"
-"condition of Todesbärg. When\n"
-"they look normal, it is at peace." BOX_BREAK UNSKIPPABLE "Climbing all the way up here\n"
-"just proves how smart you are!\n"
-"Now I want to see you make\n"
-"another smart move..." BOX_BREAK UNSKIPPABLE "The " COLOR(RED) "Great Fee" COLOR(DEFAULT) " lives on this\n"
-"mountaintop, und she will give\n"
-"you a new skill! She is the leader\n"
-"of the fairies, you know. Huu!" BOX_BREAK UNSKIPPABLE "I will perch here und wait for you.\n"
-"When you're ready to go back\n"
-"down, I can help you! \n"
-"Now, get going!"
+UNSKIPPABLE "Bisch du guet hie ufe cho?\n"
+"Hesch beschwärde gha, " NAME "? \n"
+"Ds isch dr Gipfu vom heilige\n"
+"Todesbärg! Huu!" BOX_BREAK UNSKIPPABLE "S wird verzeut, ds d Wuuche\n"
+"ume Gipfu ume dr Zuestand\n"
+"vom Todesbärg zeige. Wenn si\n"
+"normal uusgseh ischs fridlech." BOX_BREAK UNSKIPPABLE "D hesch dini Hartnäckigkeit\n"
+"bim Ufechlättere bewise!\n"
+"Itze hesch d Chance no en gueti\n"
+"Entscheidig z'träffe..." BOX_BREAK UNSKIPPABLE "D " COLOR(RED) "grossi Fee" COLOR(DEFAULT) " läbt hie\n"
+"ufm Gipfu und si git diir sicher\n"
+"öppis guets! Si isch d Aafüehrerin\n"
+"vo de fee, weisch. Huu!" BOX_BREAK UNSKIPPABLE "I wirde hie chlii hocke.\n"
+"Wenn parat bisch abe z'gah,\n"
+"denn chani di abeflüge! \n"
+"Huhu!"
 )
 
 DEFINE_MESSAGE(0x3063, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Huu huu!\n"
-"Well, it looks like you've grown\n"
-"up a chlii from the Great Fee's\n"
-"Chraft..." BOX_BREAK "But you still don't really look like\n"
-"the hero who will save Hyrule. At\n"
-"least not yet!" BOX_BREAK "Wenn d are going back " COLOR(RED) "down the\n"
-"mountain" COLOR(DEFAULT) ", I can lend you a wing.\n"
-"Come here und grab my talons!\n"
-"And hold on tight! Huu hooooooot!"
+"S gseht so uus, aus ob d chlii\n"
+"stärcher worde bisch wäg dr\n"
+"Chraft vor grosse Fee..." BOX_BREAK "Aber d gsehsch no nid würk uus\n"
+"wie dr Held vo Hyrule. No\n"
+"nid!" BOX_BREAK "Wenn d zrugg wosch " COLOR(RED) "dr Bärg\n"
+"zdürab" COLOR(DEFAULT) " chani diir häuffe.\n"
+"Pack mini Chraue fescht!\n"
+"Nid loslah, gäu? Huu huuuu!"
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x3064, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Meh seit ds a " COLOR(RED) "beautiful" COLOR(DEFAULT) " " COLOR(RED) "Fee\n"
-COLOR(DEFAULT) "lives on top of Todesbärg!" BOX_BREAK "Don't you want to see her?"
+"Meh seit ds e " COLOR(RED) "schöni" COLOR(DEFAULT) " " COLOR(RED) "Fee\n"
+COLOR(DEFAULT) "ufm Todesbärg läbt!" BOX_BREAK "Möchtsch se nid o gseh?"
 )
 
 DEFINE_MESSAGE(0x3065, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Meh seit ds a " COLOR(RED) "Fee " COLOR(DEFAULT) "lives on top\n"
-"of Todesbärg." BOX_BREAK "Wenn d want to make it to the top,\n"
-"you'd better take a big " COLOR(LIGHTBLUE) "Schiud" COLOR(DEFAULT) "\n"
-"with you..."
+"Meh seit ds e " COLOR(RED) "Fee " COLOR(DEFAULT) "ufm\n"
+"Todesbärg läbt." BOX_BREAK "Wenn d dr Wäg gäg ufe mache\n"
+"wosch, nimm es grosses " COLOR(LIGHTBLUE) "Schiud" COLOR(DEFAULT) "\n"
+"mit..."
 )
 
 DEFINE_MESSAGE(0x3066, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Look! A " COLOR(DEFAULT) "chicken " COLOR(LIGHTBLUE) "hatched from\n"
-"the " COLOR(DEFAULT) "Ei " COLOR(LIGHTBLUE) "you were incubating!\n"
-"It's the miracle of life!" COLOR(DEFAULT)  QUICKTEXT_DISABLE  FADE("\x63")
+QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Lueg! Es " COLOR(DEFAULT) "Huehn " COLOR(LIGHTBLUE) "isch vo\n"
+"diim " COLOR(DEFAULT) "Ei " COLOR(LIGHTBLUE) "gschlüpft!\n"
+"Ds Wunder vom Läbe!" COLOR(DEFAULT)  QUICKTEXT_DISABLE  FADE("\x63")
 )
 
 DEFINE_MESSAGE(0x3067, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Did you get the red Stei?\n"
-"Let me get one chlii lick!" BOX_BREAK "No? Booooo!"
+"Hesch dr rot Stei?\n"
+"Gib ne churz, i möcht ne schläcke!" BOX_BREAK "Nei? Booooo!"
 )
 
 DEFINE_MESSAGE(0x3068, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Brother! You'll keep brushing up\n"
-"on your skills as you travel,\n"
-"won't you?" BOX_BREAK UNSKIPPABLE "You should go see the " COLOR(RED) "Great Fee" COLOR(DEFAULT) "\n"
-"on top of Todesbärg! She\n"
-"will Chraft you up!" BOX_BREAK UNSKIPPABLE "Hey, everybody! Let's see off our\n"
-"Brother!"
+UNSKIPPABLE "Brother! D wirsch wiiter dini\n"/*EDIT! Brother*/
+"Fähigkeite verbessere,\n"
+"oder?" BOX_BREAK UNSKIPPABLE "Gang zur " COLOR(RED) "grosse Fee" COLOR(DEFAULT) "\n"
+"ufm Todesbärg! Si wird diir\n"
+"meh Chraft gäh!" BOX_BREAK UNSKIPPABLE "Hey, au zäme! Säge mir üsm\n"
+"Brother tschüss!"
 )
 
 DEFINE_MESSAGE(0x3069, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I'll tell you a secret for\n"
-"saving me!" BOX_BREAK UNSKIPPABLE "In this Tämpu, there are " COLOR(RED) "Türs\n"
-"that fall down " COLOR(DEFAULT) "when you try to \n"
-"open them. When one of these\n"
-"Türs starts to fall, move!" BOX_BREAK UNSKIPPABLE "Wenn d use a sample of the\n"
-"Goron \"special crop,\" you can\n"
-"break it..."
+UNSKIPPABLE "I verzeue diir es Gheimnis\n"
+"wöu mi grettet hesch!" BOX_BREAK UNSKIPPABLE "I däm Tämpu gitz " COLOR(RED) "Türe\n"
+"wo umkeie " COLOR(DEFAULT) "wenn se öffne\n"
+"wosch. Wenn eini vo dene\n"
+"keit muesch uuswiiche!" BOX_BREAK UNSKIPPABLE "Wenn d üsi\n"
+"\"Speziaupflanze\" bruuchsch, \n"
+"chasch se kabutt mache..."
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x306A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Let me tell you a secret as\n"
 "a reward for releasing me!" BOX_BREAK UNSKIPPABLE "When you are on Füür, you can put\n"
@@ -7936,7 +7936,7 @@ UNSKIPPABLE  NAME "!\n"
 DEFINE_MESSAGE(0x4003, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "What are you doing? You've come \n"
 "a long way to get up here..." BOX_BREAK_DELAYED("\x28")  UNSKIPPABLE "You should look at the " COLOR(RED) "Charte \n"
-"Biudschirm " COLOR(DEFAULT) "sometimes." BOX_BREAK UNSKIPPABLE  NAME ", this is a beautiful\n"
+"Biudschirm " COLOR(DEFAULT) "sometimes." BOX_BREAK UNSKIPPABLE  NAME ", this is a schöni\n"
 "lake full of pure, clear Wasser." BOX_BREAK UNSKIPPABLE "At the lake bottom there is\n"
 "a " COLOR(BLUE) "Wassertämpu " COLOR(DEFAULT) "used to worship \n"
 "the Wasser spirits. The " COLOR(BLUE) "Zoras " COLOR(DEFAULT) "are\n"
@@ -9812,7 +9812,7 @@ DEFINE_MESSAGE(0x5047, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x5048, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I heard that the " COLOR(ADJUSTABLE) "Verloreni Wäuder" COLOR(DEFAULT) ", \n"
-"where fairies live, is a strange\n"
+"where fee live, is a strange\n"
 "place with many mysterious smells." BOX_BREAK "I wish I could just once make \n"
 "medicine with some of the strange\n"
 "things I might find there..." BOX_BREAK "I may not be able to see very \n"
@@ -10099,7 +10099,7 @@ QUICKTEXT_ENABLE "Don't cause trouble!\n"
 )
 
 DEFINE_MESSAGE(0x5074, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Look at this, Goof! My beautiful,\n"
+"Look at this, Goof! My schöni,\n"
 "smooth hands are all worn out \n"
 "from working. Sob sob..."
 )
@@ -11495,7 +11495,7 @@ DEFINE_MESSAGE(0x7025, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7026, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ohh..." BOX_BREAK "You are..." BOX_BREAK "more beautiful..." BOX_BREAK "than Prinzässin Zelda..." BOX_BREAK "Ohh..."
+"Ohh..." BOX_BREAK "You are..." BOX_BREAK "more schöni..." BOX_BREAK "than Prinzässin Zelda..." BOX_BREAK "Ohh..."
 )
 
 DEFINE_MESSAGE(0x7027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13160,7 +13160,7 @@ DEFINE_MESSAGE(0x7129, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x712A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Gerudos are beautiful und brave...\n"
+"Gerudos are schöni und brave...\n"
 "They are just so fascinating!"
 )
 
