@@ -1382,7 +1382,7 @@ ITEM_ICON("\x73")  QUICKTEXT_ENABLE "D hesch es " COLOR(RED) "Härzteili" COLOR(
 )
 
 DEFINE_MESSAGE(0x00C6, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-ITEM_ICON("\x72")  QUICKTEXT_ENABLE "D hesch es " COLOR(RED) "Heart Container" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
+ITEM_ICON("\x72")  QUICKTEXT_ENABLE "D hesch es " COLOR(RED) "Härz Container" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
 "Itz hesch es ganzes Härzli\n"
 "becho und dis Läbe wird\n"
 "vouständig gfüut."
@@ -1578,8 +1578,8 @@ UNSKIPPABLE "Wenn für e Wirbuattacke uufladsch\n"
 )
 
 DEFINE_MESSAGE(0x00E8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Your Magie has been \n"
-"enhanced! Now you have twice\n"
+UNSKIPPABLE "dini Magie has been \n"
+"enhanced! Now du have twice\n"
 "as much " COLOR(RED) "Magie" COLOR(DEFAULT) "!"
 )
 
@@ -3694,7 +3694,7 @@ COLOR(LIGHTBLUE) "Guet sini Bewegige beobachte!\n"
 DEFINE_MESSAGE(0x061C, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "Blaue Schädu\n"
 COLOR(LIGHTBLUE) "Guard against its blue flame with \n"
-"your " COLOR(DEFAULT) "Schiud" COLOR(LIGHTBLUE) "!" COLOR(DEFAULT)  QUICKTEXT_DISABLE
+"dini " COLOR(DEFAULT) "Schiud" COLOR(LIGHTBLUE) "!" COLOR(DEFAULT)  QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x061D, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
@@ -3983,7 +3983,7 @@ DEFINE_MESSAGE(0x064B, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x064C, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "Wolfos\n"
-COLOR(LIGHTBLUE) "Draw it close to you und watch \n"
+COLOR(LIGHTBLUE) "Draw it close to du und watch \n"
 "its movement carefully! Attack it \n"
 "when it Tropfe its guard!" COLOR(DEFAULT)  QUICKTEXT_DISABLE
 )
@@ -5636,7 +5636,7 @@ DEFINE_MESSAGE(0x10BD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x10BE, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Spiu üses Lied uuf\n"
-"your Muugiige. Mir übernähme\n"
+"dini Muugiige. Mir übernähme\n"
 "Füehrig."
 )
 
@@ -7926,11 +7926,11 @@ UNSKIPPABLE "Die si für " COLOR(RED) "Biggoron's \n"
 
 DEFINE_MESSAGE(0x4002, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  NAME "!\n"
-"Hie!  Huu huu!" BOX_BREAK_DELAYED("\x28")  UNSKIPPABLE "I frage mi was " COLOR(RED) "Saria" COLOR(DEFAULT) " macht?\n"
+"Hie! Huu huu!" BOX_BREAK_DELAYED("\x28")  UNSKIPPABLE "I frage mi was " COLOR(RED) "Saria" COLOR(DEFAULT) " macht?\n"
 "Wie wär's, wenn mau wider zrugg\n"
 "zum Waud geisch?"
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x4003, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Was machsch du hie? D bisch zimli\n"
 "ab vom Bitz..." BOX_BREAK_DELAYED("\x28")  UNSKIPPABLE "Lueg uufe " COLOR(RED) "Charte \n"
@@ -7965,125 +7965,125 @@ QUICKTEXT_ENABLE  SHIFT("\x0C")  COLOR(PURPLE) "PS: Säg's nid mim Vater!" COLOR
 )
 
 DEFINE_MESSAGE(0x4006, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Wär bisch du?" BOX_BREAK UNSKIPPABLE "Mir si " COLOR(BLUE) "Zoras" COLOR(DEFAULT) ", d stouze\n"
-"Wasserlüüt!" BOX_BREAK UNSKIPPABLE "So... d seisch du hesch e\n"
-"Verbindig mit Hyrule's chöniglecher\n"
-"Familie... \n"
+UNSKIPPABLE "Wär bisch du?" BOX_BREAK UNSKIPPABLE "Mir si " COLOR(BLUE) "Zoras" COLOR(DEFAULT) ", d stouza\n"
+"Wassarlüüt!" BOX_BREAK UNSKIPPABLE "So... d saisch du hasch a\n"
+"Varbindig mit Hyrula's chöniglachar\n"
+"Familia... \n"
 "Dämfau, was wosch?"
 )
 
 DEFINE_MESSAGE(0x4007, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Mir si guet bim Touche!\n"
-"U du?" BOX_BREAK "Wenn d e Meischtertoucher sii\n"
-"wosch, probier ds " COLOR(RED) "Touchspiu" COLOR(DEFAULT) " am\n"
-"Spitz vom Wasserfau!\n"
-"Scho probiert?"
+"Mir si guat bim Toucha!\n"
+"U du?" BOX_BREAK "Wann d a Maischtartouchar sii\n"
+"wosch, probiar ds " COLOR(RED) "Touchspiu" COLOR(DEFAULT) " am\n"
+"Spitz vom Wassarfau!\n"
+"Scho probiart?"
 )
 
 DEFINE_MESSAGE(0x4008, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Zora's Quelle isch dr \n"
+UNSKIPPABLE "Zora's Qualla isch dr \n"
 "Ursprung vom Fluss.\n"
-COLOR(RED) "Lord Jabu-Jabu " COLOR(DEFAULT) "läbt obe ir\n"
-"Quelle. Sis Abwasser git Gschmack." TEXTID("\x40\x09")
+COLOR(RED) "Lord Jabu-Jabu " COLOR(DEFAULT) "läbt oba ir\n"
+"Qualla. Sis Abwassar git Gschmack." TEXTID("\x40\x09")
 )
 
 DEFINE_MESSAGE(0x4009, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Lord Jabu-Jabu isch dr\n"
-"Schutzgeischt. " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "\n"
-"bereitet sini Mauzyte vor, \n"
+"Schutzgaischt. " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "\n"
+"baraitat sini Mauzyta vor, \n"
 "Tag und Nacht."
 )
 
 DEFINE_MESSAGE(0x400A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Mir Zoras diene aui em grosse\n"
+"Mir Zoras diana aui am grossa\n"
 COLOR(RED) "Zorachönig" COLOR(DEFAULT) "."
 )
 
 DEFINE_MESSAGE(0x400B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Dr gross Zorachönig sött i\n"
-"dr " COLOR(RED) "Chönigleche Kammere" COLOR(DEFAULT) " sii."
+"dr " COLOR(RED) "Chöniglacha Kammara" COLOR(DEFAULT) " sii."
 )
 
 DEFINE_MESSAGE(0x400C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hesch Lord Jabu-Jabu gseh?\n"
+"Hasch Lord Jabu-Jabu gsah?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x400D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Nach dr \"Legände vo Zora,\"\n"
-"sött en " COLOR(RED) "Fischgab" COLOR(DEFAULT) " a Lord \n"
-"Jabu-Jabu eine glücklech mache."
+"Nach dr \"Lagända vo Zora,\"\n"
+"sött an " COLOR(RED) "Fischgab" COLOR(DEFAULT) " a Lord \n"
+"Jabu-Jabu aina glücklach macha."
 )
 
 DEFINE_MESSAGE(0x400E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Nid guet." BOX_BREAK "Jede wo hie ume chunnt sött\n"
-"zmingscht einisch " COLOR(RED) "Lord Jabu-Jabu" COLOR(DEFAULT) "\n"
-"gseh!" BOX_BREAK "Zora's Quelle isch grd hingerem\n"
-"Thron vom Zorachönig. Dert\n"
-"schwümmt Lord Jabu-Jabu. Aber..." BOX_BREAK "Wenn d Erloubnid vom\n"
-"Zorachönig nid hesch, denn darfsch\n"
-"nid zu Zora's Quelle."
+"Nid guat." BOX_BREAK "Jada wo hia uma chunnt sött\n"
+"zmingscht ainisch " COLOR(RED) "Lord Jabu-Jabu" COLOR(DEFAULT) "\n"
+"gsah!" BOX_BREAK "Zora's Qualla isch grd hingaram\n"
+"Thron vom Zorachönig. Dart\n"
+"schwümmt Lord Jabu-Jabu. Abar..." BOX_BREAK "Wann d Erloubnid vom\n"
+"Zorachönig nid hasch, dann darfsch\n"
+"nid zu Zora's Qualla."
 )
 
 DEFINE_MESSAGE(0x400F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Mir hei " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) " nid\n"
-"gfunde, obwou mir bis zum\n"
-COLOR(BLUE) "Hyliasee" COLOR(DEFAULT) " si go sueche..."
+UNSKIPPABLE "Mir hai " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) " nid\n"
+"gfunda, obwou mir bis zum\n"
+COLOR(BLUE) "Hyliasaa" COLOR(DEFAULT) " si go suacha..."
 )
 
 DEFINE_MESSAGE(0x4010, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Wenn d Hiiwiise zu\n"
+"Wann d Hiiwiisa zu\n"
 COLOR(RED) "Prinzässin Ruto's " COLOR(DEFAULT) "Fundort\n"
-"hesch, zeigsch se am Zorachönig?"
+"hasch, zaigsch sa am Zorachönig?"
 )
 
 DEFINE_MESSAGE(0x4011, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Aues Wasser in Hyrule fliesst\n"
-"vo " COLOR(BLUE) "Zora's Quelle" COLOR(DEFAULT) "." BOX_BREAK "Ds Wasser fliesst a de Eier vom\n"
+"Auas Wassar in Hyrula fliasst\n"
+"vo " COLOR(BLUE) "Zora's Qualla" COLOR(DEFAULT) "." BOX_BREAK "Ds Wassar fliasst a da Eiar vom\n"
 "Chönig vrbii i Zora's Fluss\n" 
-"und fliesst einisch i Süde zum\n"
-COLOR(BLUE) "Hyliasee" COLOR(DEFAULT) "."
+"und fliasst ainisch i Süda zum\n"
+COLOR(BLUE) "Hyliasaa" COLOR(DEFAULT) "."
 )
 
 DEFINE_MESSAGE(0x4012, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Oh, scho bini wider am läbe!" BOX_BREAK UNSKIPPABLE "Hesch du mi grettet?\n"
-"Nid nervös sii!" BOX_BREAK UNSKIPPABLE "Chasch du eigetlech Ungerwasser\n"
-"schnuufe?" BOX_BREAK UNSKIPPABLE "Aus Dank für mini Rettig\n"
-"gibi diir die " COLOR(RED) "Chleider" COLOR(DEFAULT) ". Mit dene\n"
-"chasch Ungerwasser schnuufe."
+UNSKIPPABLE "Oh, scho bini widar am läba!" BOX_BREAK UNSKIPPABLE "Hasch du mi grattat?\n"
+"Nid narvös sii!" BOX_BREAK UNSKIPPABLE "Chasch du aigatlach Ungarwassar\n"
+"schnuufa?" BOX_BREAK UNSKIPPABLE "Aus Dank für mini Rattig\n"
+"gibi diir dia " COLOR(RED) "Chlaidar" COLOR(DEFAULT) ". Mit dana\n"
+"chasch Ungarwassar schnuufa."
 )
 
 DEFINE_MESSAGE(0x4013, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Prinzässin Ruto isch zum\n"
-"Hyliasee und isch Nö nid zrugg...\n"
-"I mache mir Sorge... scho wider!"
+"Hyliasaa und isch Nö nid zrugg...\n"
+"I macha mir Sorga... scho widar!"
 )
 
 DEFINE_MESSAGE(0x4014, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Ooh...\n"
 "Dsch...  hmmm...\n"
-"Hmmm... " COLOR(RED) "Ougetröpfli" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Mängi säge mir hei se,\n"
-"mängi säge mir hei se nid...\n"
-"Zuetate drfür hei mir." BOX_BREAK UNSKIPPABLE "Wenn d die " COLOR(RED) "Zuetate " COLOR(DEFAULT) "zum\n"
-"Seewüsseschaftler am Hyliasee\n"
-"nimmsch, macht er Tropfe für di." BOX_BREAK UNSKIPPABLE "Muesch se aber schnäu lifere,\n"
+"Hmmm... " COLOR(RED) "Ougatröpfli" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Mängi säga mir hai sa,\n"
+"mängi säga mir hai sa nid...\n"
+"Zuatata drfür hai mir." BOX_BREAK UNSKIPPABLE "Wann d dia " COLOR(RED) "Zuatata " COLOR(DEFAULT) "zum\n"
+"Saawüssaschaftlar am Hyliasaa\n"
+"nimmsch, macht ar Tropfa für di." BOX_BREAK UNSKIPPABLE "Muasch sa abar schnäu lifara,\n"
 "schüsch bliibts nid früsch..." TEXTID("\x40\x15")
 )
 
 DEFINE_MESSAGE(0x4015, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Schaffsch es " COLOR(RED) "bevor sii kabutt\n"
+"Schaffsch as " COLOR(RED) "bavor sii kabutt\n"
 "göh" COLOR(DEFAULT) "?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Dänksch s wird ranzig bevor\n"
+"Dänksch s wird ranzig bavor\n"
 "d aachunnsch?\n"
-"Uuf Rossrügge schaffsch es sicher\n"
-"sehr guet..."
+"Uuf Rossrügga schaffsch as sichar\n"
+"sahr guat..."
 )
 
 DEFINE_MESSAGE(0x4017, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -8107,35 +8107,35 @@ DEFINE_MESSAGE(0x4018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x4019, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 QUICKTEXT_ENABLE "Oh, wow!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "I ha siit däm Zora's Riich\n" 
 "iigfrore isch ken \n"
-COLOR(RED) "Glotzfrosch" COLOR(DEFAULT) " meh gseh!" EVENT
+COLOR(RED) "Gafffrosch" COLOR(DEFAULT) " meh gseh!" EVENT
 )
 
 DEFINE_MESSAGE(0x401A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Oh, mini armi " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "...\n"
 "Wo isch si?\n"
-"I mache mir Sorge..."
+"I macha mir Sorga..."
 )
 
 DEFINE_MESSAGE(0x401B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Hu, dä Brief! \n"
+UNSKIPPABLE "Hu, dä Briaf! \n"
 "Er isch vo " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "!!" BOX_BREAK UNSKIPPABLE "Hmmm...\n"
 "Si isch im Buuch vo Lord\n"
-"Jabu-Jabu? Unmöglech!" BOX_BREAK UNSKIPPABLE "Üsere Schutzgott, " COLOR(RED) "Lord Jabu-Jabu" COLOR(DEFAULT) ",\n"
+"Jabu-Jabu? Unmöglach!" BOX_BREAK UNSKIPPABLE "Üsara Schutzgott, " COLOR(RED) "Lord Jabu-Jabu" COLOR(DEFAULT) ",\n"
 "würd Prinzässin Ruto\n"
-"niemaus frässe!" BOX_BREAK UNSKIPPABLE "Aber siitdäm " COLOR(RED) "Ganondorf" COLOR(DEFAULT) ",\n"
-"uuftoucht isch het Lord Jabu-Jabu\n"
-"sech chlii komisch benoh, aus wär\n"
-"er vouer Flossepiuze..." BOX_BREAK UNSKIPPABLE "D Bewiise hei mir.\n"
-"Natürlech darfsch Ruto go sueche.\n"
-"I gibe diir Durchgang zum \n"
-"Altar vo Lord Jabu-Jabu." BOX_BREAK UNSKIPPABLE "I bhaute dr Brief. Nimm nume d\n"
-COLOR(RED) "Fläsche " COLOR(DEFAULT) "a di. Aber bitte \n"
-"respektvou!" TEXTID("\x40\x1C")
+"niamaus frässa!" BOX_BREAK UNSKIPPABLE "Abar siitdäm " COLOR(RED) "Ganondorf" COLOR(DEFAULT) ",\n"
+"uuftoucht isch hat Lord Jabu-Jabu\n"
+"sach chlii komisch banoh, aus wär\n"
+"ar vouar Flossapiuza..." BOX_BREAK UNSKIPPABLE "D Bawiisa hai mir.\n"
+"Natürlach darfsch Ruto go suacha.\n"
+"I giba diir Durchgang zum \n"
+"Altar vo Lord Jabu-Jabu." BOX_BREAK UNSKIPPABLE "I bhauta dr Briaf. Nimm numa d\n"
+COLOR(RED) "Fläscha " COLOR(DEFAULT) "a di. Abar bitta \n"
+"raspaktvou!" TEXTID("\x40\x1C")
 )
 
 DEFINE_MESSAGE(0x401C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Bitte find " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "\n"
-"so schnäu wie möglech... Zora!"
+"Bitta find " COLOR(RED) "Prinzässin Ruto" COLOR(DEFAULT) "\n"
+"so schnäu wia möglach... Zora!"
 )
 
 DEFINE_MESSAGE(0x401D, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
@@ -8145,31 +8145,31 @@ QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "D chasch Ungerwasser nid schnuufe!\n"
 )
 
 DEFINE_MESSAGE(0x401E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  SHIFT("\x36") "Ooooh Neeeeeiiiii!" QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE  SHIFT("\x36") "Ooooh Neeeeeiiiii!" QUICKTEXT_DISABLE /*EDIT! Who this*/
 )
 
 DEFINE_MESSAGE(0x401F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Ohhh, I läbe wider...\n"
-"Hesch du mi grettet?\n"
-"Nume nid schüüch sii!" BOX_BREAK UNSKIPPABLE "I wirde diir " COLOR(BLUE) "Zorachleider " COLOR(DEFAULT) "aus\n"
-"Belohnig gäh. Mit dene aagleit\n"
-"chasch... Was?!" BOX_BREAK UNSKIPPABLE "D hesch se scho? Parat für Aues,\n"
-"gäu? Sehr guet!" BOX_BREAK UNSKIPPABLE "Söui diir de dämfau en\n"
+UNSKIPPABLE "Ohhh, I läba widar...\n"
+"Hasch du mi grattat?\n"
+"Numa nid schüüch sii!" BOX_BREAK UNSKIPPABLE "I wirda diir " COLOR(BLUE) "Zorachlaidar " COLOR(DEFAULT) "aus\n"
+"Balohnig gäh. Mit dana aaglait\n"
+"chasch... Was?!" BOX_BREAK UNSKIPPABLE "D hasch sa scho? Parat für Auas,\n"
+"gäu? Sahr guat!" BOX_BREAK UNSKIPPABLE "Söui diir da dämfau an\n"
 "Kuss gäh? Was? Nid?\n"
-"De haut..." BOX_BREAK UNSKIPPABLE "Wenn ke Belohnig wosch, chasch\n"
-"wenigschtens zuelose..." TEXTID("\x40\x13")
+"Da haut..." BOX_BREAK UNSKIPPABLE "Wann ka Balohnig wosch, chasch\n"
+"wanigschtans zualosa..." TEXTID("\x40\x13")
 )
 
 DEFINE_MESSAGE(0x4020, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I bi e " COLOR(BLUE) "Zora" COLOR(DEFAULT) ". Hesch du es \n"
-"schöns Zora Meitschi iwo gseh?"
+"I bi a " COLOR(BLUE) "Zora" COLOR(DEFAULT) ". Hasch du as \n"
+"schöns Zora Maitschi iwo gsah?"
 )
 
 DEFINE_MESSAGE(0x4021, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I bi e " COLOR(BLUE) "Zora" COLOR(DEFAULT) ". Hesch irgedöppis\n"
-"komischs hie im See gfunde?\n"
-"Dr Fluss treit viu Sache hie\n"
-"i See!"
+"I bi a " COLOR(BLUE) "Zora" COLOR(DEFAULT) ". Hasch irgadöppis\n"
+"komischs hia im Saa gfunda?\n"
+"Dr Fluss trait viu Sacha hia\n"
+"Hm!"
 )
 
 DEFINE_MESSAGE(0x4022, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8223,16 +8223,16 @@ UNSKIPPABLE "Hi hi hi... Nid schüüch sii." BOX_BREAK UNSKIPPABLE "I cha dini G
 )
 
 DEFINE_MESSAGE(0x402A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I wott e Fisch chouffe, aber si\n"
-"si bitz ztüür..." BOX_BREAK "I ha ke anderi Option, aus d\n"
-"schwümmende Fischli mit mire\n"
-"Fläsche z'fah."
+"I wott a Fisch chouffa, abar si\n"
+"si bitz ztüür..." BOX_BREAK "I ha ka andari Option, aus d\n"
+"schwümmanda Fischli mit mira\n"
+"Fläscha z'fah."
 )
 
 DEFINE_MESSAGE(0x402B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Oh, " NAME "!\n"
-"So, d hesch d Prinzässin grettet?\n"
-"Merci!"
+"So, d hasch d Prinzässin grattat?\n"
+"Marci!"
 )
 
 DEFINE_MESSAGE(0x402C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8242,24 +8242,24 @@ DEFINE_MESSAGE(0x402C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x402D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Oh, hi " NAME "!\n"
-"Prinzässin Ruto redet i letschter\n"
-"Ziit nume über di!"
+"Prinzässin Ruto radat i latschtar\n"
+"Ziit numa übar di!"
 )
 
 DEFINE_MESSAGE(0x402E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Oh, du bischs, " NAME "!\n"
 "Wäg diir isch Lord Jabu-Jabu\n"
-"wider besser zwäg!"
+"widar bassar zwäg!"
 )
 
 DEFINE_MESSAGE(0x402F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Mir Zoras respektiere dr gross\n"
-"Zorachönig! Är het d Würde\n"
-"vomne Chönig." BOX_BREAK UNSKIPPABLE "Dr gross Zorachönig het e\n"
-"Prinzässin namens " COLOR(RED) "Ruto" COLOR(DEFAULT) ". Si isch es\n"
-"Einzuchind." BOX_BREAK UNSKIPPABLE "Und e Wiudfang, s\n"
-"chunnt eim eso vor, aus würd\n"
-"si em Chönig viu Stress bereite!" TEXTID("\x40\x0B")
+UNSKIPPABLE "Mir Zoras raspaktiara dr gross\n"
+"Zorachönig! Är hat d Würda\n"
+"vomna Chönig." BOX_BREAK UNSKIPPABLE "Dr gross Zorachönig hat a\n"
+"Prinzässin namans " COLOR(RED) "Ruto" COLOR(DEFAULT) ". Si isch as\n"
+"Einzuchind." BOX_BREAK UNSKIPPABLE "Und a Wiudfang, s\n"
+"chunnt aim aso vor, aus würd\n"
+"si am Chönig viu Strass baraita!" TEXTID("\x40\x0B")
 )
 
 DEFINE_MESSAGE(0x4030, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
@@ -8285,7 +8285,7 @@ NAME "!" BOX_BREAK UNSKIPPABLE "Vor diir ligt " COLOR(BLUE) "Zora's Riich" COLOR
 )
 
 DEFINE_MESSAGE(0x4032, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Wenn zrugg chunnsch bring mir\n"
+"Wenn zrugg chunnsch bring mir\n" /*EDIT! Who is this?*/
 "bitte es Souvenir mit!"
 )
 
@@ -8345,17 +8345,17 @@ UNSKIPPABLE "Wenn d hie häre cho bisch um d\n"
 )
 
 DEFINE_MESSAGE(0x403A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wenn d Fisch wosch, bruuchsch\n"
-"en Behäuter drfür." EVENT
+"Wann d Fisch wosch, bruuchsch\n"
+"an Bahäutar drfür." EVENT
 )
 
 DEFINE_MESSAGE(0x403B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"D seisch du möchtsch " COLOR(BLUE) "Zorachleider\n"
-COLOR(DEFAULT) "chouffe? Si si usm beschte\n"
-"Materiau gmacht und drum sehr\n"
-"tüür!" BOX_BREAK "S gitt gloubs nume ei " COLOR(RED) "sehr\n"
-"riichi Familie in Kakariko," COLOR(DEFAULT) " wo\n"
-"sech die leischte chönnte..." EVENT
+"D saisch du möchtsch " COLOR(BLUE) "Zorachlaidar\n"
+COLOR(DEFAULT) "chouffa? Si si usm baschta\n"
+"Matariau gmacht und drum sahr\n"
+"tüür!" BOX_BREAK "S gitt gloubs numa ai " COLOR(RED) "sahr\n"
+"riichi Familia in Kakariko," COLOR(DEFAULT) " wo\n"
+"sach dia laischta chönnta..." EVENT
 )
 
 DEFINE_MESSAGE(0x403C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8365,35 +8365,35 @@ DEFINE_MESSAGE(0x403C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x403D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "403D"
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x403E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Oh...you... If I'm right...\n"
-NAME "?!" BOX_BREAK UNSKIPPABLE "D bisch " NAME ", aren't\n"
-"you?" BOX_BREAK UNSKIPPABLE "It's me, your fiancée, " COLOR(BLUE) "Ruto" COLOR(DEFAULT) "!\n"
-"Prinzässin of the Zoras!" BOX_BREAK UNSKIPPABLE "I never forgot the vows we\n"
-"made to each other seven years \n"
-"ago!" BOX_BREAK UNSKIPPABLE "D bisch a terrible man to have \n"
-"kept me waiting for Die seven\n"
-"long years..." BOX_BREAK UNSKIPPABLE "But now is not the time to talk \n"
-"about Liebi..." BOX_BREAK UNSKIPPABLE "I'm sure you've already seen it!\n"
-"Zora's Riich--totally frozen!" BOX_BREAK UNSKIPPABLE "A jung man named " COLOR(RED) "Sheik" COLOR(DEFAULT) " saved \n"
-"me from under the ice..." BOX_BREAK UNSKIPPABLE "But my father und the other \n"
-"Zoras have not" TEXT_SPEED("\x02") "...yet..." TEXT_SPEED("\x00")  BOX_BREAK UNSKIPPABLE "I want to save them all!\n"
-"I want to save Zora's Riich!" BOX_BREAK UNSKIPPABLE "You! You have to help me!\n"
-"This is a request from me, the\n"
-"woman who is going to be your\n"
-"wife!" BOX_BREAK UNSKIPPABLE  NAME ", you have to \n"
-"help me destroy the evil monster\n"
-"in the Tämpu, OK?!" BOX_BREAK UNSKIPPABLE "Inside the Wassertämpu, there are \n"
-COLOR(RED) "three places" COLOR(DEFAULT) " where you can \n"
-"change the Wasser level." BOX_BREAK UNSKIPPABLE "I'll lead the way.\n"
-"Follow me, quickly!!"
+UNSKIPPABLE "Oh... du... du bisch doch...\n"
+NAME "?!" BOX_BREAK UNSKIPPABLE "D bisch " NAME ", oder\n"
+"nid?" BOX_BREAK UNSKIPPABLE "I bis, dini Verlobti, " COLOR(BLUE) "Ruto" COLOR(DEFAULT) "!\n"
+"Prinzässin vo de Zoras!" BOX_BREAK UNSKIPPABLE "I ha d Verspräche wo mir enang\n"
+"vor 7 Jahr gäh hei nie vergässe,\n"
+"o wenn's lang här isch!" BOX_BREAK UNSKIPPABLE "D bisch schlimme Mah, mi eifach\n"
+"die 7 lange Jahr hie lah\n"
+"warte..." BOX_BREAK UNSKIPPABLE "Itz isch aber nid d Zyt um über\n"
+"Liebi z'rede..." BOX_BREAK UNSKIPPABLE "D heschs sicher gseh!\n"
+"Zora's Riich isch unger Iis!" BOX_BREAK UNSKIPPABLE "En Mah mitm Name " COLOR(RED) "Sheik" COLOR(DEFAULT) " het mi\n"
+"grettet..." BOX_BREAK UNSKIPPABLE "Aber min Vater und die andere\n"
+"Zoras sii" TEXT_SPEED("\x02") "... no..." TEXT_SPEED("\x00")  BOX_BREAK UNSKIPPABLE "I rette se aui!\n"
+"I wott Zora's Riich rette!" BOX_BREAK UNSKIPPABLE "D muesch mir häuffe!\n"
+"Aus dini zuekünftigi Frou fragi\n"
+"nach dire Hiuf, bitte hiuf\n"
+"mir!" BOX_BREAK UNSKIPPABLE  NAME ", d muesch mir\n"
+"häuffe ds böse Monschter im Tämpu\n"
+"z'töte!" BOX_BREAK UNSKIPPABLE "Hie im Wassertämpu gitz insgesamt\n"
+COLOR(RED) "3 Orte" COLOR(DEFAULT) " wo dr Wasserstand aapasse\n"
+"chasch." BOX_BREAK UNSKIPPABLE "I zeige diir Eine.\n"
+"Chum mit!"
 )
 
 DEFINE_MESSAGE(0x403F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE  NAME "! Look out!\n"
-"That isn't normal Wasser over \n"
-"there!"
+UNSKIPPABLE  NAME "! Uufpasse!\n"
+"Ds da äne isch nid normales\n"
+"Wasser!"
 )
 
 DEFINE_MESSAGE(0x4040, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8401,22 +8401,21 @@ DEFINE_MESSAGE(0x4040, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x4041, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  NAME "..." BOX_BREAK UNSKIPPABLE "I would have expected Nö less\n"
-"from the man I chose to be my\n"
-"husband." BOX_BREAK UNSKIPPABLE "Zora's Riich und its people\n"
-"will eventually return to their\n"
-"original state."
+UNSKIPPABLE  NAME "..." BOX_BREAK UNSKIPPABLE "I ha nid weniger erwartet vo\n"
+"mim zuekünftige Ehemah!" BOX_BREAK UNSKIPPABLE "Zora's Riich und d Zoras wärde\n"
+"irgedeinisch vom Iis wider frei\n"
+"sii."
 )
 
 DEFINE_MESSAGE(0x4042, TEXTBOX_TYPE_NONE_NO_SHADOW, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE "Wenn d see Sheik, \n"
-"please give him my thanks, OK?" FADE("\x5A")
+UNSKIPPABLE "Wenn d Sheik gsehsch,\n"
+"säg ihm merci vo mir, gäu?" FADE("\x5A")
 )
 
 DEFINE_MESSAGE(0x4043, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Did Ruto want to thank me?" BOX_BREAK UNSKIPPABLE "I see...." BOX_BREAK UNSKIPPABLE "Mir hei to return peace to \n"
-"Hyrule for her sake, too. \n"
-"Don't we?"
+UNSKIPPABLE "Ruto het mir wöue danke?" BOX_BREAK UNSKIPPABLE "Guet...." BOX_BREAK UNSKIPPABLE "Mir müesse Fride zrugg nach\n"
+"Hyrule bringe, o für si.\n"
+"Gäu?"
 )
 
 DEFINE_MESSAGE(0x4044, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8424,151 +8423,151 @@ DEFINE_MESSAGE(0x4044, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x4045, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Ah, I see...\n"
-"Prinzässin Ruto went to the Wasser\n"
-"Tämpu..."
+"Ah, hm...\n"
+"Prinzässin Ruto isch zum Wasser\n"
+"Tämpu gange..."
 )
 
 DEFINE_MESSAGE(0x4046, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "As a reward...\n"
-"I grant my eternal Liebi to you." BOX_BREAK UNSKIPPABLE "Well, that's what I want to say, \n"
-"but I don't think I can offer that\n"
-"now."
+UNSKIPPABLE "Aus Belohnig...\n"
+"gibi diir mini ewigi Liebi." BOX_BREAK UNSKIPPABLE "Ds würdi zwar wöue säge, aber\n"
+"aber ds chani itze grd nid\n"
+"offeriere."
 )
 
 DEFINE_MESSAGE(0x4047, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Prinzässin Zelda... She's alive. I can\n"
-"sense it...so don't be discouraged."
+UNSKIPPABLE "Prinzässin Zelda... Si läbt. I\n"
+"gspüres... Auso nume Muet!"
 )
 
 DEFINE_MESSAGE(0x4048, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-QUICKTEXT_ENABLE  SHIFT("\x3F") "Keeeyaaaah!\n"
-SHIFT("\x0F") "What is this?! An octopus?!" QUICKTEXT_DISABLE  FADE("\x3C")
+QUICKTEXT_ENABLE  SHIFT("\x3F") "Kyaaaah!\n"
+SHIFT("\x0F") "Was isch ds?! En Oktopus?" QUICKTEXT_DISABLE  FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x4049, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I have to guard the Wasser \n"
-"Tämpu as the " COLOR(BLUE) "Weise of Wasser" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "And you... D bisch searching for the\n"
-"Prinzässin, " COLOR(RED) "Zelda" COLOR(DEFAULT) "?" BOX_BREAK UNSKIPPABLE "Hah!\n"
-"You can't hide anything from me!"
+UNSKIPPABLE "I muess dr Wassertämpu aus\n"
+"" COLOR(BLUE) "Weise vom Wasser" COLOR(DEFAULT) " beschütze..." BOX_BREAK UNSKIPPABLE "Und du... D bisch uf dr Suechi\n"
+"nach " COLOR(RED) "Zelda" COLOR(DEFAULT) ", oder?" BOX_BREAK UNSKIPPABLE "Ha!\n"
+"D chasch vo mir nüüt verstecke!"
 )
 
 DEFINE_MESSAGE(0x404A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I can tell that nothing will stop\n"
-"you in your quest for justice und \n"
-"peace... You must take this \n"
-COLOR(BLUE) "Medallion" COLOR(DEFAULT) "... Take it respectfully!"
+UNSKIPPABLE "I gseh, ds nüüt dii vom Abentüür\n"
+"für Fride und Rächtschaffe\n"
+"abhaute wird... Nimm ds\n"
+COLOR(BLUE) "Medallion" COLOR(DEFAULT) "... Nimms vouer Respäkt!"
 )
 
 DEFINE_MESSAGE(0x404B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "You! Who are you?!" BOX_BREAK UNSKIPPABLE "I am " COLOR(RED) "Ruto" COLOR(DEFAULT) ", Prinzässin of the Zoras." BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Was?!" QUICKTEXT_DISABLE "\n"
-"Are you saying my father asked \n"
-"you to come here to save me?" BOX_BREAK UNSKIPPABLE "I'd " QUICKTEXT_ENABLE "never" QUICKTEXT_DISABLE " ask anyone to do such a\n"
-"thing!" BOX_BREAK UNSKIPPABLE "\"Letter in a Fläsche?\"  I have\n"
-QUICKTEXT_ENABLE "Nö idea" QUICKTEXT_DISABLE " what D bisch talking about!" BOX_BREAK UNSKIPPABLE "My father is worried about me?" BOX_BREAK UNSKIPPABLE "I don't " QUICKTEXT_ENABLE "care!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "Anyway, I can't go home right now.\n"
-"And you... " QUICKTEXT_ENABLE "Get out of here!" QUICKTEXT_DISABLE "\n"
-QUICKTEXT_ENABLE "Understand?!" QUICKTEXT_DISABLE
+UNSKIPPABLE "Du! Wär bisch?!" BOX_BREAK UNSKIPPABLE "I bi " COLOR(RED) "Ruto" COLOR(DEFAULT) ", Prinzässin vo de Zoras." BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Was?!" QUICKTEXT_DISABLE "\n"
+"Seisch du, ds mi Vater di gfragt\n"
+"het, ds mi chunnsch cho rette?" BOX_BREAK UNSKIPPABLE "I würd " QUICKTEXT_ENABLE "nie" QUICKTEXT_DISABLE " öpperen für das\n"
+"frage!" BOX_BREAK UNSKIPPABLE "\"Brief ire Fläsche?\"  I ha\n"
+QUICKTEXT_ENABLE "keh Ahnig" QUICKTEXT_DISABLE " was d meinsch!" BOX_BREAK UNSKIPPABLE "Mi Vater macht sech Sorge?" BOX_BREAK UNSKIPPABLE "Interessiert mi " QUICKTEXT_ENABLE "nid!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "I cha eh grd nid hei...\n"
+"U du... " QUICKTEXT_ENABLE "Fahr ab!" QUICKTEXT_DISABLE "\n"
+QUICKTEXT_ENABLE "Tscheggsch?" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x404C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Are you still hanging around here?\n"
-"I told you to go away!" BOX_BREAK UNSKIPPABLE "I'm OK. I've been going inside\n"
-"Lord Jabu-Jabu's Buch since I was\n"
-"chlii, but..." BOX_BREAK UNSKIPPABLE "Lord Jabu-Jabu is very strange \n"
-"today..." BOX_BREAK UNSKIPPABLE "There are electrified Qualle und\n"
-"strange holes around..." BOX_BREAK UNSKIPPABLE "On top of that, my precious Stei \n"
-"was...but...\n"
-QUICKTEXT_ENABLE "That's none of your business!" QUICKTEXT_DISABLE "\n"
-"Anyway..." BOX_BREAK UNSKIPPABLE "You! " QUICKTEXT_ENABLE "Go home now!" QUICKTEXT_DISABLE "\n"
-QUICKTEXT_ENABLE "Understand?!" QUICKTEXT_DISABLE  EVENT
+UNSKIPPABLE "Bisch no immer da?\n"
+"Fahr ab hani gseit!" BOX_BREAK UNSKIPPABLE "Mir geiz guet. I bi scho oft i\n"
+"Lord Jabu-Jabu's Buch ine, siit i\n"
+"chlii bi gsii, aber..." BOX_BREAK UNSKIPPABLE "Lord Jabu-Jabu isch komisch\n"
+"hütt..." BOX_BREAK UNSKIPPABLE "Überau hets Qualle und\n"
+"Löcher..." BOX_BREAK UNSKIPPABLE "Plus, mi wärtvou Stei\n"
+"isch... aber...\n"
+QUICKTEXT_ENABLE "Ds geit di nüüt a!" QUICKTEXT_DISABLE "\n"
+"Uf au fäu..." BOX_BREAK UNSKIPPABLE "Du! " QUICKTEXT_ENABLE "Gang hei!" QUICKTEXT_DISABLE "\n"
+QUICKTEXT_ENABLE "Tscheggsch?" QUICKTEXT_DISABLE  EVENT
 )
 
 DEFINE_MESSAGE(0x404D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "D bisch that worried about me?" BOX_BREAK UNSKIPPABLE "Then I will give you the honor\n"
-"of carrying me!" BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "However" QUICKTEXT_DISABLE "...I won't leave until I \n"
-"find the thing I'm looking for.\n"
-"You'd better believe me!" EVENT
+UNSKIPPABLE "D machsch di o Sorge?" BOX_BREAK UNSKIPPABLE "Denn lahni mi vo di lah trage!\n"
+"Dsch en Ehr! I machs nid wäg dir!" BOX_BREAK UNSKIPPABLE  QUICKTEXT_ENABLE "Ig... " QUICKTEXT_DISABLE "... I wirde nid use gah,\n"
+"bis mir dr Stei finde!\n"
+"Tscheggsch?" EVENT
 )
 
 DEFINE_MESSAGE(0x404E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "How inconsiderate!" QUICKTEXT_DISABLE "\n"
-"How could you leave me behind?! \n"
-"Wenn d're a man, act like one! \n"
-"Take responsibility!" EVENT
+QUICKTEXT_ENABLE "Wie gemein!" QUICKTEXT_DISABLE "\n"
+"Wie chasch mi nume dert lah hocke?\n"
+"Wenn d e Mah bisch, verhaut di so!\n"
+"Du Depp! Idiot!" EVENT
 )
 
 DEFINE_MESSAGE(0x404F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  QUICKTEXT_ENABLE "That's it!" QUICKTEXT_DISABLE "\n"
-"That's what I've been looking for!\n"
-"Throw me up there! \n"
-"Onto the platform!"
+UNSKIPPABLE  QUICKTEXT_ENABLE "Ds isch ne!" QUICKTEXT_DISABLE "\n"
+"Dä hani gsuecht!\n"
+"Schiess mi ufe! \n"
+"Uf d Plattform!"
 )
 
 DEFINE_MESSAGE(0x4050, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  QUICKTEXT_ENABLE "Prinzässin Ruto got the \n"
+UNSKIPPABLE  QUICKTEXT_ENABLE "Prinzässin Ruto het dr\n"
 COLOR(BLUE) "Stei" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
-TEXT_SPEED("\x02") "But" TEXT_SPEED("\x00") " why Prinzässin Ruto?"
+TEXT_SPEED("\x02") "Aber" TEXT_SPEED("\x00") " wieso Prinzässin Ruto?"
 )
 
 DEFINE_MESSAGE(0x4051, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Oh my goodness!\n"
-"I finally found... \n"
-"My mother's Stei..." BOX_BREAK UNSKIPPABLE "I got very upset when Lord Jabu-\n"
-"Jabu swallowed it..." BOX_BREAK UNSKIPPABLE "While I was feeding him, he\n"
-"suddenly swallowed me! I was \n"
-"so surprised I dropped it inside..." BOX_BREAK UNSKIPPABLE "But, now that I've found it, \n"
-"I don't need to be in here \n"
-"anymore!"
+UNSKIPPABLE "Oh Hylia!\n"
+"I ha ne gfunde... \n"
+"Dr Stei vo mire Muetter..." BOX_BREAK UNSKIPPABLE "I ha mi mega uufgregt wo "
+"Lord Jabu-Jabu ihn gschlückt het." BOX_BREAK UNSKIPPABLE "Woni ne gfüetteret ha, het dä\n"
+"Paias mi uufzmau gschlückt! I ha\n"
+"ne komplett verchlüpft lah keie." BOX_BREAK UNSKIPPABLE "Itz wo mir ne gfunde hei chöi mir\n"
+"wider use gah.\n"
+NAME "... "
 )
 
 DEFINE_MESSAGE(0x4052, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"So, take me home, right now!"
+"Gömmir hei!"
 )
 
 DEFINE_MESSAGE(0x4053, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Touche Game   20 Rubine\n"
-"Want to play?\n"
+"Touchspiu   20 Rubina\n"
+"Wosch spila?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4054, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE  SHIFT("\x3F") "OKAY!" QUICKTEXT_DISABLE  BOX_BREAK "Pick up all the Rubine I throw \n"
-"from here. You have only a limited\n"
-"amount of time!" BOX_BREAK "When you pick them all up, \n"
-"come back here! I'll give you\n"
-"something very nice!" EVENT
+QUICKTEXT_ENABLE  SHIFT("\x3F") "OKAY!" QUICKTEXT_DISABLE  BOX_BREAK "Sammla aui Rubina woni vo hia\n"
+"is Wassar schiassa. D hasch numa\n"
+"an limitiarti Zyt sa z'sammla!" BOX_BREAK "Wann du sa aui hasch, \n"
+"chum hia ufa! I gib diir öppis\n"
+"sahr guats!" EVENT
 )
 
 DEFINE_MESSAGE(0x4055, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE  QUICKTEXT_ENABLE "Hey!  Congratulations!" QUICKTEXT_DISABLE "\n"
-"I've got something \n"
-"very nice for you!\n"
-"Come und get it!" EVENT
+UNSKIPPABLE  QUICKTEXT_ENABLE "Hay! Glückwunsch!" QUICKTEXT_DISABLE "\n"
+"I ha öppis sahr guats für di.\n"
+"I maines ärnscht!\n"
+"Chum und hous!" EVENT
 )
 
 DEFINE_MESSAGE(0x4056, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "What a graceful dive!\n"
-"Now, please take this!" BOX_BREAK UNSKIPPABLE "This is a \"" COLOR(RED) "scale" COLOR(DEFAULT) "\" of our kind.\n"
-"With this, you can dive much\n"
-"deeper under the Wasser." EVENT
+UNSKIPPABLE "Wundarbari Tachnik! Bravo!\n"
+"Nimm ds!" BOX_BREAK UNSKIPPABLE "Ds isch a \"" COLOR(RED) "Schuppa" COLOR(DEFAULT) "\" vo üsar Art.\n"
+"Mit dara chasch töifar toucha\n"
+"Ungarwassar." EVENT
 )
 
 DEFINE_MESSAGE(0x4057, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "As the Wasser rises, the evil \n"
-"is vanishing from the See...\n"
-NAME ", you did it!"
+UNSKIPPABLE "Mit em Aastiige vom Wasser\n"
+"verschwindet ds Böse usm See...\n"
+NAME ", du heschs gschafft!"
 )
 
 DEFINE_MESSAGE(0x4058, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I...believe that you are going to \n"
-"save this world..."
+UNSKIPPABLE "I... gloube, du wirsch die Wäut\n"
+"rette..."
 )
 
 DEFINE_MESSAGE(0x4059, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Look at that, " NAME "..." BOX_BREAK UNSKIPPABLE "Together, you und Prinzässin Ruto \n"
-"destroyed the evil monster!" BOX_BREAK UNSKIPPABLE "Once again, the See is filled with\n"
-"pure Wasser. All is as it was here."
+UNSKIPPABLE "Lueg, " NAME "..." BOX_BREAK UNSKIPPABLE "Zäme mit Prinzässin Ruto \n"
+"hesch du Morpha besiegt!" BOX_BREAK UNSKIPPABLE "Dr See isch wider vouer\n"
+"kristallklarem Wasser."
 )
 
 DEFINE_MESSAGE(0x405A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -8576,311 +8575,310 @@ QUICKTEXT_ENABLE  SHIFT("\x51")  COLOR(RED) "START!" COLOR(DEFAULT)  QUICKTEXT_D
 )
 
 DEFINE_MESSAGE(0x405B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Go over the falls for a shortcut." EVENT
+"Übara Wassarfau für an Abchürzig." EVENT
 )
 
 DEFINE_MESSAGE(0x405C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Take as much as you want for \n"
-"20 Rubine.  Want to play?\n"
+"Nimm so viu wia wottsch für \n"
+"20 Rubina.  Wosch spila?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x405D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Hey!  Congratulations!!" QUICKTEXT_DISABLE  EVENT
+QUICKTEXT_ENABLE "Hay!  Glückwunsch!!" QUICKTEXT_DISABLE  EVENT
 )
 
 DEFINE_MESSAGE(0x405E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"How about some " COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "?\n"
-"They aren't selling very well..." BOX_BREAK "How about...\n"
-COLOR(RED) "10 Rubine" COLOR(DEFAULT) " for one Stück?\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Wie wär's mit " COLOR(RED) "Magiebohne" COLOR(DEFAULT) "?\n"
+"Si verchoufe sech nid..." BOX_BREAK "Wie wär's mit...\n"
+COLOR(RED) "10 Rubine" COLOR(DEFAULT) " für eis Stück?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x405F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"How about some " COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "?\n"
-"Well, they're not that popular yet." BOX_BREAK "How about...\n"
-COLOR(RED) "20 Rubine" COLOR(DEFAULT) " for one Stück?\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Wie wär's mit " COLOR(RED) "Magiebohne" COLOR(DEFAULT) "?\n"
+"Si si no nid sehr populär." BOX_BREAK "Wie wär's mit...\n"
+COLOR(RED) "20 Rubine" COLOR(DEFAULT) " für eis Stück?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4060, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"How about some " COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "?\n"
-"They are getting to be quite \n"
-"popular..." BOX_BREAK COLOR(RED) "30 Rubine" COLOR(DEFAULT) " for one Stück.\n"
-"How about it?\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Wie wär's mit " COLOR(RED) "Magiebohne" COLOR(DEFAULT) "?\n"
+"Si wärde zimli beliebt\n"
+"i letschter..." BOX_BREAK COLOR(RED) "30 Rubine" COLOR(DEFAULT) " für eis Stück.\n"
+"Wie wär's?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4061, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"How about some " COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "?\n"
-"They're all the rage!" BOX_BREAK COLOR(RED) "40 Rubine" COLOR(DEFAULT) " for one Stück.\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Wie wär's mit " COLOR(RED) "Magiebohne" COLOR(DEFAULT) "?\n"
+"Si si beliebt!" BOX_BREAK COLOR(RED) "40 Rubine" COLOR(DEFAULT) " für eis Stück.\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4062, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Mir hei the popular " COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "!\n"
-"You'll regret it if you Nid chouffe \n"
-"them now!" BOX_BREAK COLOR(RED) "50 Rubine" COLOR(DEFAULT) " for one Stück.\n"
-"(Just for now.)\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Mir hei d beliebte " COLOR(RED) "Magiebohne" COLOR(DEFAULT) "!\n"
+"du wirschs bereue we se nid\n"
+"chouffsch!" BOX_BREAK COLOR(RED) "50 Rubine" COLOR(DEFAULT) " für eis Stück.\n"
+"(Nume für itz)\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4063, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Die are the super-popular \n"
-COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "! In case D bisch \n"
-"wondering, they'll soon be sold out!" BOX_BREAK "Super price!\n"
-COLOR(RED) "60 Rubine" COLOR(DEFAULT) " for one Stück!\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Ds si d mega beliebte\n"
+COLOR(RED) "Magiebohne" COLOR(DEFAULT) "! We di fragsch, \n"
+"si wärde baud uusverchouft sii!" BOX_BREAK "Super Priis!\n"
+COLOR(RED) "60 Rubine" COLOR(DEFAULT) " für eis Stück!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4064, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Mir hei the super-rare \n"
-COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "! This could be your\n"
-"last Chance!" BOX_BREAK "Special price!\n"
-COLOR(RED) "70 Rubine" COLOR(DEFAULT) " for one Stück!\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Mir hei d super rare \n"
+COLOR(RED) "Magiebohne" COLOR(DEFAULT) "! S chönnt dini\n"
+"letschti Chance sii!" BOX_BREAK "Speziaupriis!\n"
+COLOR(RED) "70 Rubine" COLOR(DEFAULT) " für eis Stück!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4065, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Mir hei the legendary \n"
-COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "! verchoufi them only \n"
-"to you!" BOX_BREAK "Super price!\n"
-COLOR(RED) "80 Rubine" COLOR(DEFAULT) " for one Stück!\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Mir hei d legendäre \n"
+COLOR(RED) "Magiebohne" COLOR(DEFAULT) "! verchoufe se nume\n"
+"diir!" BOX_BREAK "Super Priis!\n"
+COLOR(RED) "80 Rubine" COLOR(DEFAULT) " für eis Stück!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4066, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Do you want..." COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "?! \n"
-"They aren't cheap, but...do you\n"
-"still want them?" BOX_BREAK "I can't let them go for less than\n"
-COLOR(RED) "90 Rubine" COLOR(DEFAULT) " aStück!\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"D wosch..." COLOR(RED) "Magiebohne" COLOR(DEFAULT) "?! \n"
+"Si si nid günschtig, aber wosch\n"
+"se gliich?" BOX_BREAK "I cha se nid für weniger aus\n"
+COLOR(RED) "90 Rubine" COLOR(DEFAULT) " pro Stück verchoufe!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4067, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Chomp chomp chomp...\n"
-"Mir hei..." COLOR(RED) "Magiebohnes" COLOR(DEFAULT) "! \n"
-"Do you want them...Huch? Huh?" BOX_BREAK COLOR(RED) "100 Rubine" COLOR(DEFAULT) " for one Stück!\n"
-"Schlüssuahahah!\n"
+UNSKIPPABLE "Mampf mampf...\n"
+"Mir hei..." COLOR(RED) "Magiebohne" COLOR(DEFAULT) "! \n"
+"D wosch se?" BOX_BREAK COLOR(RED) "100 Rubine" COLOR(DEFAULT) " für eis Stück!\n"
+"Hahahaha!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4068, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh well...\n"
-"Chomp chomp..."
+"Hm...\n"
+"Mampf Mampf..."
 )
 
 DEFINE_MESSAGE(0x4069, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You don't have enough money.\n"
-"I can't sell them to you.\n"
-"Chomp chomp..."
+"D hesch zweni Gäud.\n"
+"I cha se nid verschänke.\n"
+"Mampf Mampf..."
 )
 
 DEFINE_MESSAGE(0x406A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Set a bean to " COLOR(YELLOW) "[C] " COLOR(DEFAULT) "and use it on\n"
-"the dirt right here."
+"Setz e Bohne uuf " COLOR(YELLOW) "[C] " COLOR(DEFAULT) "und leg\n"
+"se hie i Bode."
 )
 
 DEFINE_MESSAGE(0x406B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, too bad! We're sold out!\n"
-"Chomp chomp...Was?\n"
-"Oh, Die beans are not for sale!"
+"Oh, schade! Mir hei keh meh!\n"
+"Mampf Mampf...Was?\n"
+"Oh, die Bohne verchoufi nid!"
 )
 
 DEFINE_MESSAGE(0x406C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Wenn d want to plant beans, go\n"
-"around und look for soft soil.\n"
-"Chomp chomp chomp."
+"Wenn d e Bohne pflanzisch, \n"
+"suech nach weichem Bode.\n"
+"Mampf mampf."
 )
 
 DEFINE_MESSAGE(0x406D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "1 meter" COLOR(DEFAULT) " just now. But I wouldn't \n"
-"call that a real dive."
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "1 Meter" COLOR(DEFAULT) " toucht. I nenne ds nid \n"
+"touche..."
 )
 
 DEFINE_MESSAGE(0x406E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "2 meters" COLOR(DEFAULT) " just now. But I wouldn't \n"
-"call that a real dive."
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "2 Meter" COLOR(DEFAULT) " toucht. Aber i würd ds \n"
+"nid touche nenne."
 )
 
 DEFINE_MESSAGE(0x406F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "3 meters" COLOR(DEFAULT) " just now. But I wouldn't \n"
-"call that a real dive."
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "3 Meter" COLOR(DEFAULT) " toucht. Aber i würd ds \n"
+"nid touche nenne."
 )
 
 DEFINE_MESSAGE(0x4070, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "4 meters " COLOR(DEFAULT) "just now. Still not \n"
-"deep enough!"
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "4 Meter " COLOR(DEFAULT) "toucht. No immer\n"
+"nid gnue!"
 )
 
 DEFINE_MESSAGE(0x4071, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "5 meters " COLOR(DEFAULT) "just now. Still not \n"
-"deep enough!"
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "5 Meter " COLOR(DEFAULT) "toucht. No immer\n"
+"nid gnue!"
 )
 
 DEFINE_MESSAGE(0x4072, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "6 meters" COLOR(DEFAULT) " just now. You should be\n"
-"able to dive deeper!"
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "6 Meter" COLOR(DEFAULT) " toucht. D söttschs töifer\n"
+"härebecho!"
 )
 
 DEFINE_MESSAGE(0x4073, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You may not have noticed, but I've\n"
-"been watching you. You dove \n"
-COLOR(RED) "7 meters" COLOR(DEFAULT) " just now. You should be\n"
-"able to dive deeper!"
+"Villecht heschs gmerkt, aber i ha\n"
+"di beobachtet. D bisch \n"
+COLOR(RED) "7 Meter" COLOR(DEFAULT) " toucht. D söttschs töifer\n"
+"härebecho!"
 )
 
 DEFINE_MESSAGE(0x4074, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "You may not have noticed, but I've\n"
-"been watching you. You " COLOR(RED) "touched \n"
-"the bottom " COLOR(DEFAULT) "just now.  Fantastic!\n"
-"I'll give this to you!"
+UNSKIPPABLE "Villecht heschs gmerkt, aber i ha\n"
+"ha di beobachtet. D hesch dr " COLOR(RED) "Bode \n"
+"berührt" COLOR(DEFAULT) ".  Fantastisch!\n"
+"I gibe diir ds!"
 )
 
 DEFINE_MESSAGE(0x4075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Your Touche is the best in the \n"
-"world. Why don't you dive to the \n"
-"bottom of Hyliasee?"
+"Dini Touchkunst d beschti vor \n"
+"Wäut. Touch doch mau a Bode vom \n"
+"Hyliasee?"
 )
 
 DEFINE_MESSAGE(0x4076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"My name is " COLOR(RED) "Pierre" COLOR(DEFAULT) ", the wandering\n"
-"Voguschüchi. Actually, I wish I could\n"
-"wander to look for soul-moving\n"
-"sounds, but I'm kind of stuck here."
+"Mi name isch " COLOR(RED) "Pierre" COLOR(DEFAULT) ", d wanderndi\n"
+"Voguschüchi. Naja, i wünscht i \n"
+"nach bewegende Tön sueche, aber \n"
+"I stecke hie fescht..."
 )
 
 DEFINE_MESSAGE(0x4077, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Fantastic tune! It touches my \n"
-"heart!" EVENT
+"Fantastisch Lied! S berührt mis \n"
+"Härz!" EVENT
 )
 
 DEFINE_MESSAGE(0x4078, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wenn d come up with a nice Lied,\n"
-"come back und let me hear it!" EVENT
+"Wenn no es schöns Lied hesch,\n"
+"spius mir nume vor!" EVENT
 )
 
 DEFINE_MESSAGE(0x4079, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Das Lied you played for me still\n"
-"stays in my heart. Let's hear it\n"
-"again!" EVENT
+"Das Lied wo gspiut hesch,\n"
+"s blibt i mim Härz. Spius bitte\n"
+"nomau!" EVENT
 )
 
 DEFINE_MESSAGE(0x407A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Das Lied you played for me \n"
-"stays in my heart!" EVENT
+"Das Lied wo gspiut hesch \n"
+"blibt i mim Härz!" EVENT
 )
 
 DEFINE_MESSAGE(0x407B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, do you want to go Fisching \n"
-"for " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "?\n"
+"Möchtsch fische \n"
+"für " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x407C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh, Nö! You don't have a " COLOR(RED) "Rumble \n"
-"Pak" COLOR(DEFAULT) "! With a Rumble Pak, you can\n"
-"feel the vibrations of a Fisch on\n"
-"your hook." BOX_BREAK "This time, Nö rumble for you!" EVENT
+"Oh, nei! D hesch kes " COLOR(RED) "Rumble \n"
+"Pak" COLOR(DEFAULT) "! Mitmne Rumble Pak chasch\n"
+"d Vibratione vom Fisch am Haagge\n"
+"gspüre." BOX_BREAK "Dises mau ke Rumble für di!" EVENT
 )
 
 DEFINE_MESSAGE(0x407D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wow! You have a " COLOR(RED) "Rumble Pak" COLOR(DEFAULT) "!\n"
-"Today, you can feel the vibration,\n"
-"jung man!" EVENT
+"Wow! D hesch es " COLOR(RED) "Rumble Pak" COLOR(DEFAULT) "!\n"
+"Gspür d Vibratione, junge\n"
+"Mah!" EVENT
 )
 
 DEFINE_MESSAGE(0x407E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Shucks! You don't have enough \n"
-"money."
+"Gopf! D hesch keh gäud."
 )
 
 DEFINE_MESSAGE(0x407F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"OK, listen up!" BOX_BREAK "Walk up to the Wasser's edge und\n"
-"Drück " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) " to look at a Fisch." BOX_BREAK "While looking at a Fisch, you can \n"
-"cast your line with " COLOR(ADJUSTABLE) "[B]" COLOR(DEFAULT) ". drück " COLOR(BLUE) "[A]\n"
-COLOR(DEFAULT) "to brake the line." BOX_BREAK "When the lure Tropfe into the \n"
-"Wasser, you can wiggle it with " COLOR(LIGHTBLUE) "[Control-Pad]" COLOR(DEFAULT) ".\n"
-"Wenn d're a novice, you can also\n"
-"use " COLOR(ADJUSTABLE) "[B]" COLOR(DEFAULT) "." BOX_BREAK "Reel in your lure with " COLOR(BLUE) "[A]" COLOR(DEFAULT) ". Hold \n"
-"down " COLOR(BLUE) "[A]" COLOR(DEFAULT) " und " COLOR(LIGHTBLUE) "[R] " COLOR(DEFAULT) "to reel it in \n"
-"faster." BOX_BREAK "Wenn d feel a hit, drück " COLOR(BLUE) "[A]" COLOR(ADJUSTABLE) " " COLOR(DEFAULT) "and\n"
-COLOR(LIGHTBLUE) "[Control-Pad] down " COLOR(DEFAULT) "to set the hook.\n"
-"After that, reel it in with " COLOR(BLUE) "[A]" COLOR(DEFAULT) "." BOX_BREAK "Do you understand?\n"
+"OK, zuelose!" BOX_BREAK "Louf zur Kante vom Wasser und \n"
+"drück " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) " um e Fisch aazluege." BOX_BREAK "Währeddäm chasch \n"
+"dini Schnur schiesse mit " COLOR(ADJUSTABLE) "[B]" COLOR(DEFAULT) ". Drück " COLOR(BLUE) "[A]\n"
+COLOR(DEFAULT) "um se z'brämse." BOX_BREAK "Wenn dr Köder im Wasser isch \n"
+"chasch ne mit " COLOR(LIGHTBLUE) "[Control-Pad]" COLOR(DEFAULT) " bewege.\n"
+"Wenn d schlächt bisch chasch \n"
+"o " COLOR(ADJUSTABLE) "[B]" COLOR(DEFAULT) " bruuche." BOX_BREAK "Zieh dr Köder mit " COLOR(BLUE) "[A]" COLOR(DEFAULT) ". Bhaut \n"
+"" COLOR(BLUE) "[A]" COLOR(DEFAULT) " drückt und " COLOR(LIGHTBLUE) "[R] " COLOR(DEFAULT) "um ihn \n"
+"schnäuer z'hole." BOX_BREAK "Gspürsch en Fang, drück " COLOR(BLUE) "[A]" COLOR(ADJUSTABLE) " " COLOR(DEFAULT) "und\n"
+COLOR(LIGHTBLUE) "[Control-Pad] ache " COLOR(DEFAULT) "um ne aazhaagge.\n"
+"Nachher drück " COLOR(BLUE) "[A]" COLOR(DEFAULT) "." BOX_BREAK "Versteisch?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x4080, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I'm so generous, I'll let you Fisch\n"
-"for as long as you want. However,\n"
-"you can keep only one Fisch." BOX_BREAK "The biggest Fisch ever caught here\n"
-"weighed " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "." BOX_BREAK "After you cast, you can change\n"
-"your view with " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) "." BOX_BREAK SHIFT("\x41") "Let's Fisch!" EVENT
+"I'm so generous, I'll let du Fisch\n"
+"for as long as du want. However,\n"
+"du can keep only one Fisch." BOX_BREAK "The biggest Fisch ever caught here\n"
+"weighed " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "." BOX_BREAK "After du cast, du can change\n"
+"dini view with " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) "." BOX_BREAK SHIFT("\x41") "Let's Fisch!" EVENT
 )
 
 DEFINE_MESSAGE(0x4081, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Wah ha haah!\n"
-"Did you set the hook by Drücking\n"
+"Did du set the hook by Drücking\n"
 COLOR(BLUE) "[A]" COLOR(DEFAULT) " und " COLOR(LIGHTBLUE) "[Control-Pad] down" COLOR(DEFAULT) "?"
 )
 
 DEFINE_MESSAGE(0x4082, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hey, what happened?\n"
-"You lost it!" FADE("\x3C")
+"du lost it!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x4083, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Well, well...it's about " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) ". \n"
-"Do you want to keep it?\n"
+"Do du want to keep it?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4084, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"What do you want?\n"
+"What do du want?\n"
 THREE_CHOICE  COLOR(ADJUSTABLE) "Weigh my Fisch.\n"
 "Let's talk about something.\n"
 "I want to quit." COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4085, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Passion alone won't catch you \n"
+"Passion alone won't catch du \n"
 "many Fisch. I'm serious!"
 )
 
@@ -8888,18 +8886,18 @@ DEFINE_MESSAGE(0x4086, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 SHIFT("\x4B") "WHOA!" BOX_BREAK "This Fisch is huge! It looks like a \n"
 "new Rekord! It weighs at least \n"
 COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "! Seriously! \n"
-"OK, here is your Priis!" EVENT
+"OK, here is dini Priis!" EVENT
 )
 
 DEFINE_MESSAGE(0x4087, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Was? \n"
-"What are you doing to me?!" FADE("\x3C")
+"What are du doing to me?!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x4088, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, jung man! Don't you have \n"
-"anything important you should be\n"
-"doing?" BOX_BREAK "Was? Are you saying it's more \n"
+"Hey, jung man! Don't du have \n"
+"anything important du should be\n"
+"doing?" BOX_BREAK "Was? Are du saying it's more \n"
 "fun to play here?" BOX_BREAK "I've seen many people ruin their\n"
 "lives with that kind of attitude.\n"
 "I'm serious!\n"
@@ -8913,7 +8911,7 @@ QUICKTEXT_ENABLE "The biggest Fisch ever caught in\n"
 )
 
 DEFINE_MESSAGE(0x408A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Do you want to continue Fisching?\n"
+"Do du want to continue fische?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
@@ -8926,30 +8924,30 @@ DEFINE_MESSAGE(0x408B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x408C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, c'mon! You don't have a Fisch!\n"
+"Hey, c'mon! du don't have a Fisch!\n"
 "Shucks!" EVENT
 )
 
 DEFINE_MESSAGE(0x408D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"You want to try another lure?\n"
-"What are you talking about? Are\n"
-"you so egoistisch?" BOX_BREAK "Don't you know the old saying,\n"
+"du want to try another lure?\n"
+"What are du talking about? Are\n"
+"du so egoistisch?" BOX_BREAK "Don't du know the old saying,\n"
 "\"A great Fischerman never chooses\n"
 "his own lure?\""
 )
 
 DEFINE_MESSAGE(0x408E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was? Do you want to know some \n"
-"Fisching secrets? I can't tell you\n"
+"Was? Do du want to know some \n"
+"fische secrets? I can't tell du\n"
 "any. They are company secrets.\n"
 "Seriously!"
 )
 
 DEFINE_MESSAGE(0x408F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was? You want to know if I'm a \n"
-"guet Fischerman?" BOX_BREAK "Of course I am! I'm an old pro!\n"
-"Do you know what a pro is?\n"
-"I'm telling you the truth!"
+"Was? du want to know if I'm a \n"
+"guet Fischerman?" BOX_BREAK "Of course i bi! I'm an old pro!\n"
+"Do du know what a pro is?\n"
+"I'm telling du the truth!"
 )
 
 DEFINE_MESSAGE(0x4090, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
@@ -8962,58 +8960,58 @@ QUICKTEXT_ENABLE "1. Don't use sinking lures.\n"
 DEFINE_MESSAGE(0x4091, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Wow! This is a real lunker!\n"
 "Let's see...it weighs\n"
-COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "Do you want to keep it?\n"
+COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "Do du want to keep it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4092, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Come back when you get older!\n"
+"Come back when du get older!\n"
 "The Fisch will be grösser, too...\n"
 "Well, maybe."
 )
 
 DEFINE_MESSAGE(0x4093, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Hey, mister! I remember you!\n"
+UNSKIPPABLE "Hey, mister! I remember du!\n"
 "It's been a long time!" BOX_BREAK UNSKIPPABLE "How many years has it been?\n"
-"Seven years?! What have you\n"
+"7 years?! What have du\n"
 "been doing all this time?!" BOX_BREAK UNSKIPPABLE "D bisch my only customer. I'm \n"
 "almost out of business! Seriously!\n"
-"On top of that, my hair..." BOX_BREAK UNSKIPPABLE "Uh, I mean, never mind..." BOX_BREAK UNSKIPPABLE "Well, do you want to go Fisching?\n"
+"On top of that, my hair..." BOX_BREAK UNSKIPPABLE "Uh, I mean, never mind..." BOX_BREAK UNSKIPPABLE "Well, do du want to go fische?\n"
 "It costs only " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4094, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "You want to go Fisching in a \n"
-"different Fisching pond?!\n"
-"What are you talking about?" BOX_BREAK "I'll go out of business if you go\n"
+"Was?" BOX_BREAK "du want to go fische in a \n"
+"different fische pond?!\n"
+"What are du talking about?" BOX_BREAK "I'll go out of business if du go\n"
 "somewhere else!\n"
 "I'm serious!"
 )
 
 DEFINE_MESSAGE(0x4095, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "You want to know why I'm \n"
+"Was?" BOX_BREAK "du want to know why I'm \n"
 "scratching all the time?\n"
-"What are you talking about?" BOX_BREAK "Actually, I have Nö idea.\n"
+"What are du talking about?" BOX_BREAK "Actually, I have Nö idea.\n"
 "I'm serious!"
 )
 
 DEFINE_MESSAGE(0x4096, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "Are you trying to tell me you\n"
+"Was?" BOX_BREAK "Are du trying to tell me du\n"
 "can't see the Fisch because the\n"
-"Wasser is cloudy?" BOX_BREAK "What are you talking about?\n"
+"Wasser is cloudy?" BOX_BREAK "What are du talking about?\n"
 "This time of day makes for \n"
-"Fisching at its finest!" BOX_BREAK "You can hook a Fisch out of the\n"
-"blue, when you least expect it.\n"
-"Now that's exciting!" BOX_BREAK "I'm serious.  Really, I am!"
+"fische at its finest!" BOX_BREAK "du can hook a Fisch out of the\n"
+"blue, when du least expect it.\n"
+"Now that's exciting!" BOX_BREAK "I'm serious.  Really, i bi!"
 )
 
 DEFINE_MESSAGE(0x4097, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, what are you doing?\n"
-"I told you not to do that!\n"
+"Hey, what are du doing?\n"
+"I told du not to do that!\n"
 "D bisch terrible!\n"
 "Seriously!" BOX_BREAK "Give me back my hat!\n"
 "\n"
@@ -9023,17 +9021,17 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "OK\n"
 
 DEFINE_MESSAGE(0x4098, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Was? Huch? Oh?\n"
-"I think the Fisch you already\n"
-"kept was grösser than this one..." BOX_BREAK "Do you still want to keep it?\n"
+"I think the Fisch du already\n"
+"kept was grösser than this one..." BOX_BREAK "Do du still want to keep it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Nö, I don't want it\n"
 "Ja, I want to keep it anyway" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4099, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Gosh! That's a strange Fisch you\n"
+"Gosh! That's a strange Fisch du\n"
 "caught there! On top of that, it\n"
-"weighs " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "What do you want to do with it?\n"
+"weighs " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it anyway\n"
 "I don't want it" COLOR(DEFAULT)
@@ -9042,7 +9040,7 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it anyway\n"
 DEFINE_MESSAGE(0x409A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Wow!" BOX_BREAK "Is this what I think it is?\n"
 "Astonishing!\n"
-"You snagged a " COLOR(RED) "sinking lure" COLOR(DEFAULT) "!" BOX_BREAK "What do you want to do with it?\n"
+"du snagged a " COLOR(RED) "sinking lure" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Use it now.\n"
 "Get rid of it." COLOR(DEFAULT)
@@ -9051,7 +9049,7 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Use it now.\n"
 DEFINE_MESSAGE(0x409B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Well, well..." BOX_BREAK "WOW! What a rare Fisch!\n"
 "This is a " COLOR(RED) "Hyrule Loach" COLOR(DEFAULT) "!" BOX_BREAK "For this Fisch, size doesn't \n"
-"matter. I'll give you this \n"
+"matter. I'll give du this \n"
 "Priis!" EVENT
 )
 
@@ -9070,8 +9068,8 @@ QUICKTEXT_ENABLE "Rules und Regulations\n"
 
 DEFINE_MESSAGE(0x409E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey! Hey!\n"
-"You can't take the rod out of\n"
-"here!" BOX_BREAK "When you quit Fisching, return \n"
+"du can't take the rod out of\n"
+"here!" BOX_BREAK "When du quit fische, return \n"
 "the rod to the counter.\n"
 "I'm serious!"
 )
@@ -9081,7 +9079,7 @@ DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "This Fisch is gigantic!!" BOX_BREAK "A Fisch this big can't even fit\n"
 "on the screen, und I can't weigh it\n"
 "accurately, but it looks like it's\n"
-"about " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "You'll want to keep this one,\n"
+"about " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "du'll want to keep this one,\n"
 "right?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it\n"
 "Don't keep it" COLOR(DEFAULT)
@@ -9090,65 +9088,65 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it\n"
 DEFINE_MESSAGE(0x40A0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hey, baby!\n"
 "I'm " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi!\n"
-"You've probably heard about my\n"
-"fantastic memory!" BOX_BREAK "Wenn d have a new tune to play,\n"
-"blow it!" BOX_BREAK "This is the Lied you tooted last \n"
+"du've probably heard about my\n"
+"Fantastisch memory!" BOX_BREAK "Wenn d have a new Lied to play,\n"
+"blow it!" BOX_BREAK "This is the Lied du tooted last \n"
 "time, baby!" BOX_BREAK "Triff it!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A1, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I am " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi\n"
+"i bi " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi\n"
 "musical genius!\n"
 "I hear a Lied once, und I never\n"
 "forget it, baby!"
 )
 
 DEFINE_MESSAGE(0x40A2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Spiu ds usual tune to call\n"
+"Spiu ds usual Lied to call\n"
 "Pierre!\n"
 "If he's nearby, he'll come out to\n"
-"help you, baby!"
+"help du, baby!"
 )
 
 DEFINE_MESSAGE(0x40A3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey! Aren't you the Fee buddy I\n"
+"Hey! Aren't du the Fee buddy I\n"
 "met a long time ago?\n"
-"Wow, you grew, dude!" BOX_BREAK "Well, here's your Lied..." BOX_BREAK "Was?" BOX_BREAK "Nö, I never forget!\n"
-"You, D bisch the one who forgot...\n"
-"aren't you? Wenn d have an \n"
+"Wow, du grew, dude!" BOX_BREAK "Well, here's dini Lied..." BOX_BREAK "Was?" BOX_BREAK "Nö, I never forget!\n"
+"du, D bisch the one who forgot...\n"
+"aren't du? Wenn d have an \n"
 "Muugiige, play das Lied, baby!"
 )
 
 DEFINE_MESSAGE(0x40A4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Whoa! You have an Muulpfiefli!\n"
-"Hey, why don't you lay a tune\n"
+"Whoa! du have an Muulpfiefli!\n"
+"Hey, why don't du lay a Lied\n"
 "on me with it, baby?!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A5, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Well...not bad!\n"
-"I will remember it for you \n"
+"I will remember it for du \n"
 "anyway!" BOX_BREAK "I don't mean I can remember only\n"
 "eight notes, but let's just cut it\n"
 "right there for now, baby!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A6, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Play it like that und you'll\n"
-"never move this Voguschüchi's heart,\n"
+"Play it like that und du'll\n"
+"never move this Voguschüchi's Härz,\n"
 "baby!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "OH YEAHHH!!\n"
-"That's it, that's the tune!!\n"
-"You rock!! I'm blown away!" BOX_BREAK "Oh, Nö, Nö! I didn't forget the\n"
+"That's it, that's the Lied!!\n"
+"du rock!! I'm blown away!" BOX_BREAK "Oh, Nö, Nö! I didn't forget the\n"
 "Lied...I never forget anything!\n"
 "But I just feel like rewarding\n"
-"you, baby!" BOX_BREAK "........\n"
+"du, baby!" BOX_BREAK "........\n"
 "I have a guet idea!" BOX_BREAK "My buddy Pierre is wandering\n"
-"around, so play that tune when\n"
-"you want to call him!" BOX_BREAK "I'll tell him to help you if he's\n"
+"around, so play that Lied when\n"
+"du want to call him!" BOX_BREAK "I'll tell him to help du if he's\n"
 "nearby und hears das Lied, baby!" EVENT
 )
 
@@ -9159,7 +9157,7 @@ DEFINE_MESSAGE(0x40A8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x40A9, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-SFX("\x28\xE4") "jung lad, you Spiu ds Muulpfiefli\n"
+SFX("\x28\xE4") "jung lad, du Spiu ds Muulpfiefli\n"
 "well... Mmmmm...! That Melodie is \n"
 "so fine...ribbit! We all should\n"
 "practice it, ribbit!" BOX_BREAK "Take Rubine as a souvenir!\n"
@@ -9174,7 +9172,7 @@ SFX("\x28\xE3") "Wow, that Melodie is so cool! \n"
 "Oh what a feeling! \n"
 "Rrrrrribbbit!!" BOX_BREAK "Please take this as a token of\n"
 "our froggish gratitude, ribbit!\n"
-"All right. See you, ribbit!" EVENT
+"All right. See du, ribbit!" EVENT
 )
 
 DEFINE_MESSAGE(0x40AB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9187,9 +9185,9 @@ SFX("\x28\xE4") "Look at us, we're all huge frogs!!\n"
 )
 
 DEFINE_MESSAGE(0x40AC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-SFX("\x28\xE3") "jung Giu, you did grrreat!\n"
+SFX("\x28\xE3") "jung Giu, du did grrreat!\n"
 "Perrrrrfect!\n"
-"Mir si stuffed, ribbit!" BOX_BREAK "Would you take this token of our\n"
+"Mir si stuffed, ribbit!" BOX_BREAK "Would du take this token of our\n"
 "gratitude?" EVENT
 )
 
@@ -9208,10 +9206,10 @@ QUICKTEXT_ENABLE "The biggest Fisch ever caught in\n"
 
 DEFINE_MESSAGE(0x40AF, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Was?\n"
-"Do you want to Fisch with a \n"
+"Do du want to Fisch with a \n"
 "different lure?\n"
-"...Hey, what's that?" BOX_BREAK "Was? You just picked it up?\n"
-"Usually, the rules says you can't\n"
+"...Hey, what's that?" BOX_BREAK "Was? du just picked it up?\n"
+"Usually, the rules says du can't\n"
 "use one of those. I mean, usually. \n"
 "But, what the heck..."
 )
@@ -9222,7 +9220,7 @@ DEFINE_MESSAGE(0x40B0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "This...this weighs as much as...\n"
 COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "Buuuuuuuut! That sinking lure is\n"
 "in violation of the rules!\n"
-"So, Nö Priis for you.\n"
+"So, Nö Priis for du.\n"
 "Wah ha ha ha ha ha!" EVENT
 )
 
@@ -9240,23 +9238,23 @@ DEFINE_MESSAGE(0x40B2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x40B3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"WHAAAAAT?!?" BOX_BREAK "Why are you doing this to me?\n"
-"What are you thinking?" BOX_BREAK "I'm not going to let you get off\n"
-"that easy! You have to pay me a \n"
+"WHAAAAAT?!?" BOX_BREAK "Why are du doing this to me?\n"
+"What are du thinking?" BOX_BREAK "I'm not going to let du get off\n"
+"that easy! du have to pay me a \n"
 COLOR(RED) "50-Rubin " COLOR(DEFAULT) "fine!\n"
 "Seriously!" EVENT
 )
 
 DEFINE_MESSAGE(0x5000, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "GYAAAH!" QUICKTEXT_DISABLE "\n"
-TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "You" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "killed" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "me!!" QUICKTEXT_DISABLE  TEXT_SPEED("\x00") "\n"
-"Huch? Oh, it's you." BOX_BREAK "Did you try to Spiu ds \n"
-COLOR(YELLOW) "Sunnelied" COLOR(DEFAULT) "?" BOX_BREAK "Like I told you bevor, with that \n"
-"Lied, you can turn day to night \n"
-"or night to day whenever you \n"
+TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "du" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "killed" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "me!!" QUICKTEXT_DISABLE  TEXT_SPEED("\x00") "\n"
+"Huch? Oh, it's du." BOX_BREAK "Did du try to Spiu ds \n"
+COLOR(YELLOW) "Sunnelied" COLOR(DEFAULT) "?" BOX_BREAK "Like I told du bevor, with that \n"
+"Lied, du can turn day to night \n"
+"or night to day whenever du \n"
 "want." BOX_BREAK "When D bisch in darkness, that \n"
 "Lied should bring the sun's light\n"
-"to you. You should try it."
+"to du. du should try it."
 )
 
 DEFINE_MESSAGE(0x5001, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_TOP,
@@ -9268,40 +9266,40 @@ QUICKTEXT_ENABLE "When I dug a hole, I found a \n"
 
 DEFINE_MESSAGE(0x5002, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_TOP,
 "The " COLOR(RED) "Totegräber's diary " COLOR(DEFAULT) "is here.\n"
-"Do you want to read it?\n"
+"Do du want to read it?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x5003, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_TOP,
 QUICKTEXT_ENABLE "Whoever reads this, please enter\n"
-"my grave. I will let you have my\n"
-"stretching, shrinking " COLOR(RED) "keepsake" COLOR(DEFAULT) "." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "I'm waiting for you.\n"
+"my grave. I will let du have my\n"
+"stretching, shrinking " COLOR(RED) "keepsake" COLOR(DEFAULT) "." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "I'm waiting for du.\n"
 "--Dampé" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x5004, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
-QUICKTEXT_ENABLE "You decide not to read it..." QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "du decide not to read it..." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x5005, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"You defeated Irrliecht the Geischt!" BOX_BREAK "Do you want to catch it in \n"
+"du defeated Irrliecht the Geischt!" BOX_BREAK "Do du want to catch it in \n"
 "a Fläsche?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x5006, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"You want to catch it but you \n"
+"du want to catch it but du \n"
 "don't have an lääri Fläsche."
 )
 
 DEFINE_MESSAGE(0x5007, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"You let it go for now."
+"du let it go for now."
 )
 
 DEFINE_MESSAGE(0x5008, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"You caught a Irrliecht!"
+"du caught a Irrliecht!"
 )
 
 DEFINE_MESSAGE(0x5009, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
@@ -9325,14 +9323,14 @@ UNSKIPPABLE "Something is inscribed on the \n"
 )
 
 DEFINE_MESSAGE(0x500C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Ultimate Trank! How about\n"
+"Ultimate Trank! Wie wär's mit\n"
 COLOR(RED) "100 Rubine" COLOR(DEFAULT) "?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Chouffe\n"
 "Nid chouffe" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x500D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wenn d change your mind, come \n"
+"Wenn d change dini mind, come \n"
 "back und visit me...\n"
 "Hihihi!"
 )
@@ -9344,15 +9342,15 @@ DEFINE_MESSAGE(0x500E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x500F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "GYAAAAH!\n"
-TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "YOU" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "KILLED" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "ME..." QUICKTEXT_DISABLE  TEXT_SPEED("\x00")  QUICKTEXT_ENABLE "Unbelievable!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "Oh, what?\n"
+TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "du" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "KILLED" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "ME..." QUICKTEXT_DISABLE  TEXT_SPEED("\x00")  QUICKTEXT_ENABLE "Unbelievable!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE "Oh, what?\n"
 "D bisch not one of Ganondorf's \n"
-"men, are you?" BOX_BREAK UNSKIPPABLE "Because of my role as a Geischt, I\n"
+"men, are du?" BOX_BREAK UNSKIPPABLE "Because of my role as a Geischt, I\n"
 "had to act like that. I apologize." BOX_BREAK UNSKIPPABLE "Now then, let me introduce myself.\n"
 "Ahem..." TEXTID("\x50\x10")
 )
 
 DEFINE_MESSAGE(0x5010, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I am one of the Geischtly composer \n"
+"i bi one of the Geischtly composer \n"
 "brothers of Kakariko." BOX_BREAK "All the people in this Dorf are\n"
 "born to serve the Chönigsfamilie of\n"
 "Hyrule." BOX_BREAK "We brothers also served the Chöniglech \n"
@@ -9379,10 +9377,10 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 DEFINE_MESSAGE(0x5012, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE  QUICKTEXT_ENABLE "GYAAAAH!" QUICKTEXT_DISABLE "\n"
 TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "I'M" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "DEAD" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "A" QUICKTEXT_DISABLE  QUICKTEXT_ENABLE "GAIN!" QUICKTEXT_DISABLE  TEXT_SPEED("\x00") "\n"
-"Was? You again?" BOX_BREAK UNSKIPPABLE "Somehow, you remind me of...\n"
-"Prinzässin Zelda..." BOX_BREAK UNSKIPPABLE "Hmm... Since you may have some\n"
+"Was? du again?" BOX_BREAK UNSKIPPABLE "Somehow, du remind me of...\n"
+"Prinzässin Zelda..." BOX_BREAK UNSKIPPABLE "Hmm... Since du may have some\n"
 "connection mit dr Chönigsfamilie, I\n"
-"will tell you a chlii more of our\n"
+"will tell du a chlii more of our\n"
 "tale." BOX_BREAK UNSKIPPABLE "Back then, people called us great\n"
 "composers because of the many \n"
 "musical masterStück we wrote." BOX_BREAK UNSKIPPABLE "But we brothers were not just \n"
@@ -9397,10 +9395,10 @@ TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "I'M" QUICKTEXT_DISABLE " " QUICKTEXT_ENABL
 DEFINE_MESSAGE(0x5013, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE  QUICKTEXT_ENABLE "GYAAAAH!" QUICKTEXT_DISABLE "\n"
 TEXT_SPEED("\x02")  QUICKTEXT_ENABLE "I'M" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "DEAD" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "A" QUICKTEXT_DISABLE  QUICKTEXT_ENABLE "GAIN!" QUICKTEXT_DISABLE  TEXT_SPEED("\x00") "\n"
-"Was? You again?" BOX_BREAK UNSKIPPABLE "Somehow, you remind me of\n"
-"Prinzässin Zelda." BOX_BREAK UNSKIPPABLE "Since you seem to have some\n"
+"Was? du again?" BOX_BREAK UNSKIPPABLE "Somehow, du remind me of\n"
+"Prinzässin Zelda." BOX_BREAK UNSKIPPABLE "Since du seem to have some\n"
 "connection mit dr Chönigsfamilie, I\n"
-"will tell you a chlii more of our\n"
+"will tell du a chlii more of our\n"
 "story." TEXTID("\x50\x14")
 )
 
@@ -9410,10 +9408,10 @@ DEFINE_MESSAGE(0x5014, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "to " COLOR(RED) "summon the sun" COLOR(DEFAULT) " und another to\n"
 COLOR(RED) "summon the moon" COLOR(DEFAULT) "." BOX_BREAK "Wenn d were really sent by a \n"
 "member of the Chönigsfamilie, I will\n"
-"tell you about the results of our\n"
+"tell du about the results of our\n"
 "study." BOX_BREAK "We inscribed it on the " COLOR(RED) "royal\n"
 "tombstone" COLOR(DEFAULT) "." BOX_BREAK "As a messenger of the Chöniglech \n"
-"Familie, you should show your\n"
+"Familie, du should show dini\n"
 "Chöniglech credentials on top of the \n"
 "Triforce mark..." TEXTID("\x50\x11")
 )
@@ -9421,7 +9419,7 @@ COLOR(RED) "summon the moon" COLOR(DEFAULT) "." BOX_BREAK "Wenn d were really se
 DEFINE_MESSAGE(0x5015, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Z Z Z..." BOX_BREAK "Malon...doing all right...\n"
 "Mumble...mumble...\n"
-"Sorry to make you worry..."
+"Sorry to make du worry..."
 )
 
 DEFINE_MESSAGE(0x5016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9432,7 +9430,7 @@ DEFINE_MESSAGE(0x5016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5017, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Did you save Malon? Thanks!\n"
+"Did du save Malon? Thanks!\n"
 "I'm goin' back to the ranch, then!\n"
 "Yeehah!"
 )
@@ -9442,16 +9440,16 @@ UNSKIPPABLE  QUICKTEXT_ENABLE "Hey Goof!" QUICKTEXT_DISABLE "\n"
 "Don't mess around mit dr \n"
 "graves!" BOX_BREAK UNSKIPPABLE "I'm " COLOR(RED) "Dampé dr Totegräber" COLOR(DEFAULT) "!\n"
 "My face may be scary, but I'm not\n"
-"a bad guy..." BOX_BREAK UNSKIPPABLE "Let me give you an advertisement\n"
+"a bad guy..." BOX_BREAK UNSKIPPABLE "Let me give du an advertisement\n"
 "for my side business..." BOX_BREAK UNSKIPPABLE  COLOR(RED) "Dampé dr Totegräber's" COLOR(DEFAULT) "\n"
-"Heart-Pounding" COLOR(LIGHTBLUE) " Grabschändetour" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "What's gonna come out?!\n"
+"Härz-Pounding" COLOR(LIGHTBLUE) " Grabschändetour" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "What's gonna come out?!\n"
 "What's gonna come out?!\n"
 "When I start digging,\n"
 "we'll find out!" TEXTID("\x50\x19")
 )
 
 DEFINE_MESSAGE(0x5019, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do you want me to dig here?\n"
+"Do du want me to dig here?\n"
 COLOR(RED) "10 Rubine" COLOR(DEFAULT) " for one hole.\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Don't do it" COLOR(DEFAULT)
@@ -9479,7 +9477,7 @@ UNSKIPPABLE  NAME "....\n"
 
 DEFINE_MESSAGE(0x501D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Let me take care of the Dorf!\n"
-"I'm counting on you,\n"
+"I'm counting on du,\n"
 NAME "!"
 )
 
@@ -9491,7 +9489,7 @@ SHIFT("\x50") "R.I.P." QUICKTEXT_DISABLE  EVENT
 
 DEFINE_MESSAGE(0x501F, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE  SHIFT("\x23") "Chöniglech Composer Bros.\n"
-SHIFT("\x33") "Flat the Younger\n"
+SHIFT("\x33") "Flat the dunger\n"
 SHIFT("\x50") "R.I.P." QUICKTEXT_DISABLE  EVENT
 )
 
@@ -9508,9 +9506,9 @@ SHIFT("\x10") "members of the Chönigsfamilie." QUICKTEXT_DISABLE  EVENT
 DEFINE_MESSAGE(0x5022, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "The Giu mit dr noble Zelda's \n"
 "Okarina...As I expected, \n"
-"you have come." BOX_BREAK UNSKIPPABLE "I am " COLOR(RED) "Impa" COLOR(DEFAULT) ", one of the Sheikah.\n"
-"I am Prinzässin Zelda's caretaker,\n"
-"and I am also the Weise who\n"
+"du have come." BOX_BREAK UNSKIPPABLE "i bi " COLOR(RED) "Impa" COLOR(DEFAULT) ", one of the Sheikah.\n"
+"i bi Prinzässin Zelda's caretaker,\n"
+"and i bi also the Weise who\n"
 "guards the Schattetämpu."
 )
 
@@ -9522,9 +9520,9 @@ DEFINE_MESSAGE(0x5024, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE  NAME ", the hero!" BOX_BREAK UNSKIPPABLE "Finally, all of us, the " COLOR(RED) "six Weise" COLOR(DEFAULT) ", \n"
 "have been awakened!\n"
 "The time for the final showdown\n"
-"mit dr Chönig of Evil has come!" BOX_BREAK UNSKIPPABLE "bevor that, though, you should\n"
+"mit dr Chönig of Evil has come!" BOX_BREAK UNSKIPPABLE "bevor that, though, du should\n"
 "meet the one who is waiting for\n"
-"you..." BOX_BREAK UNSKIPPABLE "The one who is waiting for you at\n"
+"du..." BOX_BREAK UNSKIPPABLE "The one who is waiting for du at\n"
 "the " COLOR(LIGHTBLUE) "Tämpu vor Zyt" COLOR(DEFAULT) "...."
 )
 
@@ -9532,39 +9530,39 @@ DEFINE_MESSAGE(0x5025, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "We Sheikah have served the \n"
 "royalty of Hyrule from generation\n"
 "to generation as attendants.\n"
-"However..." BOX_BREAK UNSKIPPABLE "On that day seven years ago,\n"
+"However..." BOX_BREAK UNSKIPPABLE "On that day 7 years ago,\n"
 "Ganondorf suddenly attacked...\n"
 "and Schloss Hyrule surrendered\n"
 "after a short time." BOX_BREAK UNSKIPPABLE "Ganondorf's target was one of\n"
 "the Schlüssle to the heilige Riich...the\n"
 "hidden treasure of the Chöniglech\n"
 "Familie...The Okarina vor Zyt!" BOX_BREAK UNSKIPPABLE "My duty bound me to take Zelda \n"
-"out of Ganondorf's reach." BOX_BREAK UNSKIPPABLE "When last I saw you, as we made\n"
-"our escape from the Schloss, you\n"
-"were just a lad..." BOX_BREAK UNSKIPPABLE "Now I see that you have become \n"
+"out of Ganondorf's reach." BOX_BREAK UNSKIPPABLE "When last I saw du, as we made\n"
+"our escape from the Schloss, du\n"
+"were just a lad..." BOX_BREAK UNSKIPPABLE "Now Hm that du have become \n"
 "a fine hero..."
 )
 
 DEFINE_MESSAGE(0x5026, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I have to stay here... You go to \n"
+UNSKIPPABLE "I have to stay here... du go to \n"
 "Prinzässin Zelda's side und protect \n"
 "her on my behalf." BOX_BREAK UNSKIPPABLE "Now I put my Chraft, which should \n"
-"be helpful to you, into this\n"
+"be helpful to du, into this\n"
 COLOR(BLUE) "Medallion" COLOR(DEFAULT) "!"
 )
 
 DEFINE_MESSAGE(0x5027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"How is your Cucco? Is he happy?\n"
-"Shall I check him out for you?"
+"How is dini Cucco? Is he happy?\n"
+"Shall I check him out for du?"
 )
 
 DEFINE_MESSAGE(0x5028, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE  SFX("\x68\x55") "I am the " COLOR(RED) "boss of the carpenters\n"
+UNSKIPPABLE  SFX("\x68\x55") "i bi the " COLOR(RED) "boss of the carpenters\n"
 COLOR(DEFAULT) "that Impa hired to improve this\n"
 "Dorf und make it into a true\n"
 "city!" BOX_BREAK UNSKIPPABLE "But jung men Die days don't\n"
 "have any ambition...\n"
-"Do you know what I mean, Goof?" BOX_BREAK UNSKIPPABLE "My workers are just running\n"
+"Do du know what I mean, Goof?" BOX_BREAK UNSKIPPABLE "My workers are just running\n"
 "aimlessly around the Dorf, und\n"
 "they're not making any progress\n"
 "at all..." BOX_BREAK UNSKIPPABLE "Even my own son doesn't have a \n"
@@ -9573,7 +9571,7 @@ COLOR(DEFAULT) "that Impa hired to improve this\n"
 )
 
 DEFINE_MESSAGE(0x5029, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "They're all worthless, I tell you!!"
+UNSKIPPABLE "They're all worthless, I tell du!!"
 )
 
 DEFINE_MESSAGE(0x502A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9583,7 +9581,7 @@ DEFINE_MESSAGE(0x502A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "them gives her goose bumps..." BOX_BREAK "What a trooper! I would really \n"
 "like to help her! I've just been\n"
 "feeling so charitable Die days!\n"
-"Don't you feel that way, too?"
+"Don't du feel that way, too?"
 )
 
 DEFINE_MESSAGE(0x502B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -9592,7 +9590,7 @@ UNSKIPPABLE "There's nothing to worry about...\n"
 )
 
 DEFINE_MESSAGE(0x502C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Soon, you'll meet Prinzässin Zelda\n"
+UNSKIPPABLE "Soon, du'll meet Prinzässin Zelda\n"
 "face-to-face, und she will explain\n"
 "everything..." BOX_BREAK UNSKIPPABLE "That is when we, the six Wise \n"
 "Ones, will seal up the Evil Chönig\n"
@@ -9601,22 +9599,22 @@ UNSKIPPABLE "Soon, you'll meet Prinzässin Zelda\n"
 
 DEFINE_MESSAGE(0x502D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Hehehe, jung man...\n"
-"You were very quick to be able\n"
+"du were very quick to be able\n"
 "to keep up with me! Hehehe!" BOX_BREAK UNSKIPPABLE "As a reward, I'm going to give\n"
-"you my treasure. It's called the\n"
+"du my treasure. It's called the\n"
 COLOR(RED) "Hookshot" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Its spring-loaded chain will pull\n"
-"you to any spot where its hook\n"
+"du to any spot where its hook\n"
 "sticks. Doesn't that sound cool?\n"
-"I'm sure it will help you!" BOX_BREAK UNSKIPPABLE "I live here now, so come back\n"
-"again sometime. I'll give you\n"
+"I'm sure it will help du!" BOX_BREAK UNSKIPPABLE "I live here now, so come back\n"
+"again sometime. I'll give du\n"
 "something cool!" BOX_BREAK UNSKIPPABLE "One more thing! Vorsicht on\n"
-"your way back!\n"
+"dini way back!\n"
 "Heheheh...."
 )
 
 DEFINE_MESSAGE(0x502E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "D bisch back, jung man...\n"
-"Was the present I gave to you\n"
+"Was the present I gave to du\n"
 "fun und useful?"
 )
 
@@ -9638,10 +9636,10 @@ COLOR(PURPLE) "Schattetämpu " COLOR(DEFAULT) "to seal it again,\n"
 "Destroy the evil shadow spirit und\n"
 "save Impa!" BOX_BREAK UNSKIPPABLE "There is an entrance to the \n"
 "Schattetämpu beneath the \n"
-"Fridhof behind this Dorf." BOX_BREAK UNSKIPPABLE "The only thing I can do for you is\n"
-"teach you the Melodie that will\n"
-"lead you to the Schattetämpu..." BOX_BREAK UNSKIPPABLE "This is the Melodie that will draw\n"
-"you into the infinite darkness \n"
+"Fridhof behind this Dorf." BOX_BREAK UNSKIPPABLE "The only thing I can do for du is\n"
+"teach du the Melodie that will\n"
+"lead du to the Schattetämpu..." BOX_BREAK UNSKIPPABLE "This is the Melodie that will draw\n"
+"du into the infinite darkness \n"
 "that absorbs even time... Listen to \n"
 "this, the " COLOR(PURPLE) "Schattenokturne" COLOR(DEFAULT) "!!"
 )
@@ -9664,22 +9662,22 @@ DEFINE_MESSAGE(0x5033, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x5034, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Grrrrrrrrr!" BOX_BREAK "I'll never forget what happened on\n"
-"that day, seven years ago!\n"
+"that day, 7 years ago!\n"
 "Grrrrrrrrr!" BOX_BREAK "It's all that Muugiige Goof's fault!\n"
 "Next time he comes around here,\n"
 "I'm gonna mess him up!"
 )
 
 DEFINE_MESSAGE(0x5035, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Was?! You've got an Muugiige!!" BOX_BREAK UNSKIPPABLE "What the heck!" BOX_BREAK UNSKIPPABLE "That reminds me of that time,\n"
-"seven years ago!" BOX_BREAK UNSKIPPABLE "Back then a mean Goof came here \n"
+UNSKIPPABLE "Was?! du've got an Muugiige!!" BOX_BREAK UNSKIPPABLE "What the heck!" BOX_BREAK UNSKIPPABLE "That reminds me of that time,\n"
+"7 years ago!" BOX_BREAK UNSKIPPABLE "Back then a mean Goof came here \n"
 "and played a " COLOR(PURPLE) "strange Lied" COLOR(DEFAULT) ". It \n"
 "messed up this windmill!"
 )
 
 DEFINE_MESSAGE(0x5036, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "What should I do!?\n"
-"My " COLOR(RED) "Cuccos" COLOR(DEFAULT) " have all flown away!" BOX_BREAK "You, chlii Giu, please!\n"
+"My " COLOR(RED) "Cuccos" COLOR(DEFAULT) " have all flown away!" BOX_BREAK "du, chlii Giu, please!\n"
 "Please help me bring them back to \n"
 "this pen!"
 )
@@ -9693,7 +9691,7 @@ DEFINE_MESSAGE(0x5037, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x5038, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "My Cuccos have run away!\n"
 "Please help me bring the other \n"
-"three back to this pen! Please!"
+"3 back to this pen! Please!"
 )
 
 DEFINE_MESSAGE(0x5039, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9712,13 +9710,13 @@ DEFINE_MESSAGE(0x503B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Merci for finding my Cuccos.\n"
 "I have allergies, so I get \n"
 "goose bumps when I touch them." BOX_BREAK UNSKIPPABLE "For helping me, I will give this\n"
-"to you. It's fine glass, und should\n"
+"to du. It's fine glass, und should\n"
 "be useful. Please take guet\n"
 "care of it!" EVENT
 )
 
 DEFINE_MESSAGE(0x503C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, what are you doing?!\n"
+"Hey, what are du doing?!\n"
 "Now go round them up or pay for \n"
 "them!" EVENT
 )
@@ -9733,13 +9731,13 @@ UNSKIPPABLE "I bred a new type of miniature \n"
 "Cucco" COLOR(DEFAULT) "! I don't get goose bumps\n"
 "from this baby." BOX_BREAK UNSKIPPABLE  COLOR(RED) "Cuccos " COLOR(DEFAULT) "are very guet at \n"
 "getting lazy, late-risers out of bed.\n"
-"Haven't you heard of them \n"
+"Haven't du heard of them \n"
 "bevor?" BOX_BREAK UNSKIPPABLE "It makes them very happy to crow:\n"
 QUICKTEXT_ENABLE  SHIFT("\x38")  COLOR(RED) "CUCCKOOOO" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
 "especially when it wakes up a \n"
 "very heavy sleeper!" BOX_BREAK UNSKIPPABLE "However, my Cucco is not entirely\n"
-"happy right now..." BOX_BREAK UNSKIPPABLE "You..., \n"
-"You look like D bisch guet at \n"
+"happy right now..." BOX_BREAK UNSKIPPABLE "du..., \n"
+"du look like D bisch guet at \n"
 "handling Cuccos." BOX_BREAK UNSKIPPABLE "Here, take this Ei.\n"
 "After the Cucco hatches, bring it \n"
 "back to me after a while, und I'll \n"
@@ -9747,23 +9745,23 @@ QUICKTEXT_ENABLE  SHIFT("\x38")  COLOR(RED) "CUCCKOOOO" COLOR(DEFAULT) "!" QUICK
 )
 
 DEFINE_MESSAGE(0x503F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What do you think? \n"
-"Will you try?\n"
+"What do du think? \n"
+"Will du try?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x5040, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, too bad...were you pecked by\n"
-"a Cucco when you were chlii?" EVENT
+"Oh, too bad...were du pecked by\n"
+"a Cucco when du were chlii?" EVENT
 )
 
 DEFINE_MESSAGE(0x5041, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "He he he, jung man!\n"
-"Are you fast on your feet?" BOX_BREAK "I may not look like it, but I'm \n"
+"Are du fast on dini feet?" BOX_BREAK "I may not look like it, but I'm \n"
 "confident in my speed!\n"
 "Let's have a race! \n"
-"Follow me if you dare!"
+"Follow me if du dare!"
 )
 
 DEFINE_MESSAGE(0x5042, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9772,10 +9770,10 @@ DEFINE_MESSAGE(0x5042, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5043, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Oh, your Cucco looks pretty \n"
+UNSKIPPABLE "Oh, dini Cucco looks pretty \n"
 "happy! He must have awakened an\n"
 "extremely lazy guy!" BOX_BREAK UNSKIPPABLE "D bisch a guet Cucco Keeper!\n"
-"I'll give you a rare, valuable\n"
+"I'll give du a rare, valuable\n"
 "Cucco, if D bisch interested..." BOX_BREAK UNSKIPPABLE "Its name is " COLOR(RED) "Cojiro" COLOR(DEFAULT) "," COLOR(RED) " " COLOR(DEFAULT) "and it used to\n"
 "be my brother's Cucco. Its\n"
 "blue body is quite charming.\n"
@@ -9785,21 +9783,21 @@ UNSKIPPABLE "Oh, your Cucco looks pretty \n"
 )
 
 DEFINE_MESSAGE(0x5044, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do you want to keep " COLOR(RED) "Cojiro" COLOR(DEFAULT) "?\n"
+"Do du want to keep " COLOR(RED) "Cojiro" COLOR(DEFAULT) "?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x5045, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"It looks as if you really like that\n"
-"other Cucco. OK, you can keep it\n"
+"It looks as if du really like that\n"
+"other Cucco. OK, du can keep it\n"
 "for a while." EVENT
 )
 
 DEFINE_MESSAGE(0x5046, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "An old witch runs the Trank Lade\n"
-"behind this one. You can get to \n"
+"behind this one. du can get to \n"
 "that shop through the Tür to the\n"
 "left of the counter." EVENT
 )
@@ -9820,13 +9818,13 @@ DEFINE_MESSAGE(0x5048, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5049, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Sniff sniff sniff..." BOX_BREAK "What a mysterious smell..." BOX_BREAK "You must have something!"
+"Sniff sniff sniff..." BOX_BREAK "What a mysterious smell..." BOX_BREAK "du must have something!"
 )
 
 DEFINE_MESSAGE(0x504A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "That bum! He had to go into the \n"
 "Waud...\n"
-TEXT_SPEED("\x01") "....." TEXT_SPEED("\x00") "I see." TEXTID("\x50\x4B")
+TEXT_SPEED("\x01") "....." TEXT_SPEED("\x00") "Hm." TEXTID("\x50\x4B")
 )
 
 DEFINE_MESSAGE(0x504B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9849,7 +9847,7 @@ UNSKIPPABLE "Wenn d see that fool, give this to \n"
 
 DEFINE_MESSAGE(0x504E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hey, Goof! Wenn d want to carry \n"
-"medicine, you need a container to\n"
+"medicine, du need a container to\n"
 "put it in!" EVENT
 )
 
@@ -9870,13 +9868,13 @@ DEFINE_MESSAGE(0x5051, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5052, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Can you see it from there? \n"
+"Can du see it from there? \n"
 "Something is happening on " COLOR(RED) "Death \n"
 "Bärg" COLOR(DEFAULT) "!"
 )
 
 DEFINE_MESSAGE(0x5053, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Can you see it from there?\n"
+"Can du see it from there?\n"
 COLOR(RED) "Todesbärg " COLOR(DEFAULT) "is back to normal!"
 )
 
@@ -9888,8 +9886,8 @@ DEFINE_MESSAGE(0x5054, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5055, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Hey! guet to see you again! I'll\n"
-"give you this as a memento."
+UNSKIPPABLE "Hey! guet to see du again! I'll\n"
+"give du this as a memento."
 )
 
 DEFINE_MESSAGE(0x5056, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -9898,23 +9896,23 @@ DEFINE_MESSAGE(0x5056, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5057, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Hey! Giu, do you always enter\n"
+UNSKIPPABLE "Hey! Giu, do du always enter\n"
 "other people's houses without \n"
-"permission? Didn't your parents \n"
-"teach you any manners?" BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." BOX_BREAK UNSKIPPABLE "Did you see a lady behind this \n"
+"permission? Didn't dini parents \n"
+"teach du any manners?" BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." BOX_BREAK UNSKIPPABLE "Did du see a lady behind this \n"
 "house? She's going through hard \n"
 "times." BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." TEXTID("\x50\x58")
 )
 
 DEFINE_MESSAGE(0x5058, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"If that lady asks you about \n"
-"chickens, you should listen to her."
+"If that lady asks du about \n"
+"chickens, du should listen to her."
 )
 
 DEFINE_MESSAGE(0x5059, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Is visiting other people's houses \n"
-"at this late hour your idea of \n"
-"fun? You must not have had a \n"
+"at this late hour dini idea of \n"
+"fun? du must not have had a \n"
 "guet upbringing." BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." TEXTID("\x50\x5A")
 )
 
@@ -9926,15 +9924,15 @@ DEFINE_MESSAGE(0x505A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x505B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Hey! Junge Mah! A grown Giu\n"
-"like you entering a person's house\n"
+"like du entering a person's house\n"
 "without permission?! I want to\n"
-"talk to your parents!" BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." BOX_BREAK UNSKIPPABLE "This isn't my house anyway.\n"
+"talk to dini parents!" BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." BOX_BREAK UNSKIPPABLE "This isn't my house anyway.\n"
 "This is the " COLOR(RED) "great Impa's" COLOR(DEFAULT) " house!" BOX_BREAK UNSKIPPABLE "The great Impa has gone to the\n"
 COLOR(RED) "Fridhof " COLOR(DEFAULT) "to seal up the \n"
 "humongous creature there." BOX_BREAK UNSKIPPABLE "Since Ganondorf appeared, many \n"
 "monsters have been sighted \n"
 "around here." BOX_BREAK UNSKIPPABLE "Only the great Impa has kept \n"
-"peace in our Dorf. You have to\n"
+"peace in our Dorf. du have to\n"
 "remember that, jung man!" BOX_BREAK UNSKIPPABLE  SHIFT("\x42") "Oh well." BOX_BREAK UNSKIPPABLE "Speaking of the great Impa, she\n"
 "hasn't come back yet. I wonder \n"
 "what happened to her?" TEXTID("\x50\x5C")
@@ -9948,12 +9946,12 @@ DEFINE_MESSAGE(0x505C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x505D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Hi, Giu! Is this the first time\n"
-"you've visited this Dorf?" BOX_BREAK UNSKIPPABLE "A great woman, " COLOR(RED) "Impa" COLOR(DEFAULT) ", opened up\n"
+"du've visited this Dorf?" BOX_BREAK UNSKIPPABLE "A great woman, " COLOR(RED) "Impa" COLOR(DEFAULT) ", opened up\n"
 "this Dorf to us poor folk." TEXTID("\x50\x5E")
 )
 
 DEFINE_MESSAGE(0x505E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, make yourself at home.\n"
+"Well, make durself at home.\n"
 "The food isn't ready yet, though."
 )
 
@@ -9991,7 +9989,7 @@ UNSKIPPABLE "Ding dong, ding dong!\n"
 "be as lively as Schloss Hyrule \n"
 "Town! Oh, Ja! It will!" BOX_BREAK UNSKIPPABLE "Climb up the " COLOR(RED) "stairs at the north\n"
 COLOR(DEFAULT) "end of the Dorf to find the trail\n"
-"that leads up Todesbärg." BOX_BREAK UNSKIPPABLE "But you need the Chönig's permission\n"
+"that leads up Todesbärg." BOX_BREAK UNSKIPPABLE "But du need the Chönig's permission\n"
 "to actually go up the mountain."
 )
 
@@ -10003,15 +10001,15 @@ DEFINE_MESSAGE(0x5064, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x5065, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Ding dong, ding dong!\n"
 "The current time is: " TIME ".\n"
-"By the way, do you know what \n"
+"By the way, do du know what \n"
 "happened in the Schloss?"
 )
 
 DEFINE_MESSAGE(0x5066, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Hey, son, what are you doing \n"
+UNSKIPPABLE "Hey, son, what are du doing \n"
 "wandering around this late at \n"
-"night?" BOX_BREAK UNSKIPPABLE "Oh, I get it. D bisch testing your\n"
-"Muet, aren't you? You must \n"
+"night?" BOX_BREAK UNSKIPPABLE "Oh, I get it. D bisch testing dini\n"
+"Muet, aren't du? du must \n"
 "want to go to...a Fridhof!" BOX_BREAK UNSKIPPABLE "Wait a minute! What am I doing\n"
 "talking to a Goof? I've got work to\n"
 "do! Work! Work!" TEXTID("\x50\x67")
@@ -10019,15 +10017,15 @@ UNSKIPPABLE "Hey, son, what are you doing \n"
 
 DEFINE_MESSAGE(0x5067, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Ding dong, ding dong!\n"
-"The current time is: " TIME "." BOX_BREAK "Head east und you'll find a\n"
-COLOR(RED) "Fridhof" COLOR(DEFAULT) ". Legends say you can \n"
+"The current time is: " TIME "." BOX_BREAK "Head east und du'll find a\n"
+COLOR(RED) "Fridhof" COLOR(DEFAULT) ". Legends say du can \n"
 "calm the souls of the dead with\n"
 "an " COLOR(BLUE) "old Lied of the Chönigsfamilie" COLOR(DEFAULT) "."
 )
 
 DEFINE_MESSAGE(0x5068, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "There's a strange guy living in the \n"
-"Windmill. Have you already met\n"
+"Windmill. Have du already met\n"
 "him, Herr Held?"
 )
 
@@ -10054,7 +10052,7 @@ DEFINE_MESSAGE(0x506C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Those guys each do the work of \n"
 "half a man, but they still want a\n"
 "full man's portion!\n"
-"They're lazy slackers, I tell you!"
+"They're lazy slackers, I tell du!"
 )
 
 DEFINE_MESSAGE(0x506D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10104,7 +10102,7 @@ DEFINE_MESSAGE(0x5074, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x5075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"A job where you can make a lot\n"
+"A job where du can make a lot\n"
 "of money without much effort...\n"
 "The only thing I can think of is\n"
 "thievery... Is that a bad idea?"
@@ -10117,9 +10115,9 @@ DEFINE_MESSAGE(0x5076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x5077, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Have you seen " COLOR(RED) "Mr. Dampé" COLOR(DEFAULT) ", who\n"
+"Have du seen " COLOR(RED) "Mr. Dampé" COLOR(DEFAULT) ", who\n"
 "lives in the Fridhof up ahead?" BOX_BREAK "It's " TIME " right now, so he's\n"
-"probably asleep in his hut." BOX_BREAK "Why don't you go out onto the \n"
+"probably asleep in his hut." BOX_BREAK "Why don't du go out onto the \n"
 "field und kill some time?"
 )
 
@@ -10133,7 +10131,7 @@ DEFINE_MESSAGE(0x5079, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "This used to be the " COLOR(RED) "great \n"
 "Impa's house" COLOR(DEFAULT) ", but she doesn't\n"
 "live here any longer." BOX_BREAK UNSKIPPABLE "It is now open to all \n"
-"villagers. You are free to\n"
+"villagers. du are free to\n"
 "go on in." TEXTID("\x50\x7A")
 )
 
@@ -10145,7 +10143,7 @@ COLOR(BLUE) "Shiekah " COLOR(DEFAULT) "Dorf, but the \n"
 )
 
 DEFINE_MESSAGE(0x507B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I tell you, I saw him!" BOX_BREAK "I saw the Geischtly figure of Dampé\n"
+"I tell du, I saw him!" BOX_BREAK "I saw the Geischtly figure of Dampé\n"
 "dr Totegräber sinking into\n"
 "his grave. It looked like he was\n"
 "holding some kind of " COLOR(RED) "treasure" COLOR(DEFAULT) "!"
@@ -10155,20 +10153,20 @@ DEFINE_MESSAGE(0x507C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "There he is! It's him!\n"
 "He's the one who dropped from\n"
 "the sky surrounded by a blue\n"
-"light!" BOX_BREAK "Now do you believe me?"
+"light!" BOX_BREAK "Now do du believe me?"
 )
 
 DEFINE_MESSAGE(0x507D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Nobody believes what I've been\n"
 "telling them all Die past \n"
-"seven years!"
+"7 years!"
 )
 
 DEFINE_MESSAGE(0x507E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "The Füür almost consumed us all!\n"
 "But together, we all were able to\n"
 "put out the Füür! Pretty guet\n"
-"work, don't you think?"
+"work, don't du think?"
 )
 
 DEFINE_MESSAGE(0x507F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -10225,8 +10223,8 @@ DEFINE_MESSAGE(0x5087, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "A long time ago...\n"
 "There was a man in this very\n"
 "Dorf who had an Oug they said\n"
-"could see the truth!" BOX_BREAK "Now usually, you have to train\n"
-"your mind's Oug most strenuously\n"
+"could see the truth!" BOX_BREAK "Now usually, du have to train\n"
+"dini mind's Oug most strenuously\n"
 "to actually see the truth..." BOX_BREAK "But this fella, Nö, they say he\n"
 "had a different way of doing\n"
 "things..." BOX_BREAK "His house stood where the well is\n"
@@ -10247,14 +10245,14 @@ COLOR(RED) "fabulously rich Familie " COLOR(DEFAULT) "that once\n"
 DEFINE_MESSAGE(0x5089, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "He...." BOX_BREAK "What an annoying person,\n"
 "interrupting us like this...\n"
-"Don't you agree, my Liebi?"
+"Don't du agree, my Liebi?"
 )
 
 DEFINE_MESSAGE(0x508A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hihi..." BOX_BREAK "Violating our personal space!\n"
 "He must have something better\n"
 "to do...\n"
-"Don't you agree, darling?"
+"Don't du agree, darling?"
 )
 
 DEFINE_MESSAGE(0x508B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10272,27 +10270,27 @@ DEFINE_MESSAGE(0x508C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x508D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "That lazy man, he kind of \n"
-"reminded me of my chlii Richard..." BOX_BREAK "What's that? You say you've\n"
+"reminded me of my chlii Richard..." BOX_BREAK "What's that? du say du've\n"
 "never heard of my chlii Richard?\n"
-"He was such a famous puppy! You \n"
+"He was such a famous puppy! du \n"
 "seriously haven't heard of him?"
 )
 
 DEFINE_MESSAGE(0x508E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Oh, Nö! A storm again!!\n"
-"You played the Muugiige again,\n"
-"didn't you!!\n"
+"du played the Muugiige again,\n"
+"didn't du!!\n"
 "Grrrrrrrrrrrrrrr!!"
 )
 
 DEFINE_MESSAGE(0x508F, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"You caught a Nachtschwärmer!\n"
+"du caught a Nachtschwärmer!\n"
 "Sell it at the " COLOR(RED) "Geisterlade " COLOR(DEFAULT) "for a\n"
 "lot of money!"
 )
 
 DEFINE_MESSAGE(0x6000, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-QUICKTEXT_ENABLE "Halt! Stay where you are!" QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "Halt! Stay where du are!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x6001, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -10301,7 +10299,7 @@ DEFINE_MESSAGE(0x6001, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x6002, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey, newcomer! Wait a second \n"
-"and I'll open the gate for you."
+"and I'll open the gate for du."
 )
 
 DEFINE_MESSAGE(0x6003, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
@@ -10309,28 +10307,28 @@ QUICKTEXT_ENABLE "Don't take us so lightly!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x6004, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I've seen your fine work. To get \n"
-"past the guards here, you must \n"
+UNSKIPPABLE "I've seen dini fine work. To get \n"
+"past the guards here, du must \n"
 "have guet thieving skills." BOX_BREAK UNSKIPPABLE "I used to think that all men, \n"
 "besides the great Ganondorf, were \n"
 "useless...but now that I've seen\n"
-"you, I don't think so anymore!" BOX_BREAK UNSKIPPABLE  COLOR(RED) "The exalted Nabooru" COLOR(DEFAULT) ", our leader, \n"
+"du, I don't think so anymore!" BOX_BREAK UNSKIPPABLE  COLOR(RED) "The exalted Nabooru" COLOR(DEFAULT) ", our leader, \n"
 "put me in charge of this fortress." BOX_BREAK UNSKIPPABLE "Nabooru is the second-in-command\n"
 "to the great Ganondorf, Chönig of \n"
 "the Gerudo Thieves." BOX_BREAK UNSKIPPABLE "Her headquarters are in the " COLOR(YELLOW) "Spirit\n"
 "Tämpu" COLOR(DEFAULT) ", which is at the end of the\n"
-"desert." BOX_BREAK UNSKIPPABLE "Say, you must want to become \n"
+"desert." BOX_BREAK UNSKIPPABLE "Say, du must want to become \n"
 "one of us, eh?\n"
 "All right, then!\n"
-"D bisch in from now on!" BOX_BREAK UNSKIPPABLE "Take this. With it, you will\n"
+"D bisch in from now on!" BOX_BREAK UNSKIPPABLE "Take this. With it, du will\n"
 "have free access to all areas of\n"
 "the fortress!" EVENT
 )
 
 DEFINE_MESSAGE(0x6005, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "From now on, D bisch free to come\n"
-"and go as you please through the \n"
-"gate to the desert." BOX_BREAK "You'll find the " COLOR(YELLOW) "Geischtertämpu" COLOR(DEFAULT) "," COLOR(YELLOW) " \n"
+"and go as du please through the \n"
+"gate to the desert." BOX_BREAK "du'll find the " COLOR(YELLOW) "Geischtertämpu" COLOR(DEFAULT) "," COLOR(YELLOW) " \n"
 COLOR(DEFAULT) "where the exalted Nabooru lives,\n"
 "out there in the desert."
 )
@@ -10341,8 +10339,8 @@ QUICKTEXT_ENABLE "Stupid Giu!" QUICKTEXT_DISABLE "\n"
 )
 
 DEFINE_MESSAGE(0x6007, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I have Nö idea where you \n"
-"come from, but you must have a\n"
+UNSKIPPABLE "I have Nö idea where du \n"
+"come from, but du must have a\n"
 "lot of guts to make it past all\n"
 "the guards around here!" BOX_BREAK UNSKIPPABLE "All of my fellow carpenters\n"
 "are imprisoned somewhere in here." BOX_BREAK UNSKIPPABLE "Wenn d can get us out of here,\n"
@@ -10364,18 +10362,18 @@ QUICKTEXT_ENABLE  SHIFT("\x24") "The Entrance to the Future" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x600B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-SFX("\x38\xEC") "I'll be your guide on your way,\n"
+SFX("\x38\xEC") "I'll be dini guide on dini way,\n"
 "but coming back, I won't play!\n"
-"I'll show you the only way to go,\n"
+"I'll show du the only way to go,\n"
 "so follow me und don't be slow!" FADE("\x5A")
 )
 
 DEFINE_MESSAGE(0x600C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Past, present, future..." BOX_BREAK UNSKIPPABLE "The Masterschwärt is a ship with \n"
-"which you can sail upstream und\n"
+"which du can sail upstream und\n"
 "downstream through time's Fluss..." BOX_BREAK UNSKIPPABLE "The port for that ship is in the\n"
 "Tämpu vor Zyt..." BOX_BREAK UNSKIPPABLE "To restore the Wüeschtekoloss\n"
-"and enter the " COLOR(YELLOW) "Geischtertämpu" COLOR(DEFAULT) ", you\n"
+"and enter the " COLOR(YELLOW) "Geischtertämpu" COLOR(DEFAULT) ", du\n"
 "must travel back through time's\n"
 "flow..." BOX_BREAK UNSKIPPABLE "Listen to this " COLOR(YELLOW) "Geischterrequiem" COLOR(DEFAULT) "...\n"
 "This Melodie will lead a child back\n"
@@ -10383,7 +10381,7 @@ UNSKIPPABLE "Past, present, future..." BOX_BREAK UNSKIPPABLE "The Masterschwärt
 )
 
 DEFINE_MESSAGE(0x600D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I am the Gerudo master of \n"
+"i bi the Gerudo master of \n"
 "horseback archery! On top of \n"
 "that, I'm the Gerudo master of\n"
 "horseback riding!" BOX_BREAK "Want to try horseback archery\n"
@@ -10393,27 +10391,27 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 )
 
 DEFINE_MESSAGE(0x600E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You have guts--I like you. \n"
+"du have guts--I like du. \n"
 "Follow me."
 )
 
 DEFINE_MESSAGE(0x600F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"It's out of the question if you \n"
+"It's out of the question if du \n"
 "don't have a horse!"
 )
 
 DEFINE_MESSAGE(0x6010, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "I won't have anything to do with a\n"
-"coward like you!" QUICKTEXT_DISABLE
+"coward like du!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x6011, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ah, you are not as guet as you \n"
+"Ah, du are not as guet as du \n"
 "claim. Maybe next time."
 )
 
 DEFINE_MESSAGE(0x6012, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You did well." BOX_BREAK "For today, I admit I lost. \n"
+"du did well." BOX_BREAK "For today, I admit I lost. \n"
 "It seems I have a lot of room for \n"
 "improvement."
 )
@@ -10433,49 +10431,49 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Try\n"
 )
 
 DEFINE_MESSAGE(0x6015, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"All right, I'll take your 10 Rubine.\n"
-"Give it your best shot!" EVENT
+"All right, I'll take dini 10 Rubine.\n"
+"Give it dini best shot!" EVENT
 )
 
 DEFINE_MESSAGE(0x6016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You don't have enough money!\n"
+"du don't have enough money!\n"
 QUICKTEXT_ENABLE "Come back again." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x6017, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Hey, rookie!" BOX_BREAK UNSKIPPABLE "Are you going into the desert?\n"
-"I'll open this gate for you, but..." BOX_BREAK UNSKIPPABLE "You can't cross the desert \n"
-"unless you pass the " COLOR(RED) "two trials" COLOR(DEFAULT) "." TEXTID("\x60\x18")
+UNSKIPPABLE "Hey, rookie!" BOX_BREAK UNSKIPPABLE "Are du going into the desert?\n"
+"I'll open this gate for du, but..." BOX_BREAK UNSKIPPABLE "du can't cross the desert \n"
+"unless du pass the " COLOR(RED) "two trials" COLOR(DEFAULT) "." TEXTID("\x60\x18")
 )
 
 DEFINE_MESSAGE(0x6018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "The first trial is...the " COLOR(RED) "Fluss of \n"
-"Sand" COLOR(DEFAULT) "! You can't walk across this\n"
-"Fluss! After you cross it, follow\n"
+"Sand" COLOR(DEFAULT) "! du can't walk across this\n"
+"Fluss! After du cross it, follow\n"
 "the flags we placed there." BOX_BREAK "The second trial is...the " COLOR(RED) "Phantom\n"
 "Guide" COLOR(DEFAULT) "!" BOX_BREAK "Those without " COLOR(RED) "Ouge that can see\n"
 "the truth " COLOR(DEFAULT) "will only find themselves\n"
-"returning here." BOX_BREAK "You are going anyway, aren't you?\n"
-"I won't stop you...\n"
+"returning here." BOX_BREAK "du are going anyway, aren't du?\n"
+"I won't stop du...\n"
 "Go ahead!" EVENT
 )
 
 DEFINE_MESSAGE(0x6019, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Why did you come all the\n"
-"way down here? Was? You were\n"
+UNSKIPPABLE "Why did du come all the\n"
+"way down here? Was? du were\n"
 "just about to ask me the same \n"
 "thing?" TEXTID("\x60\x1A")
 )
 
 DEFINE_MESSAGE(0x601A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Well, now that D bisch down here, \n"
-"you may as well make the best of \n"
+"du may as well make the best of \n"
 "things!"
 )
 
 DEFINE_MESSAGE(0x601B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "guet Goof! Thanks!\n"
-"I'm sorry that I can't give you\n"
+"I'm sorry that I can't give du\n"
 "something as guet in return, but...\n"
 "take this anyway!"
 )
@@ -10485,7 +10483,7 @@ DEFINE_MESSAGE(0x601C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x601D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I haven't seen you around, Goof..." BOX_BREAK "What do you want?\n"
+UNSKIPPABLE "I haven't seen du around, Goof..." BOX_BREAK "What do du want?\n"
 THREE_CHOICE  COLOR(ADJUSTABLE) "To see the Tämpu\n"
 "Looking for the Weise\n"
 "Nothing, really" COLOR(DEFAULT)
@@ -10502,26 +10500,26 @@ DEFINE_MESSAGE(0x601F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x6020, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "You have nothing to do? What \n"
-"guet timing! Can you do me a \n"
-"favor, Goof?" BOX_BREAK UNSKIPPABLE "Wait a second, I want to ask you\n"
-"first--you wouldn't happen to be\n"
-"one of Ganondorf's..." BOX_BREAK "followers...would you?\n"
+UNSKIPPABLE "du have nothing to do? What \n"
+"guet timing! Can du do me a \n"
+"favor, Goof?" BOX_BREAK UNSKIPPABLE "Wait a second, I want to ask du\n"
+"first--du wouldn't happen to be\n"
+"one of Ganondorf's..." BOX_BREAK "followers...would du?\n"
 "\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "What if I am?\n"
+TWO_CHOICE  COLOR(ADJUSTABLE) "What if i bi?\n"
 "I hate Ganondorf!" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x6021, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Wha-ha-ha!\n"
 "Don't try to act cool, Goof.\n"
-"I was just asking!" BOX_BREAK UNSKIPPABLE "A Goof like you could never be\n"
+"I was just asking!" BOX_BREAK UNSKIPPABLE "A Goof like du could never be\n"
 "one of Ganondorf's followers!" BOX_BREAK UNSKIPPABLE "Well, let's cut to the chase..." TEXTID("\x60\x23")
 )
 
 DEFINE_MESSAGE(0x6022, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Uh-huh!" BOX_BREAK UNSKIPPABLE "You've got guts.\n"
-"I think I like you." TEXTID("\x60\x23")
+UNSKIPPABLE "Uh-huh!" BOX_BREAK UNSKIPPABLE "du've got guts.\n"
+"I think I like du." TEXTID("\x60\x23")
 )
 
 DEFINE_MESSAGE(0x6023, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -10531,48 +10529,48 @@ UNSKIPPABLE "First of all, let me introduce \n"
 "completely different from\n"
 "Ganondorf." BOX_BREAK UNSKIPPABLE "With his followers, he stole\n"
 "from women und children, und he \n"
-"even killed people!" BOX_BREAK UNSKIPPABLE "A Goof like you may not know this, \n"
+"even killed people!" BOX_BREAK UNSKIPPABLE "A Goof like du may not know this, \n"
 "but the Gerudo race consists only\n"
 "of women. Nume dä man is born\n"
 "every hundred years..." BOX_BREAK UNSKIPPABLE "Even though our laws say that\n"
 "lone male Gerudo must become\n"
 "Chönig of the Gerudo, I'll never\n"
-"bow to such an evil man!" BOX_BREAK UNSKIPPABLE "By the way, what is your name, \n"
+"bow to such an evil man!" BOX_BREAK UNSKIPPABLE "By the way, what is dini name, \n"
 "Goof?" BOX_BREAK UNSKIPPABLE  NAME "?!" BOX_BREAK UNSKIPPABLE "What kind of name is that?\n"
 "Well...anyway..." TEXTID("\x60\x24")
 )
 
 DEFINE_MESSAGE(0x6024, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I want to ask you a favor..." BOX_BREAK UNSKIPPABLE "Will you go through this tiny hole\n"
+UNSKIPPABLE "I want to ask du a favor..." BOX_BREAK UNSKIPPABLE "Will du go through this tiny hole\n"
 "and get a treasure that's inside?" BOX_BREAK UNSKIPPABLE "The treasure is the " COLOR(BLUE) "Silver\n"
-"Gauntlets" COLOR(DEFAULT) ". Wenn d equip them, you\n"
+"Gauntlets" COLOR(DEFAULT) ". Wenn d equip them, du\n"
 "can easily push und pull very \n"
 "heavy things!" BOX_BREAK UNSKIPPABLE "Nö, Nö, Nö, Goof! Don't even think\n"
 "about taking this treasure for \n"
-"yourself!" BOX_BREAK UNSKIPPABLE "The Silberhändsche won't fit a\n"
-"chlii Goof like you if you try to \n"
-"equip them! I want you to be a \n"
+"durself!" BOX_BREAK UNSKIPPABLE "The Silberhändsche won't fit a\n"
+"chlii Goof like du if du try to \n"
+"equip them! I want du to be a \n"
 "guet Giu und give them to me!" BOX_BREAK UNSKIPPABLE "Ganondorf und his minions are\n"
 "using the Geischtertämpu as a \n"
 "hideout." BOX_BREAK UNSKIPPABLE "Only the Silberhändsche will \n"
 "allow me to sneak deep into the\n"
 "Tämpu." BOX_BREAK UNSKIPPABLE "Once there, I'm going to steal all\n"
 "the treasure inside und mess up\n"
-"their plans!" BOX_BREAK "How about it? Will you do it?\n"
+"their plans!" BOX_BREAK "Wie wär's mit it? Will du do it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x6025, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Thanks, Goof!" BOX_BREAK UNSKIPPABLE "You und I, let's give Ganondorf\n"
+UNSKIPPABLE "Thanks, Goof!" BOX_BREAK UNSKIPPABLE "du und I, let's give Ganondorf\n"
 "and his followers a big surprise,\n"
 "shall we?" TEXTID("\x60\x26")
 )
 
 DEFINE_MESSAGE(0x6026, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Wenn d can successfully get the \n"
-COLOR(BLUE) "Silberhändsche" COLOR(DEFAULT) "..." BOX_BREAK "I'll do something great" COLOR(RED) " " COLOR(DEFAULT) "for you!"
+COLOR(BLUE) "Silberhändsche" COLOR(DEFAULT) "..." BOX_BREAK "I'll do something great" COLOR(RED) " " COLOR(DEFAULT) "for du!"
 )
 
 DEFINE_MESSAGE(0x6027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -10581,7 +10579,7 @@ DEFINE_MESSAGE(0x6027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x6028, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Hey! Where are you taking me?!"
+UNSKIPPABLE "Hey! Where are du taking me?!"
 )
 
 DEFINE_MESSAGE(0x6029, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
@@ -10652,25 +10650,25 @@ UNSKIPPABLE "Then we should brainwash her\n"
 )
 
 DEFINE_MESSAGE(0x6035, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Giu, let me thank you." BOX_BREAK UNSKIPPABLE "Heheheh...look what the chlii\n"
-"Goof has become in the past seven\n"
+UNSKIPPABLE "Giu, let me thank du." BOX_BREAK UNSKIPPABLE "Heheheh...look what the chlii\n"
+"Goof has become in the past 7\n"
 "years--a competent swordsman!"
 )
 
 DEFINE_MESSAGE(0x6036, TEXTBOX_TYPE_NONE_NO_SHADOW, TEXTBOX_POS_BOTTOM,
-"If only I knew you would become \n"
+"If only I knew du would become \n"
 "such a handsome man..." BOX_BREAK_DELAYED("\x50") "I should have kept the promise\n"
 "I made back then..." FADE("\x50")
 )
 
 DEFINE_MESSAGE(0x6037, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Here, I'll give you " COLOR(RED) "this" COLOR(DEFAULT) "...\n"
+UNSKIPPABLE "Here, I'll give du " COLOR(RED) "this" COLOR(DEFAULT) "...\n"
 "It's a very important thing to me.\n"
 "Let's have a competition later!"
 )
 
 DEFINE_MESSAGE(0x6038, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  NAME "...see you again!"
+UNSKIPPABLE  NAME "...see du again!"
 )
 
 DEFINE_MESSAGE(0x6039, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10687,7 +10685,7 @@ COLOR(YELLOW) "Weise of Spirit" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "And no
 DEFINE_MESSAGE(0x603A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Giu..." BOX_BREAK UNSKIPPABLE "Nö...\n"
 NAME ", the Held of Time!" BOX_BREAK UNSKIPPABLE "Instead of keeping the promise I\n"
-"made back then, I give you this\n"
+"made back then, I give du this\n"
 COLOR(YELLOW) "Medallion" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Take it!"
 )
 
@@ -10696,7 +10694,7 @@ UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x12") "Yeearggh!" QUICKTEXT_DISABLE " Let
 )
 
 DEFINE_MESSAGE(0x603C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE  SHIFT("\x33") "You, " QUICKTEXT_ENABLE "you fiends!" QUICKTEXT_DISABLE "\n"
+UNSKIPPABLE  SHIFT("\x33") "du, " QUICKTEXT_ENABLE "du fiends!" QUICKTEXT_DISABLE "\n"
 SHIFT("\x29") "Ganondorf's minions!"
 )
 
@@ -10715,25 +10713,25 @@ DEFINE_MESSAGE(0x603F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 COLOR(RED) "horseback archery field" COLOR(DEFAULT) "." BOX_BREAK "After a lot of hard practice und\n"
 "training, we finally have the skill\n"
 "to hit the bull's-Oug while riding\n"
-"like the wind!" BOX_BREAK "When you finally learn how to ride\n"
-"a horse, you should come back\n"
+"like the wind!" BOX_BREAK "When du finally learn how to ride\n"
+"a horse, du should come back\n"
 "and try it. It's a dangerous sport,\n"
 "but it's fun!"
 )
 
 DEFINE_MESSAGE(0x6040, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey newcomer, you have a fine \n"
-"horse!" BOX_BREAK "I don't know where you stole \n"
-"it from, but..." BOX_BREAK "OK, how about challenging this \n"
+"Hey newcomer, du have a fine \n"
+"horse!" BOX_BREAK "I don't know where du stole \n"
+"it from, but..." BOX_BREAK "OK, Wie wär's mit challenging this \n"
 COLOR(RED) "horseback archery" COLOR(DEFAULT) "?" BOX_BREAK "Once the horse starts galloping,\n"
-"shoot the Ziu with your\n"
-"Pfiile. " BOX_BREAK "Let's see how many points you \n"
-"can score. You get 20 Pfiile." BOX_BREAK "Wenn d can score " COLOR(RED) "1,000 points" COLOR(DEFAULT) ", I\n"
-"will give you something guet!" EVENT
+"shoot the Ziu with dini\n"
+"Pfiile. " BOX_BREAK "Let's see how many points du \n"
+"can score. du get 20 Pfiile." BOX_BREAK "Wenn d can score " COLOR(RED) "1,000 points" COLOR(DEFAULT) ", I\n"
+"will give du something guet!" EVENT
 )
 
 DEFINE_MESSAGE(0x6041, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do you want to try for " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "?\n"
+"Do du want to try for " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
@@ -10742,34 +10740,34 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 DEFINE_MESSAGE(0x6042, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey, rookie!\n"
 "D bisch looking guet!\n"
-"Show me your skill again!" BOX_BREAK "You should set a new goal of\n"
+"Show me dini skill again!" BOX_BREAK "du should set a new goal of\n"
 COLOR(RED) "1,500 points" COLOR(DEFAULT) " und try again!" EVENT
 )
 
 DEFINE_MESSAGE(0x6043, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Was? Do you want to try again?\n"
-"Looks like you have some\n"
+"Was? Do du want to try again?\n"
+"Looks like du have some\n"
 "potential!" EVENT
 )
 
 DEFINE_MESSAGE(0x6044, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'll be darned! You are the ultimate\n"
-"master!" BOX_BREAK "I will give you an item suitable\n"
+"I'll be darned! du are the ultimate\n"
+"master!" BOX_BREAK "I will give du an item suitable\n"
 "for the master." BOX_BREAK "This quiver is very important to \n"
-"me. I want you to have it.\n"
+"me. I want du to have it.\n"
 "Take guet care of it, OK?"
 )
 
 DEFINE_MESSAGE(0x6045, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 POINTS " points...Hmm...\n"
-"Wha-ha-ha! You have plenty of \n"
+"Wha-ha-ha! du have plenty of \n"
 "room for improvement!" EVENT
 )
 
 DEFINE_MESSAGE(0x6046, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Fantastic!\n"
-"You are a true master!" BOX_BREAK "I will give this to you.\n"
-"Keep improving yourself!"
+"Fantastisch!\n"
+"du are a true master!" BOX_BREAK "I will give this to du.\n"
+"Keep improving durself!"
 )
 
 DEFINE_MESSAGE(0x6047, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -10802,12 +10800,12 @@ SHIFT("\x3C") "right Kotake?" FADE("\x5A")
 
 DEFINE_MESSAGE(0x604C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 SHIFT("\x4B") "Was?" BOX_BREAK_DELAYED("\x14")  SHIFT("\x0A") "Hey, Koume, what is that above\n"
-SHIFT("\x41") "your head?" FADE("\x3C")
+SHIFT("\x41") "dini head?" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x604D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-SHIFT("\x0B") "I don't know, but you have one\n"
-SHIFT("\x14") "over your head too, Kotake!" FADE("\x3C")
+SHIFT("\x0B") "I don't know, but du have one\n"
+SHIFT("\x14") "over dini head too, Kotake!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x604E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10820,31 +10818,31 @@ SHIFT("\x14") "And I'm just 380 years old!" FADE("\x28")
 
 DEFINE_MESSAGE(0x6050, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  SHIFT("\x0C") "We're twins! Don't try to lie\n"
-SHIFT("\x35") "about your age!" QUICKTEXT_DISABLE  FADE("\x28")
+SHIFT("\x35") "about dini age!" QUICKTEXT_DISABLE  FADE("\x28")
 )
 
 DEFINE_MESSAGE(0x6051, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  SHIFT("\x06") "You must have gone senile!" QUICKTEXT_DISABLE  FADE("\x14")
+QUICKTEXT_ENABLE  SHIFT("\x06") "du must have gone senile!" QUICKTEXT_DISABLE  FADE("\x14")
 )
 
 DEFINE_MESSAGE(0x6052, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  SHIFT("\x1E") "Who are you calling senile?!\n"
-SHIFT("\x16") "Is that how you treat your\n"
+QUICKTEXT_ENABLE  SHIFT("\x1E") "Wär bisch calling senile?!\n"
+SHIFT("\x16") "Is that how du treat dini\n"
 SHIFT("\x3D") "older sister?" QUICKTEXT_DISABLE  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x6053, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  SHIFT("\x36") "Mir si twins! \n"
-SHIFT("\x26") "How can you be older?" QUICKTEXT_DISABLE  FADE("\x1E")
+SHIFT("\x26") "How can du be older?" QUICKTEXT_DISABLE  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x6054, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  SHIFT("\x3F") "Keeeyaaah!!" QUICKTEXT_DISABLE "\n"
-QUICKTEXT_ENABLE  SHIFT("\x20") "How heartless you are!" QUICKTEXT_DISABLE  FADE("\x14")
+QUICKTEXT_ENABLE  SHIFT("\x20") "How heartless du are!" QUICKTEXT_DISABLE  FADE("\x14")
 )
 
 DEFINE_MESSAGE(0x6055, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  SHIFT("\x12") "How can you be so ungrateful?" QUICKTEXT_DISABLE  FADE("\x0A")
+QUICKTEXT_ENABLE  SHIFT("\x12") "How can du be so ungrateful?" QUICKTEXT_DISABLE  FADE("\x0A")
 )
 
 DEFINE_MESSAGE(0x6056, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10852,11 +10850,11 @@ QUICKTEXT_ENABLE  SHIFT("\x35") "D bisch heartless!!" QUICKTEXT_DISABLE  FADE("\
 )
 
 DEFINE_MESSAGE(0x6057, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  SHIFT("\x33") "You ungrateful..." QUICKTEXT_DISABLE  FADE("\x04")
+QUICKTEXT_ENABLE  SHIFT("\x33") "du ungrateful..." QUICKTEXT_DISABLE  FADE("\x04")
 )
 
 DEFINE_MESSAGE(0x6058, TEXTBOX_TYPE_NONE_NO_SHADOW, TEXTBOX_POS_BOTTOM,
-QUICKTEXT_ENABLE  SHIFT("\x21") "I'll come back to haunt you!" QUICKTEXT_DISABLE  FADE("\x28")
+QUICKTEXT_ENABLE  SHIFT("\x21") "I'll come back to haunt du!" QUICKTEXT_DISABLE  FADE("\x28")
 )
 
 DEFINE_MESSAGE(0x6059, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10869,13 +10867,13 @@ SHIFT("\x1C")  QUICKTEXT_ENABLE "Double" QUICKTEXT_DISABLE " Dynamite " QUICKTEX
 )
 
 DEFINE_MESSAGE(0x605B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Did you come here to save me? \n"
+UNSKIPPABLE "Did du come here to save me? \n"
 "Oh, that's just swell! I'm " COLOR(RED) "Ichiro\n"
 "the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "We were really interested in \n"
 "joining their all-female group, but \n"
 "they locked us up like this just\n"
 "because we're men!" BOX_BREAK UNSKIPPABLE "We don't care about the Gerudo \n"
-"anymore! They're so rude!" BOX_BREAK UNSKIPPABLE  COLOR(RED) "Three of my fellows" COLOR(DEFAULT) " have also \n"
+"anymore! They're so rude!" BOX_BREAK UNSKIPPABLE  COLOR(RED) "3 of my fellows" COLOR(DEFAULT) " have also \n"
 "been captured, so please help \n"
 "them escape, too!"
 )
@@ -10888,12 +10886,12 @@ UNSKIPPABLE "D bisch a cute Goof! Merci for\n"
 "join them!" BOX_BREAK UNSKIPPABLE "I can't wait to say Tschüss to\n"
 "this place! " COLOR(RED) "Two of my buddies " COLOR(DEFAULT) "\n"
 "are still being held prisoner. Will\n"
-"you please get them out, too?"
+"du please get them out, too?"
 )
 
 DEFINE_MESSAGE(0x605D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Thanks, Giu! D bisch fantastic!\n"
-"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have you seen our boss, Giu?\n"
+UNSKIPPABLE "Thanks, Giu! D bisch Fantastisch!\n"
+"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have du seen our boss, Giu?\n"
 "He's probably worried about me!\n"
 "I have to get back to him \n"
 QUICKTEXT_ENABLE "immediately!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  COLOR(RED) "One more of our workers " COLOR(DEFAULT) "is still\n"
@@ -10901,17 +10899,17 @@ QUICKTEXT_ENABLE "immediately!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  COLOR(
 )
 
 DEFINE_MESSAGE(0x605E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "I was afraid you were going to \n"
+UNSKIPPABLE "I was afraid du were going to \n"
 "forget about me! Now I'm free!\n"
-"Thanks! I'm " COLOR(RED) "Shiro the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "For rescuing me, I'll tell you\n"
+"Thanks! I'm " COLOR(RED) "Shiro the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "For rescuing me, I'll tell du\n"
 "something interesting about the\n"
 "desert that I overheard the\n"
 "Gerudos talking about." BOX_BREAK UNSKIPPABLE "They said, \"In order to cross the\n"
-"Gspänschterwüeschti, you'll need the\n"
+"Gspänschterwüeschti, du'll need the\n"
 "'" COLOR(RED) "Wahrheitsoug" COLOR(DEFAULT) ".' The Colossus is on\n"
 "the far side of the wasteland...\"" BOX_BREAK UNSKIPPABLE "OK, now I'm going back to my\n"
 COLOR(RED) "tent near Gerudotau" COLOR(DEFAULT) ", so, \n"
-"drop by sometime. You may find \n"
+"drop by sometime. du may find \n"
 "something helpful there! Byeee!"
 )
 
@@ -10954,14 +10952,14 @@ UNSKIPPABLE "In Gerudo society, those who have\n"
 )
 
 DEFINE_MESSAGE(0x6065, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"How about trying horseback \n"
+"Wie wär's mit trying horseback \n"
 "archery at the Gerudofeschtig?" BOX_BREAK "Wenn d have a horse, a Gerudo \n"
 "from the fortress will set up \n"
-"your challenge."
+"dini challenge."
 )
 
 DEFINE_MESSAGE(0x6066, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"You did so great, jung man!"
+"du did so great, jung man!"
 )
 
 DEFINE_MESSAGE(0x6067, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10977,12 +10975,12 @@ DEFINE_MESSAGE(0x6068, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x6069, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "The " COLOR(RED) "Gerudofeschtig " COLOR(DEFAULT) "is located \n"
-"beyond this gate. A Goof like you \n"
+"beyond this gate. A Goof like du \n"
 "has Nö business there."
 )
 
 DEFINE_MESSAGE(0x606A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE  SFX("\x68\x55") "I am a " COLOR(RED) "master craftsman" COLOR(DEFAULT) ". Those\n"
+UNSKIPPABLE  SFX("\x68\x55") "i bi a " COLOR(RED) "master craftsman" COLOR(DEFAULT) ". Those\n"
 "Gerudo thieves...they broke the\n"
 "bridge." BOX_BREAK UNSKIPPABLE "I want to fix it, but all of my \n"
 "workers are gone!" BOX_BREAK UNSKIPPABLE "They said working as carpenters\n"
@@ -10992,14 +10990,14 @@ COLOR(RED) "Gerudofeschtig " COLOR(DEFAULT) "to become \n"
 )
 
 DEFINE_MESSAGE(0x606B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, you! Wenn d're going to the \n"
-"fortress, would you mind finding\n"
+"Hey, du! Wenn d're going to the \n"
+"fortress, would du mind finding\n"
 "out what my workers are doing\n"
 "over there?"
 )
 
 DEFINE_MESSAGE(0x606C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, I heard you saved my men.\n"
+"Hey, I heard du saved my men.\n"
 "When they returned, we built this\n"
 "bridge." BOX_BREAK "Look at this! \n"
 "Isn't it a fine bridge?" BOX_BREAK "They may be wimpy carpenters, \n"
@@ -11015,8 +11013,8 @@ UNSKIPPABLE  SFX("\x68\x55") "Hey, that saw! It's mine!" BOX_BREAK UNSKIPPABLE "
 DEFINE_MESSAGE(0x606E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "My Biggoron tool broke, so I was\n"
 "going to Goronedorf to get it\n"
-"repaired." BOX_BREAK "Your coming here is great timing.\n"
-"Will you give me my saw?\n"
+"repaired." BOX_BREAK "dini coming here is great timing.\n"
+"Will du give me my saw?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
@@ -11035,15 +11033,15 @@ DEFINE_MESSAGE(0x6070, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x6071, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "This is the Gerudo's" COLOR(RED) " Training\n"
 "Ground" COLOR(DEFAULT) ". D bisch qualified...\n"
-"C'mon in und hone your skills\n"
-"as much as you want." EVENT
+"C'mon in und hone dini skills\n"
+"as much as du want." EVENT
 )
 
 DEFINE_MESSAGE(0x6072, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "This is the Gerudo's" COLOR(RED) " Training \n"
 "Ground" COLOR(DEFAULT) ". Even though D bisch \n"
 "qualified, don't hog all the \n"
-"treasure here for yourself!"
+"treasure here for durself!"
 )
 
 DEFINE_MESSAGE(0x6073, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11051,9 +11049,9 @@ DEFINE_MESSAGE(0x6073, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x6074, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, that's too bad." BOX_BREAK "The mark that will lead you to the\n"
+"Oh, that's too bad." BOX_BREAK "The mark that will lead du to the\n"
 "Geischtertämpu is the " COLOR(RED) "flag on\n"
-"the left " COLOR(DEFAULT) "outside the shop." BOX_BREAK "Wenn d change your mind, please\n"
+"the left " COLOR(DEFAULT) "outside the shop." BOX_BREAK "Wenn d change dini mind, please\n"
 "come back again!"
 )
 
@@ -11065,45 +11063,45 @@ DEFINE_MESSAGE(0x6075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x6076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "He he.\n"
 "D bisch already in the middle of \n"
-"something, aren't you." BOX_BREAK "Wenn d want to challenge me, you\n"
+"something, aren't du." BOX_BREAK "Wenn d want to challenge me, du\n"
 "have to come here with a clear\n"
 "mind. Nö other distractions!"
 )
 
 DEFINE_MESSAGE(0x6077, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-SHIFT("\x41") "Well Come!" BOX_BREAK "I am selling stuff, strange und \n"
+SHIFT("\x41") "Well Come!" BOX_BREAK "i bi selling stuff, strange und \n"
 "rare, from all over the world to \n"
 "everybody.\n"
 "Today's special is..." BOX_BREAK "A dangerous, running object! \n"
 "Terrifying! \n"
-"I won't tell you what it is until \n"
-"I see the money...." BOX_BREAK "How about " COLOR(RED) "200 Rubine" COLOR(DEFAULT) "?\n"
+"I won't tell du what it is until \n"
+"Hm the money...." BOX_BREAK "Wie wär's mit " COLOR(RED) "200 Rubine" COLOR(DEFAULT) "?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Chouffe\n"
 "Nid chouffe" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x6078, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Merci viu mau!" BOX_BREAK "What I'm selling is..." TEXT_SPEED("\x02")  COLOR(RED) "Schnaagmine" COLOR(DEFAULT) "!" TEXT_SPEED("\x00")  BOX_BREAK "The mark that will lead you to\n"
+"Merci viu mau!" BOX_BREAK "What I'm selling is..." TEXT_SPEED("\x02")  COLOR(RED) "Schnaagmine" COLOR(DEFAULT) "!" TEXT_SPEED("\x00")  BOX_BREAK "The mark that will lead du to\n"
 "the Geischtertämpu is the " COLOR(RED) "flag on\n"
 "the left " COLOR(DEFAULT) "outside the shop.\n"
-"Be seeing you!"
+"Be seeing du!"
 )
 
 DEFINE_MESSAGE(0x6079, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Hey, what's up, " NAME "?\n"
 "Surprised to see me?" BOX_BREAK UNSKIPPABLE "A long time in this world is\n"
-"almost nothing to you, is it?\n"
+"almost nothing to du, is it?\n"
 "How mysterious!" BOX_BREAK UNSKIPPABLE "Even I thought that the tales of a\n"
 "Giu who could travel back und\n"
 "forth through time was merely a\n"
-"legend." BOX_BREAK UNSKIPPABLE  NAME ", you have fully \n"
+"legend." BOX_BREAK UNSKIPPABLE  NAME ", du have fully \n"
 "matured as an adult." TEXTID("\x60\x7A")
 )
 
 DEFINE_MESSAGE(0x607A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "From now on, the future of all the\n"
-"people in Hyrule is on your \n"
+"people in Hyrule is on dini \n"
 "shoulders." BOX_BREAK "Maybe it's not my time anymore. \n"
 "Here is my last advice." BOX_BREAK "Two witches inhabit this Tämpu. In \n"
 "order to destroy them, " COLOR(RED) "turn their \n"
@@ -11119,7 +11117,7 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 )
 
 DEFINE_MESSAGE(0x607C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I will continue to watch you...\n"
+UNSKIPPABLE "I will continue to watch du...\n"
 "Huu huu huu huu!"
 )
 
@@ -11127,8 +11125,8 @@ DEFINE_MESSAGE(0x607D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 UNSKIPPABLE "I'm the wandering running man!\n"
 "I've run all over this land in\n"
 "search of true competitive spirit." BOX_BREAK UNSKIPPABLE "I beat all my challengers, man und\n"
-"beast." BOX_BREAK UNSKIPPABLE "D bisch an athletic guy, und you\n"
-"look like you might have a true\n"
+"beast." BOX_BREAK UNSKIPPABLE "D bisch an athletic guy, und du\n"
+"look like du might have a true\n"
 "killer instinct, too." BOX_BREAK UNSKIPPABLE "Now that the bridge over Gerudo\n"
 "Valley is complete, I'm looking for\n"
 "a challenger to have a \n"
@@ -11138,7 +11136,7 @@ UNSKIPPABLE "I'm the wandering running man!\n"
 DEFINE_MESSAGE(0x607E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "The best time to go from here to \n"
 "the " COLOR(ADJUSTABLE) "bridge in the Verloreni Wäuder " COLOR(DEFAULT) "was\n"
-COLOR(RED)  HIGHSCORE(HS_MARATHON)  COLOR(DEFAULT) ".  That's my Rekord." BOX_BREAK "Will you challenge my Rekord?\n"
+COLOR(RED)  HIGHSCORE(HS_MARATHON)  COLOR(DEFAULT) ".  That's my Rekord." BOX_BREAK "Will du challenge my Rekord?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
@@ -11146,23 +11144,23 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 
 DEFINE_MESSAGE(0x607F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "Excellent!\n"
-"Then..." BOX_BREAK "You go first.\n"
-"I'll give you a headstart." BOX_BREAK "Now! " TEXT_SPEED("\x02") "Go ahead." TEXT_SPEED("\x00")
+"Then..." BOX_BREAK "du go first.\n"
+"I'll give du a headstart." BOX_BREAK "Now! " TEXT_SPEED("\x02") "Go ahead." TEXT_SPEED("\x00")
 )
 
 DEFINE_MESSAGE(0x6080, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "He he he.\n"
-"You'll never discover your\n"
+"du'll never discover dini\n"
 "killer instinct with that\n"
 "kind of attitude."
 )
 
 DEFINE_MESSAGE(0x6081, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
-"Well, not perfect, but you\n"
+"Well, not perfect, but du\n"
 "have some guts! Unfortunately,\n"
-"you never can beat me. Your\n"
-"Rekord is a thing of the past." BOX_BREAK "Your time was " COLOR(RED)  HIGHSCORE(HS_MARATHON)  COLOR(DEFAULT) ", wasn't it?\n"
-"That was close, but I beat you\n"
+"du never can beat me. dini\n"
+"Rekord is a thing of the past." BOX_BREAK "dini time was " COLOR(RED)  HIGHSCORE(HS_MARATHON)  COLOR(DEFAULT) ", wasn't it?\n"
+"That was close, but I beat du\n"
 "by one second!" EVENT
 )
 
@@ -11172,24 +11170,24 @@ DEFINE_MESSAGE(0x6082, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 )
 
 DEFINE_MESSAGE(0x6083, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
-"Oh, looks like you quit the race.\n"
-"He he he. I bet you had almost \n"
-"rediscovered your killer instinct!" FADE("\x3C")
+"Oh, looks like du quit the race.\n"
+"He he he. I bet du had almost \n"
+"rediscovered dini killer instinct!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x6084, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "He he.\n"
-"You don't have enough killer\n"
+"du don't have enough killer\n"
 "instinct yet." BOX_BREAK "Just train harder.\n"
 QUICKTEXT_ENABLE "Tschüss, then!" QUICKTEXT_DISABLE  EVENT
 )
 
 DEFINE_MESSAGE(0x6085, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 TEXT_SPEED("\x01")  QUICKTEXT_ENABLE "Huff..." QUICKTEXT_DISABLE  QUICKTEXT_ENABLE "puff..." QUICKTEXT_DISABLE  QUICKTEXT_ENABLE "huff..." QUICKTEXT_DISABLE  TEXT_SPEED("\x00")  BOX_BREAK "Huff...huff...whew!\n"
-"You did quite well!" BOX_BREAK "But you couldn't beat me!\n"
-"Your time was " COLOR(RED)  MARATHON_TIME  COLOR(DEFAULT) ", but I\n"
-"just beat you by one second!" BOX_BREAK "Huff...huff... \n"
-"You'll have to challenge me\n"
+"du did quite well!" BOX_BREAK "But du couldn't beat me!\n"
+"dini time was " COLOR(RED)  MARATHON_TIME  COLOR(DEFAULT) ", but I\n"
+"just beat du by one second!" BOX_BREAK "Huff...huff... \n"
+"du'll have to challenge me\n"
 "again sometime!" BOX_BREAK "Huff...huff...\n"
 QUICKTEXT_ENABLE "Tschüss, then!" QUICKTEXT_DISABLE  EVENT
 )
@@ -11202,8 +11200,8 @@ DEFINE_MESSAGE(0x6086, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
 "Gspänschterwüeschti, but it doesn't\n"
 "look like guet timing for that." BOX_BREAK "Though I want to go back to \n"
 "Hyrule Steppe, the bridge is...well,\n"
-"you can see it from here. So I'm\n"
-"stuck here, inside this tent." BOX_BREAK "I don't think I can accept your\n"
+"du can see it from here. So I'm\n"
+"stuck here, inside this tent." BOX_BREAK "I don't think I can accept dini\n"
 "challenge right now.\n"
 "He he!"
 )
@@ -11266,10 +11264,10 @@ DEFINE_MESSAGE(0x7003, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x7004, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Man, I am SO bored...\n"
+"Man, i bi SO bored...\n"
 "Things would sure be more\n"
 "interesting if there were more...\n"
-"troubles in the world..." BOX_BREAK "Hey, that's just between you und\n"
+"troubles in the world..." BOX_BREAK "Hey, that's just between du und\n"
 "me, OK?" BOX_BREAK "Anyway, maybe we can let off \n"
 "some steam by breaking Die \n"
 "jars." BOX_BREAK "Stand near a jar und drück " COLOR(BLUE) "[A]" COLOR(DEFAULT) " to\n"
@@ -11277,7 +11275,7 @@ DEFINE_MESSAGE(0x7004, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7005, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
-UNSKIPPABLE "That's great!" BOX_BREAK UNSKIPPABLE "I forgot to tell you..." EVENT
+UNSKIPPABLE "That's great!" BOX_BREAK UNSKIPPABLE "I forgot to tell du..." EVENT
 )
 
 DEFINE_MESSAGE(0x7006, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11288,15 +11286,15 @@ QUICKTEXT_ENABLE "There's a lot going on in the \n"
 )
 
 DEFINE_MESSAGE(0x7007, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Unnngh...are you the Giu from \n"
-"the Waud...?" BOX_BREAK UNSKIPPABLE "I-I-I've finally met you...\n"
+UNSKIPPABLE "Unnngh...are du the Giu from \n"
+"the Waud...?" BOX_BREAK UNSKIPPABLE "I-I-I've finally met du...\n"
 "I-I-I have something to t-t-tell\n"
-"you..." BOX_BREAK UNSKIPPABLE  COLOR(RED) "Ganondorf" COLOR(DEFAULT) ", the Gerudo Chönig of\n"
+"du..." BOX_BREAK UNSKIPPABLE  COLOR(RED) "Ganondorf" COLOR(DEFAULT) ", the Gerudo Chönig of\n"
 "Thieves, betrayed our Chönig..." BOX_BREAK UNSKIPPABLE "Zelda's nanny, " COLOR(RED) "Impa" COLOR(DEFAULT) ", sensed danger\n"
 "and escaped from the Schloss with\n"
 "our Prinzässin..." BOX_BREAK UNSKIPPABLE "I tried to stop Ganondorf's men\n"
 "from chasing them...but..." BOX_BREAK UNSKIPPABLE "The Prinzässin was...waiting for a\n"
-"Giu from the Waud...that's you...\n"
+"Giu from the Waud...that's du...\n"
 "She wanted to give " COLOR(RED) "something " COLOR(DEFAULT) "to\n"
 "the Giu..." BOX_BREAK UNSKIPPABLE "Wenn d received it from the \n"
 "Prinzässin, " TEXT_SPEED("\x03")  QUICKTEXT_ENABLE "hurry" QUICKTEXT_DISABLE "..." QUICKTEXT_ENABLE "to the" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "Tem" QUICKTEXT_DISABLE  QUICKTEXT_ENABLE "ple" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "of" QUICKTEXT_DISABLE "\n"
@@ -11308,20 +11306,20 @@ DEFINE_MESSAGE(0x7008, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7009, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Can you see the man mit dr \n"
+UNSKIPPABLE "Can du see the man mit dr \n"
 "evil Ouge?" BOX_BREAK UNSKIPPABLE "That is " COLOR(RED) "Ganondorf" COLOR(DEFAULT) ", the leader of \n"
 "the Gerudos. They hail from the \n"
 "desert far to the west." BOX_BREAK UNSKIPPABLE "Though he swears allegiance to my \n"
-"father, I am sure he is not \n"
+"father, i bi sure he is not \n"
 "sincere." BOX_BREAK UNSKIPPABLE "The dark clouds that covered \n"
 "Hyrule in my dream...\n"
 "They must symbolize that man!"
 )
 
 DEFINE_MESSAGE(0x700A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-SHIFT("\x0E") "Geh he he! Excellent work!" BOX_BREAK_DELAYED("\x3C")  SHIFT("\x08") "As I thought, you held the Schlüssle\n"
-SHIFT("\x26") "to the Zyttür!" BOX_BREAK_DELAYED("\x5A")  SHIFT("\x05") "You have led me to the gates of\n"
-SHIFT("\x2D") "the heilige Riich..." BOX_BREAK_DELAYED("\x50")  SHIFT("\x10") "Ja, I owe it all to you, Goof!" FADE("\x32")
+SHIFT("\x0E") "Geh he he! Excellent work!" BOX_BREAK_DELAYED("\x3C")  SHIFT("\x08") "As I thought, du held the Schlüssle\n"
+SHIFT("\x26") "to the Zyttür!" BOX_BREAK_DELAYED("\x5A")  SHIFT("\x05") "du have led me to the gates of\n"
+SHIFT("\x2D") "the heilige Riich..." BOX_BREAK_DELAYED("\x50")  SHIFT("\x10") "Ja, I owe it all to du, Goof!" FADE("\x32")
 )
 
 DEFINE_MESSAGE(0x700B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11346,24 +11344,24 @@ DEFINE_MESSAGE(0x700D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x700E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "It seems like it's taking forever\n"
 "for dawn to come..." BOX_BREAK "The view of Schloss Hyrule in \n"
-"the morning sun is so fantastic!"
+"the morning sun is so Fantastisch!"
 )
 
 DEFINE_MESSAGE(0x700F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"To save the Waud Meitschi, you need\n"
+"To save the Waud Meitschi, du need\n"
 COLOR(RED) "another skill" COLOR(DEFAULT) "... \n"
 "Head to Kakariko!"
 )
 
 DEFINE_MESSAGE(0x7010, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"It looks like you have the\n"
-"skills you need... \n"
-"The " COLOR(ADJUSTABLE) "Waud Meitschi" COLOR(DEFAULT) " is waiting for your\n"
+"It looks like du have the\n"
+"skills du need... \n"
+"The " COLOR(ADJUSTABLE) "Waud Meitschi" COLOR(DEFAULT) " is waiting for dini\n"
 "help...."
 )
 
 DEFINE_MESSAGE(0x7011, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wenn d want Tranks, you'd better \n"
+"Wenn d want Tranks, du'd better \n"
 "bring an lääri Fläsche. Understand,\n"
 "jung man?" PERSISTENT
 )
@@ -11378,13 +11376,13 @@ DEFINE_MESSAGE(0x7012, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
 DEFINE_MESSAGE(0x7013, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Wenn d plan on scaling Death\n"
 "Bärg, Chouffe a " COLOR(LIGHTBLUE) "Hyliaschiud" COLOR(DEFAULT) ".\n"
-"You can defend yourself against\n"
+"du can defend durself against\n"
 "falling rocks with that Schiud." BOX_BREAK "But it might be a chlii bit \n"
 "big for a Goof...." PERSISTENT
 )
 
 DEFINE_MESSAGE(0x7014, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm not dancing, you know...\n"
+"I'm not dancing, du know...\n"
 "My back itches! \n"
 "Ooh! Aaah! Ooh!"
 )
@@ -11396,7 +11394,7 @@ DEFINE_MESSAGE(0x7015, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7016, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Giu, have you been to \n"
+UNSKIPPABLE "Giu, have du been to \n"
 COLOR(YELLOW) "Lon Lon Farm" COLOR(DEFAULT) "?" BOX_BREAK UNSKIPPABLE "Their Miuch is fein!\n"
 "There are many horses there, und\n"
 "the jung daughter of the ranch\n"
@@ -11405,8 +11403,8 @@ COLOR(YELLOW) "Lon Lon Farm" COLOR(DEFAULT) "?" BOX_BREAK UNSKIPPABLE "Their Miu
 
 DEFINE_MESSAGE(0x7017, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "To get to " COLOR(YELLOW) "Lon Lon Farm" COLOR(DEFAULT) ", after\n"
-"you leave town, head due south\n"
-"across the field. You should visit\n"
+"du leave town, head due south\n"
+"across the field. du should visit\n"
 "the ranch at least once!"
 )
 
@@ -11440,7 +11438,7 @@ DEFINE_MESSAGE(0x701C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x701D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Do you know about the " COLOR(LIGHTBLUE) "Tämpu \n"
+UNSKIPPABLE "Do du know about the " COLOR(LIGHTBLUE) "Tämpu \n"
 "of Time " COLOR(DEFAULT) "that we have in the \n"
 "northeast part of town?" TEXTID("\x70\x1E")
 )
@@ -11448,11 +11446,11 @@ UNSKIPPABLE "Do you know about the " COLOR(LIGHTBLUE) "Tämpu \n"
 DEFINE_MESSAGE(0x701E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Legends say that the Tämpu of\n"
 "Time is the entrance to the \n"
-"heilige Riich..." BOX_BREAK "Did you know that?"
+"heilige Riich..." BOX_BREAK "Did du know that?"
 )
 
 DEFINE_MESSAGE(0x701F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Wha-ha-ha! What a crazy guy!" BOX_BREAK UNSKIPPABLE "Can you believe this guy was \n"
+UNSKIPPABLE "Wha-ha-ha! What a crazy guy!" BOX_BREAK UNSKIPPABLE "Can du believe this guy was \n"
 "crazy enough to try to sneak into\n"
 "the Schloss to see " COLOR(RED) "Prinzässin Zelda" COLOR(DEFAULT) "?" TEXTID("\x70\x20")
 )
@@ -11477,28 +11475,28 @@ DEFINE_MESSAGE(0x7022, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7023, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Hey, Waud Giu! This is the " COLOR(LIGHTBLUE) "city\n"
-"of Hyrule" COLOR(DEFAULT) "! Take your time und\n"
+"of Hyrule" COLOR(DEFAULT) "! Take dini time und\n"
 "enjoy the sights!" TEXTID("\x70\x24")
 )
 
 DEFINE_MESSAGE(0x7024, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Wenn d came here to see " COLOR(LIGHTBLUE) "Hyrule\n"
-"Castle" COLOR(DEFAULT) ", take the street on your\n"
+"Castle" COLOR(DEFAULT) ", take the street on dini\n"
 "right." BOX_BREAK "Wenn d want to see the " COLOR(BLUE) "back \n"
 "alleys" COLOR(DEFAULT) " of the town, take the\n"
 "street to the left."
 )
 
 DEFINE_MESSAGE(0x7025, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ohh..." BOX_BREAK "You are...so handsome..." BOX_BREAK "Just like the Chönig of Hyrule..." BOX_BREAK "Hihi..."
+"Ohh..." BOX_BREAK "du are...so handsome..." BOX_BREAK "Just like the Chönig of Hyrule..." BOX_BREAK "Hihi..."
 )
 
 DEFINE_MESSAGE(0x7026, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ohh..." BOX_BREAK "You are..." BOX_BREAK "more schöni..." BOX_BREAK "than Prinzässin Zelda..." BOX_BREAK "Ohh..."
+"Ohh..." BOX_BREAK "du are..." BOX_BREAK "more schöni..." BOX_BREAK "than Prinzässin Zelda..." BOX_BREAK "Ohh..."
 )
 
 DEFINE_MESSAGE(0x7027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Have you heard the legend of the\n"
+UNSKIPPABLE "Have du heard the legend of the\n"
 "\"Shadow Folk\"?" BOX_BREAK UNSKIPPABLE "They are the " COLOR(BLUE) "Sheikah" COLOR(DEFAULT) "...the shadows\n"
 "of the Hylians." BOX_BREAK UNSKIPPABLE "They say they swore allegiance to\n"
 "the Chönig of Hyrule und guarded\n"
@@ -11513,12 +11511,12 @@ COLOR(DEFAULT) "woman living in the Schloss..."
 )
 
 DEFINE_MESSAGE(0x7029, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"So you say you want to see\n"
-COLOR(RED) "Prinzässin Zelda" COLOR(DEFAULT) ", eh?" BOX_BREAK "You probably heard about her in\n"
-"town und decided you had to meet\n"
+"So du say du want to see\n"
+COLOR(RED) "Prinzässin Zelda" COLOR(DEFAULT) ", eh?" BOX_BREAK "du probably heard about her in\n"
+"town und decided du had to meet\n"
 "her... Well..." BOX_BREAK QUICKTEXT_ENABLE "Go home!" QUICKTEXT_DISABLE " " QUICKTEXT_ENABLE "Get out of here!" QUICKTEXT_DISABLE "\n"
 "The Prinzässin would never grant an\n"
-"audience to the likes of you!"
+"audience to the likes of du!"
 )
 
 DEFINE_MESSAGE(0x702A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11531,7 +11529,7 @@ UNSKIPPABLE  QUICKTEXT_ENABLE  SHIFT("\x2D") "What in tarnation?" QUICKTEXT_DISA
 )
 
 DEFINE_MESSAGE(0x702C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Hello, und who might you be?" BOX_BREAK UNSKIPPABLE "Yep, I'm " COLOR(RED) "Talon" COLOR(DEFAULT) ", the owner of Lon \n"
+UNSKIPPABLE "Hello, und who might du be?" BOX_BREAK UNSKIPPABLE "Yep, I'm " COLOR(RED) "Talon" COLOR(DEFAULT) ", the owner of Lon \n"
 "Lon Farm." BOX_BREAK UNSKIPPABLE "I went to the Schloss to deliver\n"
 "some Miuch, but I sat down here to\n"
 "rest, und I guess I fell asleep..." BOX_BREAK UNSKIPPABLE  SHIFT("\x4C")  SFX("\x68\x52") "Was?!\n"
@@ -11541,8 +11539,8 @@ UNSKIPPABLE "Hello, und who might you be?" BOX_BREAK UNSKIPPABLE "Yep, I'm " COL
 )
 
 DEFINE_MESSAGE(0x702D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-QUICKTEXT_ENABLE  SHIFT("\x37") "Hey you! Stop!\n"
-SHIFT("\x28") "You, Goof, over there!" QUICKTEXT_DISABLE  EVENT
+QUICKTEXT_ENABLE  SHIFT("\x37") "Hey du! Stop!\n"
+SHIFT("\x28") "du, Goof, over there!" QUICKTEXT_DISABLE  EVENT
 )
 
 DEFINE_MESSAGE(0x702E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -11550,11 +11548,11 @@ UNSKIPPABLE  SHIFT("\x5F") "!" BOX_BREAK_DELAYED("\x0A")  UNSKIPPABLE  SHIFT("\x
 )
 
 DEFINE_MESSAGE(0x702F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  SHIFT("\x3A") "Who are you?" BOX_BREAK UNSKIPPABLE "How did you get past the guards?" EVENT
+UNSKIPPABLE  SHIFT("\x3A") "Wär bisch?" BOX_BREAK UNSKIPPABLE "How did du get past the guards?" EVENT
 )
 
 DEFINE_MESSAGE(0x7030, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Do you have it? \n"
+"Do du have it? \n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
@@ -11562,9 +11560,9 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 
 DEFINE_MESSAGE(0x7031, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Well, that's odd...\n"
-"I thought you might be the one\n"
+"I thought du might be the one\n"
 "from my dream...\n"
-"You really don't have it?" BOX_BREAK "Tell me the truth..." EVENT
+"du really don't have it?" BOX_BREAK "Tell me the truth..." EVENT
 )
 
 DEFINE_MESSAGE(0x7032, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -11587,11 +11585,11 @@ UNSKIPPABLE "The legend goes like this..." EVENT
 )
 
 DEFINE_MESSAGE(0x7036, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  SHIFT("\x12") "The three Göttinne hid the\n"
+UNSKIPPABLE  SHIFT("\x12") "The 3 Göttinne hid the\n"
 SHIFT("\x07")  COLOR(RED) "Triforce " COLOR(DEFAULT) "containing the Chraft of\n"
 SHIFT("\x0D") "the gods somewhere in Hyrule." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x45") "The Chraft\n"
 SHIFT("\x03") "to grant the wish of the one who\n"
-SHIFT("\x0A") "holds the Triforce in his hands." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x03") "If someone with a righteous heart\n"
+SHIFT("\x0A") "holds the Triforce in his hands." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x03") "If someone with a righteous Härz\n"
 SHIFT("\x07") "makes a wish, it will lead Hyrule\n"
 SHIFT("\x09") "to a golden age of prosperity...." BOX_BREAK_DELAYED("\x3C")  UNSKIPPABLE  SHIFT("\x06") "If someone with an evil mind has\n"
 SHIFT("\x0A") "his wish granted, the world will\n"
@@ -11603,13 +11601,13 @@ SHIFT("\x20") "Triforce from evil ones." FADE("\x5A")
 
 DEFINE_MESSAGE(0x7037, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "That's right... Tämpu vor Zyt\n"
-"is the entrance through which you\n"
+"is the entrance through which du\n"
 "can enter the heilige Riich from\n"
 "our world." BOX_BREAK "But the entrance is sealed with\n"
 "a Stei wall called the \n"
 COLOR(LIGHTBLUE) "Zyttür" COLOR(DEFAULT) "." BOX_BREAK "And, in order to open the Tür,\n"
-"it is said that you need to collect\n"
-"three " COLOR(RED) "Steine" COLOR(DEFAULT) "." BOX_BREAK "And another thing you need...is\n"
+"it is said that du need to collect\n"
+"3 " COLOR(RED) "Steine" COLOR(DEFAULT) "." BOX_BREAK "And another thing du need...is\n"
 "the treasure that the Chönigsfamilie\n"
 "keeps along with this legend..." EVENT
 )
@@ -11620,7 +11618,7 @@ DEFINE_MESSAGE(0x7038, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x7039, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
-UNSKIPPABLE  QUICKTEXT_ENABLE "What happened?" QUICKTEXT_DISABLE " Did he see you?" BOX_BREAK UNSKIPPABLE "Don't worry." BOX_BREAK UNSKIPPABLE "He doesn't have any idea what\n"
+UNSKIPPABLE  QUICKTEXT_ENABLE "What happened?" QUICKTEXT_DISABLE " Did he see du?" BOX_BREAK UNSKIPPABLE "Don't worry." BOX_BREAK UNSKIPPABLE "He doesn't have any idea what\n"
 "we're planning...yet!" EVENT
 )
 
@@ -11628,7 +11626,7 @@ DEFINE_MESSAGE(0x703A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Please!\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "OK\n"
-"I don't believe you." COLOR(DEFAULT)
+"I don't believe du." COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x703B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -11636,22 +11634,22 @@ UNSKIPPABLE  SHIFT("\x42") "Merci!" EVENT
 )
 
 DEFINE_MESSAGE(0x703C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"My attendant will guide you out of\n"
+"My attendant will guide du out of\n"
 "the Schloss. Don't be afraid to talk\n"
 "to her."
 )
 
 DEFINE_MESSAGE(0x703D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "The Stei...\n"
-"You finally found it!" BOX_BREAK "It is said that the races that hold\n"
+"du finally found it!" BOX_BREAK "It is said that the races that hold\n"
 "the Steine open their\n"
 "minds only to one who knows the\n"
-COLOR(BLUE) "Melodie of the Chönigsfamilie" COLOR(DEFAULT) "." BOX_BREAK "But you already know that, don't\n"
-"you?"
+COLOR(BLUE) "Melodie of the Chönigsfamilie" COLOR(DEFAULT) "." BOX_BREAK "But du already know that, don't\n"
+"du?"
 )
 
 DEFINE_MESSAGE(0x703E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, have you heard that\n"
+"Hey, have du heard that\n"
 "Prinzässin Zelda sees prophetic \n"
 "visions in her dreams?"
 )
@@ -11661,14 +11659,14 @@ DEFINE_MESSAGE(0x703F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7040, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-"There are three hollows und \n"
+"There are 3 hollows und \n"
 "an inscription here...." BOX_BREAK QUICKTEXT_ENABLE "Ye who owns 3 Steine " COLOR(BLUE) "\n"
 COLOR(DEFAULT) "Stand mit dr " COLOR(LIGHTBLUE) "Okarina vor Zyt" COLOR(BLUE) "\n"
 COLOR(DEFAULT) "And Spiu ds " COLOR(LIGHTBLUE) "Zytlied" COLOR(DEFAULT)  QUICKTEXT_DISABLE  BOX_BREAK "That is how the inscription reads." EVENT
 )
 
 DEFINE_MESSAGE(0x7041, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"C'mon, can't you make it any\n"
+"C'mon, can't du make it any\n"
 "cheaper?"
 )
 
@@ -11722,7 +11720,7 @@ DEFINE_MESSAGE(0x704A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x704B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Something happened in the Schloss!\n"
-"Giu, you'd better be careful!"
+"Giu, du'd better be careful!"
 )
 
 DEFINE_MESSAGE(0x704C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11733,7 +11731,7 @@ DEFINE_MESSAGE(0x704C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x704D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "The one riding on the Wiiss horse\n"
 "holding the chlii Meitschi...\n"
-"Wasn't that a legendary Sheikah?"
+"Wasn't that a legendär Sheikah?"
 )
 
 DEFINE_MESSAGE(0x704E, TEXTBOX_TYPE_NONE_NO_SHADOW, TEXTBOX_POS_BOTTOM,
@@ -11742,7 +11740,7 @@ SHIFT("\x05")  NAME ", the chosen one..."
 )
 
 DEFINE_MESSAGE(0x704F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I am " COLOR(RED) "Rauru" COLOR(DEFAULT) ", one of the ancient\n"
+UNSKIPPABLE "i bi " COLOR(RED) "Rauru" COLOR(DEFAULT) ", one of the ancient\n"
 "Weise..." BOX_BREAK UNSKIPPABLE "Ages ago, we ancient Weise\n"
 "built the Tämpu vor Zyt to \n"
 "protect the entrance to the\n"
@@ -11751,17 +11749,17 @@ COLOR(DEFAULT) "inside the Tämpu of Light..." BOX_BREAK UNSKIPPABLE "The Tämpu
 "the very center of the heilig \n"
 "Realm, is the last stronghold \n"
 "against Ganondorf's evil forces." BOX_BREAK UNSKIPPABLE "The " COLOR(RED) "Masterschwärt" COLOR(DEFAULT) "--the evil-\n"
-"destroying sword that you pulled\n"
+"destroying sword that du pulled\n"
 "out of the Pedestal of Time--was \n"
 "the final Schlüssu to the heilige Riich." BOX_BREAK UNSKIPPABLE  NAME "...\n"
 "Don't be alarmed...\n"
-"Look at yourself...!"
+"Look at durself...!"
 )
 
 DEFINE_MESSAGE(0x7050, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  SHIFT("\x23")  COLOR(LIGHTBLUE) "Look " NAME "!\n"
 COLOR(DEFAULT)  SHIFT("\x32")  COLOR(LIGHTBLUE) "D bisch big now!!\n"
-COLOR(DEFAULT)  SHIFT("\x31")  COLOR(LIGHTBLUE) "You've grown up!" COLOR(DEFAULT)
+COLOR(DEFAULT)  SHIFT("\x31")  COLOR(LIGHTBLUE) "du've grown up!" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x7051, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -11769,30 +11767,30 @@ UNSKIPPABLE "The Masterschwärt is a sacred\n"
 "blade which evil ones may never\n"
 "touch...." BOX_BREAK UNSKIPPABLE "Nume dä worthy of the title of\n"
 "\"" COLOR(RED) "Held of Time" COLOR(DEFAULT) "\"" COLOR(RED) " " COLOR(DEFAULT) "can pull it from \n"
-"the Pedestal of Time...." BOX_BREAK UNSKIPPABLE "However, you were too jung to \n"
-"be the Held of Time...." BOX_BREAK UNSKIPPABLE "Therefore, your spirit was \n"
-"sealed here for seven years." BOX_BREAK UNSKIPPABLE "And now that you are old enough,\n"
-"the time has come for you to\n"
-"awaken" COLOR(RED) " " COLOR(DEFAULT) "as the Held of Time!" BOX_BREAK "Well, do you understand your \n"
+"the Pedestal of Time...." BOX_BREAK UNSKIPPABLE "However, du were too jung to \n"
+"be the Held of Time...." BOX_BREAK UNSKIPPABLE "Therefore, dini spirit was \n"
+"sealed here for 7 years." BOX_BREAK UNSKIPPABLE "And now that du are old enough,\n"
+"the time has come for du to\n"
+"awaken" COLOR(RED) " " COLOR(DEFAULT) "as the Held of Time!" BOX_BREAK "Well, do du understand dini \n"
 "destiny?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x7052, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Right, it looks like you are \n"
-"confused... Let me tell you \n"
+"Right, it looks like du are \n"
+"confused... Let me tell du \n"
 "again, from the beginning." TEXTID("\x70\x51")
 )
 
 DEFINE_MESSAGE(0x7053, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "But, remember..." BOX_BREAK UNSKIPPABLE "Though you opened the Tür of \n"
+UNSKIPPABLE "But, remember..." BOX_BREAK UNSKIPPABLE "Though du opened the Tür of \n"
 "Time in the name of peace..." BOX_BREAK UNSKIPPABLE  COLOR(RED) "Ganondorf" COLOR(DEFAULT) ", the Gerudo Chönig of\n"
 "Thieves, used it to enter this \n"
 "forbidden heilige Riich!" BOX_BREAK UNSKIPPABLE "He obtained the Triforce from\n"
 "the Tämpu of Light, und with its \n"
 "Chraft, he became the " COLOR(RED) "Chönig of Evil" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "His evil Chraft radiated from the\n"
-"Tämple of Hyrule, und in seven\n"
+"Tämple of Hyrule, und in 7\n"
 "short years, it transformed Hyrule\n"
 "into a world of monsters." BOX_BREAK UNSKIPPABLE "My Chraft now has only chlii \n"
 "influence, even in this heilig\n"
@@ -11800,22 +11798,22 @@ UNSKIPPABLE "But, remember..." BOX_BREAK UNSKIPPABLE "Though you opened the Tür
 COLOR(DEFAULT) "is awakened..." BOX_BREAK UNSKIPPABLE "The " COLOR(RED) "Weise' Seals" COLOR(DEFAULT) " will contain\n"
 "all the evil Chraft in the void of \n"
 "the Realm..." BOX_BREAK UNSKIPPABLE "I, Rauru, am one of the Weise...\n"
-"And..." BOX_BREAK UNSKIPPABLE "Your Chraft to fight together with\n"
-"the Weise makes you the \n"
+"And..." BOX_BREAK UNSKIPPABLE "dini Chraft to fight together with\n"
+"the Weise makes du the \n"
 COLOR(RED) "Held of Time" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "The Held of Time, chosen by the\n"
-"Masterschwärt!" BOX_BREAK UNSKIPPABLE "Keep my spirit with you...\n"
+"Masterschwärt!" BOX_BREAK UNSKIPPABLE "Keep my spirit with du...\n"
 "And, find the Chraft of the other\n"
-"Weise und add their might to your\n"
+"Weise und add their might to dini\n"
 "own!"
 )
 
 DEFINE_MESSAGE(0x7054, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  COLOR(LIGHTBLUE)  NAME "...we're back in the\n"
 COLOR(DEFAULT) "Tämpu vor Zyt" COLOR(LIGHTBLUE) "...\n"
-"But have " COLOR(DEFAULT) "seven years" COLOR(LIGHTBLUE) " really\n"
-"passed?" COLOR(DEFAULT)  BOX_BREAK UNSKIPPABLE  COLOR(LIGHTBLUE) "It looks like you won't be\n"
+"But have " COLOR(DEFAULT) "7 years" COLOR(LIGHTBLUE) " really\n"
+"passed?" COLOR(DEFAULT)  BOX_BREAK UNSKIPPABLE  COLOR(LIGHTBLUE) "It looks like du won't be\n"
 "able to use some of the " COLOR(DEFAULT) "weapons" COLOR(LIGHTBLUE) "\n"
-"you found as a Goof anymore..." BOX_BREAK COLOR(DEFAULT)  UNSKIPPABLE  COLOR(LIGHTBLUE) "Let's get out of here!" COLOR(DEFAULT)
+"du found as a Goof anymore..." BOX_BREAK COLOR(DEFAULT)  UNSKIPPABLE  COLOR(LIGHTBLUE) "Let's get out of here!" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x7055, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -11825,7 +11823,7 @@ DEFINE_MESSAGE(0x7055, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7056, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I've been waiting for you, \n"
+UNSKIPPABLE "I've been waiting for du, \n"
 "Held of Time..."
 )
 
@@ -11854,13 +11852,13 @@ UNSKIPPABLE "Use the " COLOR(RED) "Masterschwärt" COLOR(DEFAULT) "!\n"
 )
 
 DEFINE_MESSAGE(0x705A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE "I have been waiting for you,\n"
+UNSKIPPABLE "I have been waiting for du,\n"
 NAME "."
 )
 
 DEFINE_MESSAGE(0x705B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  NAME ", the Held of Time..." BOX_BREAK UNSKIPPABLE "You have overcome many \n"
-"hardships und awakened six Weise." BOX_BREAK UNSKIPPABLE "And now you have a final\n"
+UNSKIPPABLE  NAME ", the Held of Time..." BOX_BREAK UNSKIPPABLE "du have overcome many \n"
+"hardships und awakened six Weise." BOX_BREAK UNSKIPPABLE "And now du have a final\n"
 "challenge, a showdown with \n"
 "Ganondorf, the Chönig of Evil...."
 )
@@ -11870,18 +11868,18 @@ UNSKIPPABLE  SHIFT("\x10") "Wenn d would seek the sacred\n"
 SHIFT("\x28") "triangle, listen well..." BOX_BREAK_DELAYED("\x3C")  UNSKIPPABLE  SHIFT("\x09") "The resting place of the sacred\n"
 SHIFT("\x09") "triangle, the heilige Riich, is a\n"
 SHIFT("\x14") "mirror that reflects what is\n"
-SHIFT("\x3B") "in the heart..." BOX_BREAK_DELAYED("\x46")  UNSKIPPABLE  SHIFT("\x05") "the heart of one who enters it...\n"
-SHIFT("\x0C") "If an evil heart, the Realm will\n"
+SHIFT("\x3B") "in the Härz..." BOX_BREAK_DELAYED("\x46")  UNSKIPPABLE  SHIFT("\x05") "the Härz of one who enters it...\n"
+SHIFT("\x0C") "If an evil Härz, the Realm will\n"
 SHIFT("\x14") "become full of evil; if pure,\n"
 SHIFT("\x04") "the Realm will become a paradise." BOX_BREAK_DELAYED("\x5A")  UNSKIPPABLE  SHIFT("\x02") "The Triforce...the sacred triangle...\n"
 SHIFT("\x0A") "it is a balance that weighs the\n"
-SHIFT("\x3C") "three forces:\n"
-SHIFT("\x13") "Power, Wisdom und Courage." BOX_BREAK_DELAYED("\x5A")  UNSKIPPABLE  SHIFT("\x02") "If the heart of the one who holds\n"
-SHIFT("\x06") "the sacred triangle has all three\n"
+SHIFT("\x3C") "3 forces:\n"
+SHIFT("\x13") "Power, Wisdom und Courage." BOX_BREAK_DELAYED("\x5A")  UNSKIPPABLE  SHIFT("\x02") "If the Härz of the one who holds\n"
+SHIFT("\x06") "the sacred triangle has all 3\n"
 SHIFT("\x0A") "forces in balance, that one will\n"
-SHIFT("\x03") "gain the True Force to govern all." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x06") "But, if that one's heart is not in\n"
+SHIFT("\x03") "gain the True Force to govern all." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x06") "But, if that one's Härz is not in\n"
 SHIFT("\x02") "balance, the Triforce will separate\n"
-SHIFT("\x32") "into three parts:\n"
+SHIFT("\x32") "into 3 parts:\n"
 SHIFT("\x13") "Power, Wisdom und Courage." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE  SHIFT("\x04") "Nume dä part will remain for the\n"
 SHIFT("\x02") "one who touched the Triforce...the\n"
 SHIFT("\x07") "part representing the force that\n"
@@ -11894,9 +11892,9 @@ SHIFT("\x11") "on the backs of their hands." FADE("\x5A")
 )
 
 DEFINE_MESSAGE(0x705D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Seven years ago, Ganondorf, the \n"
+UNSKIPPABLE "7 years ago, Ganondorf, the \n"
 "Chönig of Thieves, used the Tür \n"
-"you opened in the Tämpu vor Zyt\n"
+"du opened in the Tämpu vor Zyt\n"
 "and entered the heilige Riich." BOX_BREAK UNSKIPPABLE "But when he laid his hands on the\n"
 "Triforce, the legend came true."
 )
@@ -11904,7 +11902,7 @@ UNSKIPPABLE "Seven years ago, Ganondorf, the \n"
 DEFINE_MESSAGE(0x705E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "The one who holds the " COLOR(RED) "Triforce \n"
 "of Courage " COLOR(DEFAULT) "is...\n"
-"You, " NAME "!"
+"du, " NAME "!"
 )
 
 DEFINE_MESSAGE(0x705F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -11920,21 +11918,21 @@ COLOR(RED) "Zelda" COLOR(DEFAULT) "."
 )
 
 DEFINE_MESSAGE(0x7061, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I apologize for meeting you in \n"
+UNSKIPPABLE "I apologize for meeting du in \n"
 "disguise, but it was necessary to\n"
 "hide from the Chönig of Evil. \n"
 "Bitte vergib mir..."
 )
 
 DEFINE_MESSAGE(0x7062, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
-"I saw you as I was escaping \n"
+"I saw du as I was escaping \n"
 "from the Schloss with my \n"
 "attendant, Impa." FADE("\x50")
 )
 
 DEFINE_MESSAGE(0x7063, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "As long as you had the Okarina \n"
-"in your possession, I thought \n"
+UNSKIPPABLE "As long as du had the Okarina \n"
+"in dini possession, I thought \n"
 "Ganondorf could never enter the\n"
 "heilige Riich, but..." BOX_BREAK UNSKIPPABLE "something I could never expect\n"
 "happened..."
@@ -11945,9 +11943,9 @@ UNSKIPPABLE  SHIFT("\x24") "That rumbling...It can't be!?"
 )
 
 DEFINE_MESSAGE(0x7065, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Prinzässin Zelda...you foolish \n"
-"traitor!" BOX_BREAK UNSKIPPABLE "I commend you for avoiding my \n"
-"pursuit for seven long years."
+UNSKIPPABLE "Prinzässin Zelda...du foolish \n"
+"traitor!" BOX_BREAK UNSKIPPABLE "I commend du for avoiding my \n"
+"pursuit for 7 long years."
 )
 
 DEFINE_MESSAGE(0x7066, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
@@ -11956,7 +11954,7 @@ UNSKIPPABLE "Wenn d want to rescue Zelda,\n"
 )
 
 DEFINE_MESSAGE(0x7067, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_TOP,
-UNSKIPPABLE  NAME "...can you hear me?\n"
+UNSKIPPABLE  NAME "...can du hear me?\n"
 "It's Rauru, the Weise." BOX_BREAK UNSKIPPABLE "We six will gather our Chraft to\n"
 "create a bridge to the Schloss\n"
 "where Ganondorf dwells..." BOX_BREAK UNSKIPPABLE "The Schloss's keep, which is \n"
@@ -12002,7 +12000,7 @@ UNSKIPPABLE "Oh sealed Tür opened by the \n"
 )
 
 DEFINE_MESSAGE(0x706F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Merci, " NAME "..." BOX_BREAK UNSKIPPABLE "Thanks to you, Ganondorf has\n"
+UNSKIPPABLE "Merci, " NAME "..." BOX_BREAK UNSKIPPABLE "Thanks to du, Ganondorf has\n"
 "been sealed inside the Evil Realm!" BOX_BREAK UNSKIPPABLE "Thus, peace will once again\n"
 "reign in this world...for a time."
 )
@@ -12013,7 +12011,7 @@ SHIFT("\x32")  NAME "..." BOX_BREAK_DELAYED("\x28")  UNSKIPPABLE  SHIFT("\x32") 
 )
 
 DEFINE_MESSAGE(0x7071, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do you really want to go through\n"
+"Do du really want to go through\n"
 "this gate that much? Let me think\n"
 "about it... OK, but in return..." TEXTID("\x70\x72")
 )
@@ -12032,18 +12030,18 @@ DEFINE_MESSAGE(0x7073, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 )
 
 DEFINE_MESSAGE(0x7074, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "You destroyed the wicked\n"
+UNSKIPPABLE "du destroyed the wicked\n"
 "creatures that haunted the Tämpu\n"
 "and awakened the Weise..." BOX_BREAK UNSKIPPABLE "But there are still other Weise\n"
-"who need your help." BOX_BREAK UNSKIPPABLE "In order to awaken all the other\n"
-"Weise, you must become even\n"
-"more powerful." BOX_BREAK UNSKIPPABLE "You must travel over\n"
+"who need dini help." BOX_BREAK UNSKIPPABLE "In order to awaken all the other\n"
+"Weise, du must become even\n"
+"more powerful." BOX_BREAK UNSKIPPABLE "du must travel over\n"
 "mountains..." BOX_BREAK UNSKIPPABLE "under Wasser..." BOX_BREAK UNSKIPPABLE "and even through time..."
 )
 
 DEFINE_MESSAGE(0x7075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "As long as you hold the " COLOR(LIGHTBLUE) "Okarina\n"
-"of Time" COLOR(DEFAULT) " und the " COLOR(LIGHTBLUE) "Masterschwärt" COLOR(DEFAULT) "," BOX_BREAK UNSKIPPABLE "you hold time itself in your\n"
+UNSKIPPABLE "As long as du hold the " COLOR(LIGHTBLUE) "Okarina\n"
+"of Time" COLOR(DEFAULT) " und the " COLOR(LIGHTBLUE) "Masterschwärt" COLOR(DEFAULT) "," BOX_BREAK UNSKIPPABLE "du hold time itself in dini\n"
 "hands..." BOX_BREAK UNSKIPPABLE  NAME ", we shall meet \n"
 "again!"
 )
@@ -12056,20 +12054,20 @@ DEFINE_MESSAGE(0x7076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7077, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I am " COLOR(RED) "Sheik" COLOR(DEFAULT) ".\n"
+UNSKIPPABLE "i bi " COLOR(RED) "Sheik" COLOR(DEFAULT) ".\n"
 "Survivor of the Sheikahs..."
 )
 
 DEFINE_MESSAGE(0x7078, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "As I see you standing there\n"
+UNSKIPPABLE "As Hm du standing there\n"
 "holding the mythical " COLOR(RED) "Master \n"
-"Schwärt" COLOR(DEFAULT) ", you really do look like the \n"
-"legendary Held of Time..."
+"Schwärt" COLOR(DEFAULT) ", du really do look like the \n"
+"legendär Held of Time..."
 )
 
 DEFINE_MESSAGE(0x7079, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Wenn d believe the legend, you\n"
-"have Nö choice. You must look for\n"
+UNSKIPPABLE "Wenn d believe the legend, du\n"
+"have Nö choice. du must look for\n"
 "the five Tämple und awaken the\n"
 COLOR(RED) "five Weise" COLOR(DEFAULT) "...."
 )
@@ -12077,33 +12075,33 @@ COLOR(RED) "five Weise" COLOR(DEFAULT) "...."
 DEFINE_MESSAGE(0x707A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "One Weise is waiting for the time\n"
 "of awakening in the " COLOR(ADJUSTABLE) "Waudtämpu" COLOR(DEFAULT) ".\n"
-"The Weise is a Meitschi I am sure you\n"
+"The Weise is a Meitschi i bi sure du\n"
 "know..." BOX_BREAK UNSKIPPABLE "Because of the evil Chraft in the\n"
 "Tämpu, she cannot hear the\n"
 "awakening call from the heilig\n"
-"Realm..." BOX_BREAK UNSKIPPABLE "Unfortunately, equipped as you \n"
-"currently are, you cannot even\n"
-"enter the Tämpu..." BOX_BREAK UNSKIPPABLE "But, if you believe what I'm saying,\n"
-"you should head to " COLOR(RED) "Kakariko \n"
-"Dorf" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Do you understand, \n"
+"Realm..." BOX_BREAK UNSKIPPABLE "Unfortunately, equipped as du \n"
+"currently are, du cannot even\n"
+"enter the Tämpu..." BOX_BREAK UNSKIPPABLE "But, if du believe what I'm saying,\n"
+"du should head to " COLOR(RED) "Kakariko \n"
+"Dorf" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Do du understand, \n"
 NAME "?"
 )
 
 DEFINE_MESSAGE(0x707B, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
 "I thought I should entrust the\n"
-"Okarina to you... I thought that \n"
+"Okarina to du... I thought that \n"
 "would be our best Chance..." FADE("\x50")
 )
 
 DEFINE_MESSAGE(0x707C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "bevor that...I have things I want \n"
-"to tell only to you. Please listen." BOX_BREAK UNSKIPPABLE "Another unknown legend of the \n"
+"to tell only to du. Please listen." BOX_BREAK UNSKIPPABLE "Another unknown legend of the \n"
 "Triforce passed down by the \n"
 "shadow folk, the Sheikahs...."
 )
 
 DEFINE_MESSAGE(0x707D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "The Triforce separated into three \n"
+UNSKIPPABLE "The Triforce separated into 3 \n"
 "parts. Only the " COLOR(RED) "Triforce of Power" COLOR(DEFAULT) "\n"
 "remained in Ganondorf's hand."
 )
@@ -12123,30 +12121,30 @@ UNSKIPPABLE "To gain complete mastery of the \n"
 )
 
 DEFINE_MESSAGE(0x7080, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "On that day, seven years ago,\n"
+UNSKIPPABLE "On that day, 7 years ago,\n"
 "Ganondorf attacked Schloss Hyrule."
 )
 
 DEFINE_MESSAGE(0x7081, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "After you opened the Tür of \n"
-"time, the Masterschwärt sealed you\n"
+UNSKIPPABLE "After du opened the Tür of \n"
+"time, the Masterschwärt sealed du\n"
 "away in the heilige Riich..."
 )
 
 DEFINE_MESSAGE(0x7082, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Your spirit remained in the heilig\n"
+UNSKIPPABLE "dini spirit remained in the heilig\n"
 "Realm...and then the Triforce fell \n"
 "into Ganondorf's hands. He went\n"
 "on to invade the heilige Riich..." BOX_BREAK UNSKIPPABLE "Ganondorf had become the Evil\n"
 "Chönig, und the heilige Riich\n"
 "became a world of evil. All of\n"
 "this is an unfortunate coincidence." BOX_BREAK UNSKIPPABLE "I passed myself off as a Sheikah\n"
-"and hoped that you would return.\n"
-"I waited for seven years..."
+"and hoped that du would return.\n"
+"I waited for 7 years..."
 )
 
 DEFINE_MESSAGE(0x7083, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "And...now you are back. The \n"
+UNSKIPPABLE "And...now du are back. The \n"
 "dark age ruled by Ganondorf the\n"
 "Evil Chönig will end!"
 )
@@ -12157,7 +12155,7 @@ UNSKIPPABLE "The six Weise will open the sealed\n"
 "the heilige Riich." BOX_BREAK UNSKIPPABLE "I will then seal the Tür to the \n"
 "heilige Riich from this world." BOX_BREAK UNSKIPPABLE "Thus, Ganondorf will\n"
 "vanish from Hyrule." BOX_BREAK UNSKIPPABLE  NAME "...\n"
-"In order to do this, I need your \n"
+"In order to do this, I need dini \n"
 "Muet again. Please protect me\n"
 "while I do my part." BOX_BREAK UNSKIPPABLE "And here is a weapon that can \n"
 "penetrate the Evil Chönig's defenses...\n"
@@ -12166,8 +12164,8 @@ UNSKIPPABLE "The six Weise will open the sealed\n"
 )
 
 DEFINE_MESSAGE(0x7085, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "But you let your guard down...\n"
-"I knew you would appear if I let\n"
+UNSKIPPABLE "But du let dini guard down...\n"
+"I knew du would appear if I let\n"
 "this Goof wander around!"
 )
 
@@ -12196,53 +12194,53 @@ QUICKTEXT_ENABLE "The Okarina vor Zyt opened the\n"
 DEFINE_MESSAGE(0x7089, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "It seems strange that packs of\n"
 "dogs roam our streets at night...\n"
-"Doesn't that seem weird to you?"
+"Doesn't that seem weird to du?"
 )
 
 DEFINE_MESSAGE(0x708A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, sonny, I'll tell you something\n"
+"Hey, sonny, I'll tell du something\n"
 "helpful..." BOX_BREAK "I heard there is a " COLOR(RED) "mysterious \n"
 "fountain" COLOR(DEFAULT) " somewhere near the \n"
 "Schloss..."
 )
 
 DEFINE_MESSAGE(0x708B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Wenn d want to return to your\n"
+UNSKIPPABLE "Wenn d want to return to dini\n"
 "original time, return the Master \n"
-"Schwärt to the " COLOR(RED) "Pedestal of Time" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "By doing this, you will travel back\n"
-"in time seven years...."
+"Schwärt to the " COLOR(RED) "Pedestal of Time" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "By doing this, du will travel back\n"
+"in time 7 years...."
 )
 
 DEFINE_MESSAGE(0x708C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "The time will come when you will\n"
+UNSKIPPABLE "The time will come when du will\n"
 "have to return here quickly...\n"
-"I will teach this to you for when \n"
-"that time comes..." BOX_BREAK UNSKIPPABLE "The Lied to return you to the \n"
+"I will teach this to du for when \n"
+"that time comes..." BOX_BREAK UNSKIPPABLE "The Lied to return du to the \n"
 "Tämpu vor Zyt...\n"
 COLOR(LIGHTBLUE) "The Liechtkantate" COLOR(DEFAULT) "..."
 )
 
 DEFINE_MESSAGE(0x708D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I am " COLOR(RED) "Impa " COLOR(DEFAULT) "of the Sheikahs.\n"
-"I am responsible for protecting\n"
+UNSKIPPABLE "i bi " COLOR(RED) "Impa " COLOR(DEFAULT) "of the Sheikahs.\n"
+"i bi responsible for protecting\n"
 "Prinzässin Zelda. Everything is \n"
 "exactly as the Prinzässin foretold."
 )
 
 DEFINE_MESSAGE(0x708E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"If the Schloss soldiers find you,\n"
+"If the Schloss soldiers find du,\n"
 "there will be trouble. Let me \n"
-"lead you out of the Schloss."
+"lead du out of the Schloss."
 )
 
 DEFINE_MESSAGE(0x708F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Hey you! Don't cause any trouble!" QUICKTEXT_DISABLE  EVENT
+QUICKTEXT_ENABLE "Hey du! Don't cause any trouble!" QUICKTEXT_DISABLE  EVENT
 )
 
 DEFINE_MESSAGE(0x7090, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "You are a courageous Giu...\n"
-"You are heading out on a big, new \n"
-"adventure, aren't you?" BOX_BREAK UNSKIPPABLE "My role in the Prinzässin's dream\n"
+UNSKIPPABLE "du are a courageous Giu...\n"
+"du are heading out on a big, new \n"
+"adventure, aren't du?" BOX_BREAK UNSKIPPABLE "My role in the Prinzässin's dream\n"
 "was to teach a Melodie" COLOR(RED) " " COLOR(DEFAULT) "to the one\n"
 "from the Waud." BOX_BREAK UNSKIPPABLE "This is an ancient " COLOR(BLUE) "Melodie passed \n"
 "down by the Chönigsfamilie" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "I have played this Lied for \n"
@@ -12255,8 +12253,8 @@ DEFINE_MESSAGE(0x7091, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "All the tragedy that has befallen\n"
 "Hyrule was my doing..." BOX_BREAK UNSKIPPABLE "I was so jung...I could not\n"
 "comprehend the consequences of \n"
-"trying to control the heilige Riich." BOX_BREAK UNSKIPPABLE "I dragged you into it, too." BOX_BREAK UNSKIPPABLE "Now it is time for me to make up \n"
-"for my mistakes..." BOX_BREAK UNSKIPPABLE "You must lay the Masterschwärt to \n"
+"trying to control the heilige Riich." BOX_BREAK UNSKIPPABLE "I dragged du into it, too." BOX_BREAK UNSKIPPABLE "Now it is time for me to make up \n"
+"for my mistakes..." BOX_BREAK UNSKIPPABLE "du must lay the Masterschwärt to \n"
 "rest und close the Zyttür..."
 )
 
@@ -12267,8 +12265,8 @@ UNSKIPPABLE "However, by doing this, the road\n"
 
 DEFINE_MESSAGE(0x7093, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  NAME ",\n"
-"give the Okarina to me..." BOX_BREAK UNSKIPPABLE "As en Weise, I can return you\n"
-"to your original time with it."
+"give the Okarina to me..." BOX_BREAK UNSKIPPABLE "As en Weise, I can return du\n"
+"to dini original time with it."
 )
 
 DEFINE_MESSAGE(0x7094, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_TOP,
@@ -12278,9 +12276,9 @@ UNSKIPPABLE "When peace returns to Hyrule..." BOX_BREAK UNSKIPPABLE "It will be 
 
 DEFINE_MESSAGE(0x7095, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Now, go home, " NAME ".\n"
-"Regain your lost time!" BOX_BREAK UNSKIPPABLE "Home... \n"
-"where you are supposed to be...\n"
-"the way you are supposed to be..."
+"Regain dini lost time!" BOX_BREAK UNSKIPPABLE "Home... \n"
+"where du are supposed to be...\n"
+"the way du are supposed to be..."
 )
 
 DEFINE_MESSAGE(0x7096, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -12293,7 +12291,7 @@ DEFINE_MESSAGE(0x7097, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7098, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"OK, I'll let you pass,\n"
+"OK, I'll let du pass,\n"
 "quickly!" EVENT
 )
 
@@ -12303,11 +12301,11 @@ DEFINE_MESSAGE(0x7099, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x709A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Man, I am SO tired!" BOX_BREAK "The night watch is so boring!\n"
+"Man, i bi SO tired!" BOX_BREAK "The night watch is so boring!\n"
 "I wish some Geischts would come \n"
 "out or something..." BOX_BREAK "Hey, I'm really interested in \n"
 "Geischts!" BOX_BREAK "Studying them is a hobby of mine,\n"
-"but you never know...the time\n"
+"but du never know...the time\n"
 "might come when that kind of\n"
 "knÜleedge might be useful!"
 )
@@ -12326,27 +12324,27 @@ DEFINE_MESSAGE(0x709C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x709D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "I can't find my puppy anywhere!\n"
-"I need you to look for it! Please!"
+"I need du to look for it! Please!"
 )
 
 DEFINE_MESSAGE(0x709E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 SHIFT("\x4C")  QUICKTEXT_ENABLE "Arrrgh!" QUICKTEXT_DISABLE "\n"
 "That is not my dog! \n"
-"How could you mix up my puppy\n"
+"How could du mix up my puppy\n"
 "with a mutt like that?!"
 )
 
 DEFINE_MESSAGE(0x709F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 SHIFT("\x46")  QUICKTEXT_ENABLE "Richard!" QUICKTEXT_DISABLE  BOX_BREAK "This is my chlii Richard!\n"
 "Merci! Merci!\n"
-"I'll give this to you as a\n"
+"I'll give this to du as a\n"
 "reward!"
 )
 
 DEFINE_MESSAGE(0x70A0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "At night it's dangerous to go out\n"
 "with all the wild dogs around...\n"
-"Nö, I wasn't warning you! \n"
+"Nö, I wasn't warning du! \n"
 "I'm worried about my puppy!"
 )
 
@@ -12354,13 +12352,13 @@ DEFINE_MESSAGE(0x70A1, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hiyeee!\n"
 "Hoi to the " COLOR(RED) "Maskelade" COLOR(DEFAULT) "!\n"
 "We deal in masks that bring \n"
-"happiness to everyone!" BOX_BREAK "How would you like to be a \n"
-"happiness salesman? I'll lend you\n"
-"a Maske. You sell the Maske und \n"
+"happiness to everyone!" BOX_BREAK "How would du like to be a \n"
+"happiness salesman? I'll lend du\n"
+"a Maske. du sell the Maske und \n"
 "bring the " COLOR(RED) "money " COLOR(DEFAULT) "back here." BOX_BREAK "Wenn d want to read the fine \n"
 "print, take a look at the " COLOR(RED) "sign \n"
-COLOR(DEFAULT) "right over there." BOX_BREAK "After you've sold all the masks,\n"
-"you will become happy" COLOR(RED) " " COLOR(DEFAULT) "yourself!" BOX_BREAK SHIFT("\x40") "Have faith..." EVENT
+COLOR(DEFAULT) "right over there." BOX_BREAK "After du've sold all the masks,\n"
+"du will become happy" COLOR(RED) " " COLOR(DEFAULT) "durself!" BOX_BREAK SHIFT("\x40") "Have faith..." EVENT
 )
 
 DEFINE_MESSAGE(0x70A2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12373,8 +12371,8 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Talk to the shop owner.\n"
 DEFINE_MESSAGE(0x70A3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "A " COLOR(RED) "Maske " COLOR(DEFAULT) "is a " COLOR(YELLOW) "[C] Chnopf " COLOR(DEFAULT) "item. Set\n"
 "it to " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " und drück " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " to wear it." BOX_BREAK "Wenn d talk to someone with a \n"
-"Maske on, you might get a reaction." BOX_BREAK "If anyone is interested in the\n"
-"Maske, he or she will ask you \n"
+"Maske on, du might get a reaction." BOX_BREAK "If anyone is interested in the\n"
+"Maske, he or she will ask du \n"
 "about it. Someone may want the \n"
 "Maske." BOX_BREAK "Somewhere in the world, somebody\n"
 "is waiting for Die masks." BOX_BREAK SHIFT("\x32") "Just have faith..." EVENT
@@ -12388,13 +12386,13 @@ DEFINE_MESSAGE(0x70A4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x70A5, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh, great! You sold it!\n"
+"Oh, great! du sold it!\n"
 "Please pay back " COLOR(RED) "10 Rubine " COLOR(DEFAULT) "for\n"
 "the Keaton Maske now." EVENT
 )
 
 DEFINE_MESSAGE(0x70A6, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh! You haven't sold the newest\n"
+"Oh! du haven't sold the newest\n"
 "Maske yet. Just have faith... Keep\n"
 "trying a chlii longer." EVENT
 )
@@ -12405,35 +12403,35 @@ DEFINE_MESSAGE(0x70A7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x70A8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE "Was?!" QUICKTEXT_DISABLE "\n"
-"You don't have my money?!" BOX_BREAK QUICKTEXT_ENABLE "How dare you!" QUICKTEXT_DISABLE  BOX_BREAK "You'd better bring me my money...\n"
+"du don't have my money?!" BOX_BREAK QUICKTEXT_ENABLE "How dare du!" QUICKTEXT_DISABLE  BOX_BREAK "du'd better bring me my money...\n"
 "or else!" EVENT
 )
 
 DEFINE_MESSAGE(0x70A9, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Oh yeah!" BOX_BREAK "Very well done!\n"
-"All the masks are sold out." BOX_BREAK "I knew I could trust you!" EVENT
+"All the masks are sold out." BOX_BREAK "I knew I could trust du!" EVENT
 )
 
 DEFINE_MESSAGE(0x70AA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "As a reward...\n"
-"I will lend you this special Maske." BOX_BREAK UNSKIPPABLE "This is the " COLOR(RED) "Wahrheitsmaske" COLOR(DEFAULT) ". It is a\n"
+"I will lend du this special Maske." BOX_BREAK UNSKIPPABLE "This is the " COLOR(RED) "Wahrheitsmaske" COLOR(DEFAULT) ". It is a\n"
 "mysterious Maske passed down by \n"
-"the Sheikah." BOX_BREAK UNSKIPPABLE "With this Maske you can see into \n"
+"the Sheikah." BOX_BREAK UNSKIPPABLE "With this Maske du can see into \n"
 "other people's minds...\n"
-"It's useful, but scary!" BOX_BREAK UNSKIPPABLE "Why is it scary?" BOX_BREAK UNSKIPPABLE "You may find out as you grow\n"
+"It's useful, but scary!" BOX_BREAK UNSKIPPABLE "Why is it scary?" BOX_BREAK UNSKIPPABLE "du may find out as du grow\n"
 "older und discover the true \n"
 "meaning of life..." BOX_BREAK UNSKIPPABLE "Hu hu hu!" EVENT
 )
 
 DEFINE_MESSAGE(0x70AB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"From now on you can borrow any\n"
-"Maske you want.\n"
+"From now on du can borrow any\n"
+"Maske du want.\n"
 "Just have faith..." EVENT
 )
 
 DEFINE_MESSAGE(0x70AC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hoi!\n"
-"Which Maske can I lend to you?" EVENT
+"Which Maske can I lend to du?" EVENT
 )
 
 DEFINE_MESSAGE(0x70AD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12446,9 +12444,9 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Ask about Wahrheitsmaske\n"
 DEFINE_MESSAGE(0x70AE, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "This is the " COLOR(RED) "Wahrheitsmaske" COLOR(DEFAULT) ". It is a\n"
 "mysterious Maske passed down by \n"
-"the Sheikah." BOX_BREAK "With this Maske you can see into \n"
+"the Sheikah." BOX_BREAK "With this Maske du can see into \n"
 "other people's minds. It's useful,\n"
-"but scary!" BOX_BREAK "Why is it scary?" BOX_BREAK "You'll find out as you grow older!" BOX_BREAK "Hu hu hu!" EVENT
+"but scary!" BOX_BREAK "Why is it scary?" BOX_BREAK "du'll find out as du grow older!" BOX_BREAK "Hu hu hu!" EVENT
 )
 
 DEFINE_MESSAGE(0x70AF, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12457,22 +12455,22 @@ QUICKTEXT_ENABLE  COLOR(RED) "Wahrheitsmaske -- Not for Sale" COLOR(DEFAULT) "\n
 )
 
 DEFINE_MESSAGE(0x70B0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(RED) "Schädumaske -- Price 20 Rubine" COLOR(DEFAULT) "\n"
+QUICKTEXT_ENABLE  COLOR(RED) "Schädumaske -- Priis 20 Rubine" COLOR(DEFAULT) "\n"
 "A horned skull Maske." QUICKTEXT_DISABLE  PERSISTENT
 )
 
 DEFINE_MESSAGE(0x70B1, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(RED) "Totemaske -- Price 30 Rubine\n"
+QUICKTEXT_ENABLE  COLOR(RED) "Totemaske -- Priis 30 Rubine\n"
 COLOR(DEFAULT) "A sad, wooden Maske." QUICKTEXT_DISABLE  PERSISTENT
 )
 
 DEFINE_MESSAGE(0x70B2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(RED) "Keatonmaske -- Price 10 Rubine\n"
+QUICKTEXT_ENABLE  COLOR(RED) "Keatonmaske -- Priis 10 Rubine\n"
 COLOR(DEFAULT) "Keaton stuff is hot, hot, hot!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
 DEFINE_MESSAGE(0x70B3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(RED) "Bunny Hood -- Price 50 Rubine\n"
+QUICKTEXT_ENABLE  COLOR(RED) "Bunny Hood -- Priis 50 Rubine\n"
 COLOR(DEFAULT) "With swinging rabbit ears!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
@@ -12498,14 +12496,14 @@ COLOR(DEFAULT) "With swinging rabbit ears!" QUICKTEXT_DISABLE  PERSISTENT
 
 DEFINE_MESSAGE(0x70B8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  COLOR(RED) "Goronmaske -- Free to Borrow\n"
-COLOR(DEFAULT) "This round face makes you \n"
+COLOR(DEFAULT) "This round face makes du \n"
 "a chlii happier!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
 DEFINE_MESSAGE(0x70B9, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 QUICKTEXT_ENABLE  COLOR(RED) "Zoramaske -- Free to Borrow" COLOR(DEFAULT) "\n"
-"You'll look cool while D bisch\n"
-"swimming if you wear this Maske!" QUICKTEXT_DISABLE  PERSISTENT
+"du'll look cool while D bisch\n"
+"swimming if du wear this Maske!" QUICKTEXT_DISABLE  PERSISTENT
 )
 
 DEFINE_MESSAGE(0x70BA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12521,83 +12519,83 @@ QUICKTEXT_ENABLE  COLOR(RED) "Wahrheitsmaske -- Free to Borrow" COLOR(DEFAULT) "
 )
 
 DEFINE_MESSAGE(0x70BC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the " COLOR(RED) "Skull \n"
+QUICKTEXT_ENABLE "Do du want to borrow the " COLOR(RED) "Skull \n"
 "Maske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70BD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Totemaske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70BE, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Keaton Maske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70BF, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Bunny Hood" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70C0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Goron Maske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70C1, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Zoramaske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70C2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Gerudo Maske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70C3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE "Do you want to borrow the \n"
+QUICKTEXT_ENABLE "Do du want to borrow the \n"
 COLOR(RED) "Wahrheitsmaske" COLOR(DEFAULT) "?" QUICKTEXT_DISABLE "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70C4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh, great! You sold it!\n"
+"Oh, great! du sold it!\n"
 "Please pay me back " COLOR(RED) "20 Rubine \n"
 COLOR(DEFAULT) "for the Schädumaske now." EVENT
 )
 
 DEFINE_MESSAGE(0x70C5, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh, great! You sold it!\n"
+"Oh, great! du sold it!\n"
 "Please pay me back " COLOR(RED) "30 Rubine \n"
 COLOR(DEFAULT) "for the Totemaske now." EVENT
 )
 
 DEFINE_MESSAGE(0x70C6, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh, great! You sold it!\n"
+"Oh, great! du sold it!\n"
 "Please pay me back " COLOR(RED) "50 Rubine \n"
 COLOR(DEFAULT) "for the Bunny Hood now." EVENT
 )
 
 DEFINE_MESSAGE(0x70C7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Oh! You haven't sold the Maske\n"
+"Oh! du haven't sold the Maske\n"
 "yet. Just have faith for a \n"
-"chlii while longer." BOX_BREAK "Or, do you want to trade it\n"
+"chlii while longer." BOX_BREAK "Or, do du want to trade it\n"
 "for another Maske?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
@@ -12611,8 +12609,8 @@ UNSKIPPABLE "The Triforce parts are resonating...\n"
 DEFINE_MESSAGE(0x70C9, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "The two Triforce parts that I \n"
 "could not capture on that day\n"
-"seven years ago..." BOX_BREAK UNSKIPPABLE "I didn't expect they would be \n"
-"hidden within you two!"
+"7 years ago..." BOX_BREAK UNSKIPPABLE "I didn't expect they would be \n"
+"hidden within du two!"
 )
 
 DEFINE_MESSAGE(0x70CA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12621,17 +12619,17 @@ UNSKIPPABLE "And now, finally, all the Triforce\n"
 )
 
 DEFINE_MESSAGE(0x70CB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Die toys are too much for you!"
+UNSKIPPABLE "Die toys are too much for du!"
 )
 
 DEFINE_MESSAGE(0x70CC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I command you to return them \n"
+UNSKIPPABLE "I command du to return them \n"
 "to me!"
 )
 
 DEFINE_MESSAGE(0x70CD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  SFX("\x68\x5F")  COLOR(LIGHTBLUE)  NAME "!\n"
-"I can't help you!\n"
+"I can't help du!\n"
 "Because of the waves of\n"
 "darkness, I can't get close!" BOX_BREAK COLOR(DEFAULT)  UNSKIPPABLE  COLOR(LIGHTBLUE) "I'm sorry, " NAME "!" COLOR(DEFAULT)
 )
@@ -12669,7 +12667,7 @@ UNSKIPPABLE "It's over...it's finally over..."
 
 DEFINE_MESSAGE(0x70D4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE  COLOR(LIGHTBLUE)  NAME "... \n"
-"I'm sorry I couldn't help you in the\n"
+"I'm sorry I couldn't help du in the\n"
 "battle bevor!" COLOR(DEFAULT)
 )
 
@@ -12691,7 +12689,7 @@ QUICKTEXT_ENABLE "Hurry up!!" QUICKTEXT_DISABLE
 
 DEFINE_MESSAGE(0x70D8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "I'm using my Chraft to hold the\n"
-"Evil Chönig! You use your sword und\n"
+"Evil Chönig! du use dini sword und\n"
 "deliver the final blow!"
 )
 
@@ -12701,22 +12699,22 @@ QUICKTEXT_ENABLE  SHIFT("\x50") "Now!!" QUICKTEXT_DISABLE  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x70DA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  TEXT_SPEED("\x03") "YOU..." TEXT_SPEED("\x00")  FADE("\x1E")
+UNSKIPPABLE  TEXT_SPEED("\x03") "du..." TEXT_SPEED("\x00")  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x70DB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  TEXT_SPEED("\x03") "CURSE YOU...ZELDA!\n"
-TEXT_SPEED("\x02") "CURSE YOU...Weise!!" TEXT_SPEED("\x00")  FADE("\x32")
+UNSKIPPABLE  TEXT_SPEED("\x03") "CURSE du...ZELDA!\n"
+TEXT_SPEED("\x02") "CURSE du...Weise!!" TEXT_SPEED("\x00")  FADE("\x32")
 )
 
 DEFINE_MESSAGE(0x70DC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "CURSE YOU..." QUICKTEXT_ENABLE  NAME "!" QUICKTEXT_DISABLE  FADE("\x1E")
+UNSKIPPABLE "CURSE du..." QUICKTEXT_ENABLE  NAME "!" QUICKTEXT_DISABLE  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x70DD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Someday...\n"
 "When this seal is broken...." BOX_BREAK_DELAYED("\x50")  UNSKIPPABLE "That is when I will exterminate\n"
-"your descendants!!" FADE("\x50")
+"dini descendants!!" FADE("\x50")
 )
 
 DEFINE_MESSAGE(0x70DE, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12725,7 +12723,7 @@ UNSKIPPABLE "As long as the Triforce of Power\n"
 )
 
 DEFINE_MESSAGE(0x70DF, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_MIDDLE,
-TEXT_SPEED("\x02") "You..." TEXT_SPEED("\x00") "who are you?" FADE("\x50")
+TEXT_SPEED("\x02") "du..." TEXT_SPEED("\x00") "Wär bisch?" FADE("\x50")
 )
 
 DEFINE_MESSAGE(0x70E0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12763,7 +12761,7 @@ COLOR(LIGHTBLUE)  NAME ", isn't that...?!" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x70E7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-COLOR(LIGHTBLUE) "It's that legendary blade..." COLOR(DEFAULT)  FADE("\x1E")
+COLOR(LIGHTBLUE) "It's that legendär blade..." COLOR(DEFAULT)  FADE("\x1E")
 )
 
 DEFINE_MESSAGE(0x70E8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -12786,9 +12784,9 @@ DEFINE_MESSAGE(0x70EB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x70EC, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, what do you want?\n"
+"Hey, what do du want?\n"
 "I don't have time to talk\n"
-"to you!"
+"to du!"
 )
 
 DEFINE_MESSAGE(0x70ED, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -12835,11 +12833,11 @@ DEFINE_MESSAGE(0x70F3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x70F4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Oh...you are quite an energetic\n"
+UNSKIPPABLE "Oh...du are quite an energetic\n"
 "jung man. D bisch brave und\n"
-"handsome, too." BOX_BREAK UNSKIPPABLE "He he he...your name is\n"
+"handsome, too." BOX_BREAK UNSKIPPABLE "He he he...dini name is\n"
 NAME ", isn't it." BOX_BREAK UNSKIPPABLE "He he he...don't be surprised.\n"
-"I can read people's minds." BOX_BREAK UNSKIPPABLE "If I looked as guet as you, I\n"
+"I can read people's minds." BOX_BREAK UNSKIPPABLE "If I looked as guet as du, I\n"
 "could run a different kind of \n"
 "business...he he he..." BOX_BREAK UNSKIPPABLE "My shop is the only " COLOR(RED) "Geisterlade" COLOR(DEFAULT) "\n"
 "in Hyrule." BOX_BREAK UNSKIPPABLE "Because of the great Ganondorf, \n"
@@ -12848,7 +12846,7 @@ NAME ", isn't it." BOX_BREAK UNSKIPPABLE "He he he...don't be surprised.\n"
 "gets even worse!" BOX_BREAK UNSKIPPABLE "The Geischts, called " COLOR(RED) "Irrliechts" COLOR(DEFAULT) ", are \n"
 "spirits of concentrated hatred \n"
 "that appear in the fields und \n"
-"Fridhof. They hate the world!" BOX_BREAK UNSKIPPABLE "Junge Mah, if you catch a Irrliecht, I\n"
+"Fridhof. They hate the world!" BOX_BREAK UNSKIPPABLE "Junge Mah, if du catch a Irrliecht, I\n"
 "will pay a lot of money for it...\n"
 "He he hi!"
 )
@@ -12856,32 +12854,32 @@ NAME ", isn't it." BOX_BREAK UNSKIPPABLE "He he he...don't be surprised.\n"
 DEFINE_MESSAGE(0x70F5, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey, jung man. What's happening \n"
 "today? Wenn d have a " COLOR(RED) "Irrliecht" COLOR(DEFAULT) ", I will \n"
-"Chouffe it." BOX_BREAK "Your card now has " COLOR(PURPLE)  HIGHSCORE(HS_Irrliecht_POINTS) " " COLOR(DEFAULT) "points.\n"
+"Chouffe it." BOX_BREAK "dini card now has " COLOR(PURPLE)  HIGHSCORE(HS_Irrliecht_POINTS) " " COLOR(DEFAULT) "points.\n"
 "Come back again!\n"
 "He he he!"
 )
 
 DEFINE_MESSAGE(0x70F6, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Oh, you brought a Irrliecht today!" BOX_BREAK UNSKIPPABLE  TEXT_SPEED("\x02") "........" TEXT_SPEED("\x00")  BOX_BREAK UNSKIPPABLE "Hmmm..." BOX_BREAK UNSKIPPABLE "This is a " COLOR(RED) "normal" COLOR(DEFAULT) " " COLOR(RED) "Irrliecht" COLOR(DEFAULT) ".\n"
-"Here are your " COLOR(RED) "10 Rubine" COLOR(DEFAULT) ".\n"
+UNSKIPPABLE "Oh, du brought a Irrliecht today!" BOX_BREAK UNSKIPPABLE  TEXT_SPEED("\x02") "........" TEXT_SPEED("\x00")  BOX_BREAK UNSKIPPABLE "Hmmm..." BOX_BREAK UNSKIPPABLE "This is a " COLOR(RED) "normal" COLOR(DEFAULT) " " COLOR(RED) "Irrliecht" COLOR(DEFAULT) ".\n"
+"Here are dini " COLOR(RED) "10 Rubine" COLOR(DEFAULT) ".\n"
 "Take them." BOX_BREAK UNSKIPPABLE "He he."
 )
 
 DEFINE_MESSAGE(0x70F7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Oh, you brought a Irrliecht today!" BOX_BREAK UNSKIPPABLE "Hmmmm!" BOX_BREAK UNSKIPPABLE "Very interesting!\n"
+UNSKIPPABLE "Oh, du brought a Irrliecht today!" BOX_BREAK UNSKIPPABLE "Hmmmm!" BOX_BREAK UNSKIPPABLE "Very interesting!\n"
 "This is a " COLOR(RED) "Nachtschwärmer" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "I'll Chouffe it for " COLOR(RED) "50 Rubine" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "On top of that, I'll put " COLOR(RED) "100\n"
-"points " COLOR(DEFAULT) "on your card." BOX_BREAK UNSKIPPABLE "Wenn d earn " COLOR(RED) "1,000 points" COLOR(DEFAULT) ", you'll\n"
+"points " COLOR(DEFAULT) "on dini card." BOX_BREAK UNSKIPPABLE "Wenn d earn " COLOR(RED) "1,000 points" COLOR(DEFAULT) ", du'll\n"
 "be a happy man! He he."
 )
 
 DEFINE_MESSAGE(0x70F8, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE "Wait a minute! WOW!" BOX_BREAK UNSKIPPABLE "You have earned " COLOR(RED) "1,000 points" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Junge Mah, you are a genuine\n"
-COLOR(RED) "Geischt Hunter" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Is that what you expected me to\n"
-"say? He he he!" BOX_BREAK UNSKIPPABLE "Because of you, I have extra\n"
+UNSKIPPABLE "Wait a minute! WOW!" BOX_BREAK UNSKIPPABLE "du have earned " COLOR(RED) "1,000 points" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Junge Mah, du are a genuine\n"
+COLOR(RED) "Geischt Hunter" COLOR(DEFAULT) "!" BOX_BREAK UNSKIPPABLE "Is that what du expected me to\n"
+"say? He he he!" BOX_BREAK UNSKIPPABLE "Because of du, I have extra\n"
 "inventory of " COLOR(RED) "Nachtschwärmers" COLOR(DEFAULT) ", so this will\n"
 "be the last time I can Chouffe a \n"
 "Geischt." BOX_BREAK UNSKIPPABLE "D bisch thinking about what I \n"
-"promised would happen when you\n"
+"promised would happen when du\n"
 "earned 1,000 points. He he." BOX_BREAK UNSKIPPABLE "Don't worry, I didn't forget.\n"
 "Just take this."
 )
@@ -12891,14 +12889,14 @@ UNSKIPPABLE "Oh? What's that?" BOX_BREAK UNSKIPPABLE  TEXT_SPEED("\x02")  QUICKT
 )
 
 DEFINE_MESSAGE(0x70FA, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "a Fee" COLOR(DEFAULT)  QUICKTEXT_DISABLE "?!" BOX_BREAK UNSKIPPABLE "Then, are you...\n"
-"Are you from the Waud?" EVENT
+QUICKTEXT_ENABLE  COLOR(LIGHTBLUE) "a Fee" COLOR(DEFAULT)  QUICKTEXT_DISABLE "?!" BOX_BREAK UNSKIPPABLE "Then, are du...\n"
+"Are du from the Waud?" EVENT
 )
 
 DEFINE_MESSAGE(0x70FB, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Then...then...you wouldn't happen to\n"
+UNSKIPPABLE "Then...then...du wouldn't happen to\n"
 "have...the " COLOR(ADJUSTABLE) "Stei vom the \n"
-"Waud" COLOR(DEFAULT) ", would you?! That Grüen \n"
+"Waud" COLOR(DEFAULT) ", would du?! That Grüen \n"
 "and shining Stei..." EVENT
 )
 
@@ -12915,7 +12913,7 @@ UNSKIPPABLE "I had a dream...In the dream,\n"
 DEFINE_MESSAGE(0x70FD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "I know this is a prophecy that\n"
 "someone would come from the\n"
-COLOR(ADJUSTABLE) "Waud" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Ja, I thought you might\n"
+COLOR(ADJUSTABLE) "Waud" COLOR(DEFAULT) "..." BOX_BREAK UNSKIPPABLE "Ja, I thought du might\n"
 "be the one..." EVENT
 )
 
@@ -12926,7 +12924,7 @@ UNSKIPPABLE  SHIFT("\x3A") "Oh, I'm sorry!" BOX_BREAK UNSKIPPABLE "I got carried
 )
 
 DEFINE_MESSAGE(0x70FF, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE  SHIFT("\x0C") "I am " COLOR(LIGHTBLUE) "Zelda" COLOR(DEFAULT) ", Prinzässin of Hyrule." EVENT
+UNSKIPPABLE  SHIFT("\x0C") "i bi " COLOR(LIGHTBLUE) "Zelda" COLOR(DEFAULT) ", Prinzässin of Hyrule." EVENT
 )
 
 DEFINE_MESSAGE(0x7100, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -12935,7 +12933,7 @@ DEFINE_MESSAGE(0x7100, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7101, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Awww... That's so cute!\n"
-"Could you tell me where you\n"
+"Could du tell me where du\n"
 "found it?"
 )
 
@@ -12957,11 +12955,11 @@ DEFINE_MESSAGE(0x7105, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7106, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, you look guet!"
+"Hey, du look guet!"
 )
 
 DEFINE_MESSAGE(0x7107, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "YEEEAH! What's your problem?!" QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "YEEEAH! What's dini problem?!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x7108, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -12989,13 +12987,13 @@ DEFINE_MESSAGE(0x710B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x710C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "Uh-oh!" QUICKTEXT_DISABLE " I'm sorry, mom!\n"
-"Oh...hey, it's you!\n"
+"Oh...hey, it's du!\n"
 "Don't scare me like\n"
 "that!"
 )
 
 DEFINE_MESSAGE(0x710D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What a big head you have!"
+"What a big head du have!"
 )
 
 DEFINE_MESSAGE(0x710E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13006,7 +13004,7 @@ DEFINE_MESSAGE(0x710E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x710F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Is there a Maske competition\n"
 "going on? \n"
-QUICKTEXT_ENABLE "I'm going to vote for you!" QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "I'm going to vote for du!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x7110, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13019,7 +13017,7 @@ DEFINE_MESSAGE(0x7110, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x7111, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Oooh, what a pretty lady!\n"
 "But D bisch kind of short,\n"
-"aren't you?"
+"aren't du?"
 )
 
 DEFINE_MESSAGE(0x7112, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13030,12 +13028,12 @@ DEFINE_MESSAGE(0x7112, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x7113, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "A Maske... When I was a chlii \n"
 "Goof, I also wore masks around...\n"
-"Was? You say you can't imagine\n"
+"Was? du say du can't imagine\n"
 "me doing that?"
 )
 
 DEFINE_MESSAGE(0x7114, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ohhhh...I see...\n"
+"Ohhhh...Hm...\n"
 "It's an illusion..."
 )
 
@@ -13047,7 +13045,7 @@ DEFINE_MESSAGE(0x7115, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x7116, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "AAAAAAAAAAAH!\n"
 "A GERUDO!!!!" QUICKTEXT_DISABLE  BOX_BREAK "Wha-? A Maske?\n"
-"Why do you have a Maske \n"
+"Why do du have a Maske \n"
 "like that?!"
 )
 
@@ -13068,7 +13066,7 @@ DEFINE_MESSAGE(0x7119, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x711A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hmm...well...don't you have any\n"
+"Hmm...well...don't du have any\n"
 "other masks?"
 )
 
@@ -13078,7 +13076,7 @@ DEFINE_MESSAGE(0x711B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x711C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey Goof! Can't you see we're\n"
+"Hey Goof! Can't du see we're\n"
 "busy?! Leave us alone!"
 )
 
@@ -13110,7 +13108,7 @@ DEFINE_MESSAGE(0x7121, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I heard a rumor that there is a \n"
 "monster that eats " COLOR(LIGHTBLUE) "Hyliaschiuds" COLOR(DEFAULT) "\n"
 "somewhere out there in the world.\n"
-"Have you ever seen it?"
+"Have du ever seen it?"
 )
 
 DEFINE_MESSAGE(0x7122, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13119,9 +13117,9 @@ DEFINE_MESSAGE(0x7122, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7123, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I...I am afraid...\n"
+UNSKIPPABLE "I...i bi afraid...\n"
 "I have a feeling that man is going\n"
-"to destroy Hyrule." BOX_BREAK UNSKIPPABLE "He has such terrifying Chraft!" BOX_BREAK UNSKIPPABLE "But it's fortunate that you have \n"
+"to destroy Hyrule." BOX_BREAK UNSKIPPABLE "He has such terrifying Chraft!" BOX_BREAK UNSKIPPABLE "But it's fortunate that du have \n"
 "come..." EVENT
 )
 
@@ -13132,18 +13130,18 @@ DEFINE_MESSAGE(0x7124, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7125, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I'm busy! Get out of my way,\n"
-"you bum!"
+"du bum!"
 )
 
 DEFINE_MESSAGE(0x7126, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, you have some guet,\n"
+"Hey, du have some guet,\n"
 "quality wood there, Goof!"
 )
 
 DEFINE_MESSAGE(0x7127, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hrrrrm!\n"
 "Get out of my face!\n"
-"You guet for nothin'..."
+"du guet for nothin'..."
 )
 
 DEFINE_MESSAGE(0x7128, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13155,7 +13153,7 @@ DEFINE_MESSAGE(0x7128, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 DEFINE_MESSAGE(0x7129, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Oh, sorry boss! \n"
 "I didn't mean to slack off!\n"
-"I'll get busy!" BOX_BREAK "Oh, that's not you, boss?"
+"I'll get busy!" BOX_BREAK "Oh, that's not du, boss?"
 )
 
 DEFINE_MESSAGE(0x712A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13199,7 +13197,7 @@ DEFINE_MESSAGE(0x7130, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7131, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Eh, what?\n"
-"Are you sad?\n"
+"Are du sad?\n"
 "Happy?\n"
 "I really can't tell..."
 )
@@ -13217,12 +13215,12 @@ DEFINE_MESSAGE(0x7133, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7134, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I really am a guet man.\n"
-"Don't you believe me?"
+"Don't du believe me?"
 )
 
 DEFINE_MESSAGE(0x7135, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "WHAAAA--!\n"
-"I thought you were that old hag!\n"
+"I thought du were that old hag!\n"
 "Don't scare me like that!"
 )
 
@@ -13235,7 +13233,7 @@ DEFINE_MESSAGE(0x7136, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x7137, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "I'm not afraid of any Waud \n"
-"monsters! Are you trying to\n"
+"monsters! Are du trying to\n"
 "make fun of me?"
 )
 
@@ -13245,7 +13243,7 @@ DEFINE_MESSAGE(0x7138, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7139, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hi again! How are you today?"
+"Hi again! How are du today?"
 )
 
 DEFINE_MESSAGE(0x713A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13272,43 +13270,43 @@ DEFINE_MESSAGE(0x713E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 
 DEFINE_MESSAGE(0x713F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Waaaaaaah!\n"
-"What is wrong with you?\n"
-"Do you have a bad attitude?"
+"What is wrong with du?\n"
+"Do du have a bad attitude?"
 )
 
 DEFINE_MESSAGE(0x7140, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You idiot! \n"
-"When you talk to someone, you\n"
+"du idiot! \n"
+"When du talk to someone, du\n"
 "should make Oug contact!"
 )
 
 DEFINE_MESSAGE(0x7141, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You idiot!\n"
-"When you talk to someone, you\n"
+"du idiot!\n"
+"When du talk to someone, du\n"
 "shouldn't stare!"
 )
 
 DEFINE_MESSAGE(0x7142, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You idiot!\n"
-"When you talk to someone, you\n"
-"should take off your Maske!"
+"du idiot!\n"
+"When du talk to someone, du\n"
+"should take off dini Maske!"
 )
 
 DEFINE_MESSAGE(0x7143, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"You idiot!\n"
+"du idiot!\n"
 "I don't know why I'm calling\n"
-"you that, but...you are one!"
+"du that, but...du are one!"
 )
 
 DEFINE_MESSAGE(0x7144, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Where did you get that?\n"
+"Where did du get that?\n"
 "Was?\n"
 "It's a Maske?"
 )
 
 DEFINE_MESSAGE(0x7145, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Uh, leave me alone...\n"
-"Can't you see I'm in a groove\n"
+"Can't du see I'm in a groove\n"
 "right now?"
 )
 
@@ -13316,12 +13314,12 @@ DEFINE_MESSAGE(0x7146, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "A Maske is just like a musical \n"
 "instrument--it reflects the\n"
 "character of its owner. I like\n"
-"your originality, Goof!"
+"dini originality, Goof!"
 )
 
 DEFINE_MESSAGE(0x7147, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "What a big head!\n"
-"How'd you fit through that Tür?!"
+"How'd du fit through that Tür?!"
 )
 
 DEFINE_MESSAGE(0x7148, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
@@ -13378,13 +13376,13 @@ DEFINE_MESSAGE(0x7150, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x7151, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Well, will you lookit the noggin on \n"
+"Well, will du lookit the noggin on \n"
 "this Goof! It's HUGE!\n"
 "Mine is huge too, though..."
 )
 
 DEFINE_MESSAGE(0x7152, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do you know what kind of\n"
+"Do du know what kind of\n"
 "Maske D bisch wearing...?\n"
 "And D bisch still wearing it?"
 )
