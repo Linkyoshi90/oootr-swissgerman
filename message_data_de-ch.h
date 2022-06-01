@@ -8843,162 +8843,160 @@ COLOR(LIGHTBLUE) "[Control-Pad] ache " COLOR(DEFAULT) "um ne aazhaagge.\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x4080, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I'm so generous, I'll let du Fisch\n"
-"for as long as du want. However,\n"
-"du can keep only one Fisch." BOX_BREAK "The biggest Fisch ever caught here\n"
-"weighed " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "." BOX_BREAK "After du cast, du can change\n"
-"dini view with " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) "." BOX_BREAK SHIFT("\x41") "Let's Fisch!" EVENT
+"Wöu i en gueti Luune ha lahni\n"
+"di mau so lang lah fische wie\n"
+"d wosch. Träge chasch ei Fisch." BOX_BREAK "Dr gröscht Fisch wo mir hie\n"
+"gfange hei isch " COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) "." BOX_BREAK "Wenn d Schnur use lahsch chasch\n"
+"mit " COLOR(LIGHTBLUE) "[Z]" COLOR(DEFAULT) " dini Sicht aapasse." BOX_BREAK SHIFT("\x41") "Petri Heil!" EVENT
 )
 
 DEFINE_MESSAGE(0x4081, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wah ha haah!\n"
-"Did du set the hook by Drücking\n"
-COLOR(BLUE) "[A]" COLOR(DEFAULT) " und " COLOR(LIGHTBLUE) "[Control-Pad] down" COLOR(DEFAULT) "?"
+"Hahahahaha!\n"
+"Hesch " COLOR(BLUE) "[A]" COLOR(DEFAULT) " und " COLOR(LIGHTBLUE) "[Control-Pad] abe" COLOR(DEFAULT) " drückt?"
 )
 
 DEFINE_MESSAGE(0x4082, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, what happened?\n"
-"du lost it!" FADE("\x3C")
+"Wa isch passiert?\n"
+"D hesch ne verlore!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x4083, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, well...it's about " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) ". \n"
-"Do du want to keep it?\n"
+"Naja, dä isch öppe " COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) ". \n"
+"Möchtsch ne bhaute?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4084, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"What do du want?\n"
-THREE_CHOICE  COLOR(ADJUSTABLE) "Weigh my Fisch.\n"
-"Let's talk about something.\n"
-"I want to quit." COLOR(DEFAULT)
+"Wa wosch?\n"
+THREE_CHOICE  COLOR(ADJUSTABLE) "Wieg mi Fisch.\n"
+"Rede mir.\n"
+"I möcht höre." COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4085, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Passion alone won't catch du \n"
-"many Fisch. I'm serious!"
+"Passion allei faht keh Fisch!\n"
+"Meine's ärnscht!"
 )
 
 DEFINE_MESSAGE(0x4086, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-SHIFT("\x4B") "WHOA!" BOX_BREAK "This Fisch is huge! It looks like a \n"
-"new Rekord! It weighs at least \n"
-COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "! Seriously! \n"
-"OK, here is dini Priis!" EVENT
+SHIFT("\x4B") "WHOA!" BOX_BREAK "Dise Fisch isch risig! Gseht \n"
+"nachmne neue Rekord uus! Wiegt \n"
+COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) "! Min Ärnscht! \n"
+"OK, hie'sch Priis!" EVENT
 )
 
 DEFINE_MESSAGE(0x4087, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Was? \n"
-"What are du doing to me?!" FADE("\x3C")
+"Wa tuesch mir aa?!" FADE("\x3C")
 )
 
 DEFINE_MESSAGE(0x4088, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, jung man! Don't du have \n"
-"anything important du should be\n"
-"doing?" BOX_BREAK "Was? Are du saying it's more \n"
-"fun to play here?" BOX_BREAK "I've seen many people ruin their\n"
-"lives with that kind of attitude.\n"
-"I'm serious!\n"
-"Oh well..."
+"Hey, junge Mah! Hesch nüüt \n"
+"wichtigs zum erledige?" BOX_BREAK "Was? D seisch es isch luschtiger \n"
+"hie?" BOX_BREAK "I ha einigi Lüüt gseh ihres \n"
+"Läbe eso gseh zerstöre.\n"
+"Min Ärnscht!\n"
+"Naja..."
 )
 
 DEFINE_MESSAGE(0x4089, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "The biggest Fisch ever caught in\n"
-"this pond weighed " Fisch_INFO " pounds.\n"
-"The angler: " NAME  QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "Gröscht Fisch us däm Teich\n"
+"gfange wiegt " FISH_INFO "kg.\n"
+"Anglername: " NAME  QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x408A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Do du want to continue fische?\n"
+"Möchtsch wiiterfische?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x408B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, it weighs " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "...\n"
-"Not bad, but there are grösser\n"
-"Fisch in there!" EVENT
+"Naja, dä wiegt " COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) "...\n"
+"Nid schlächt, aber s git grösseri \n"
+"Fische hie!" EVENT
 )
 
 DEFINE_MESSAGE(0x408C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, c'mon! du don't have a Fisch!\n"
-"Shucks!" EVENT
+"D hesch gar keh Fisch!\n"
+"Gopf!" EVENT
 )
 
 DEFINE_MESSAGE(0x408D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"du want to try another lure?\n"
-"What are du talking about? Are\n"
-"du so egoistisch?" BOX_BREAK "Don't du know the old saying,\n"
-"\"A great Fischerman never chooses\n"
-"his own lure?\""
+"D möchtsch en angere Köder?\n"
+"Wa meinsch? Bisch du ächt so\n"
+"egoistisch?" BOX_BREAK "Kennsch nid ds Sprichwort\n"
+"\"En guete Angler wäuht sin Köder\n"
+"nid\"?"
 )
 
 DEFINE_MESSAGE(0x408E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was? Do du want to know some \n"
-"fische secrets? I can't tell du\n"
-"any. They are company secrets.\n"
-"Seriously!"
+"Was? D möchtisch es paar \n"
+"Gheimniss zum Angle erfahre? \n"
+"Verrate keni, si Firmegheimniss!\n"
+"Im ärnscht!"
 )
 
 DEFINE_MESSAGE(0x408F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was? du want to know if I'm a \n"
-"guet Fischerman?" BOX_BREAK "Of course i bi! I'm an old pro!\n"
-"Do du know what a pro is?\n"
-"I'm telling du the truth!"
+"Was? D möchtsch wüsse, ob i en \n"
+"guete Angler bi?" BOX_BREAK "Klar, i bi en Pro! Weisch du, wa\n"
+"en Pro isch? So wie du anglisch \n"
+"wahrschiinlech nid!"
 )
 
 DEFINE_MESSAGE(0x4090, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Rules und Regulations" QUICKTEXT_DISABLE "\n"
-QUICKTEXT_ENABLE "1. Don't use sinking lures.\n"
-"2. Don't litter.\n"
-"3. Walk quietly." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "4. Don't cast at anyone." QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "Regle" QUICKTEXT_DISABLE "\n"
+QUICKTEXT_ENABLE "1. Keh Sinkköder bruche.\n"
+"2. Nid Ghüdder lah lige.\n"
+"3. Lisli louffe." QUICKTEXT_DISABLE  BOX_BREAK QUICKTEXT_ENABLE "4. Immer vo Lüüt wäg angle." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x4091, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wow! This is a real lunker!\n"
-"Let's see...it weighs\n"
-COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "Do du want to keep it?\n"
+"Wow! Dsch en richtige Fettbrocke\n"
+"Zeig mau! Er wiegt\n"
+COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) "!" BOX_BREAK "Möchtsch ne bhaute?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4092, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Come back when du get older!\n"
-"The Fisch will be grösser, too...\n"
-"Well, maybe."
+"Chum wider we äuter bisch!\n"
+"D Fische wärde o grösser...\n"
+"Villecht..."
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x4093, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "Hey, mister! I remember du!\n"
-"It's been a long time!" BOX_BREAK UNSKIPPABLE "How many years has it been?\n"
-"7 years?! What have du\n"
-"been doing all this time?!" BOX_BREAK UNSKIPPABLE "D bisch my only customer. I'm \n"
-"almost out of business! Seriously!\n"
-"On top of that, my hair..." BOX_BREAK UNSKIPPABLE "Uh, I mean, never mind..." BOX_BREAK UNSKIPPABLE "Well, do du want to go fische?\n"
-"It costs only " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "!\n"
+UNSKIPPABLE "Hey, Jüngling! I erinnere mi a di!\n"
+"Lang här!" BOX_BREAK UNSKIPPABLE "Wie lang?\n"
+"7 Jahr? Wa hesch du die ganzi\n"
+"Zyt gmacht?" BOX_BREAK UNSKIPPABLE "D bisch mi einzig Chund. Bi \n"
+"fasch pleite gange! Im Ärnscht!\n"
+"Und mis Haar..." BOX_BREAK UNSKIPPABLE "Ah, spiut keh Roue..." BOX_BREAK UNSKIPPABLE "Wosch fische?\n"
+"Choschtet no geng " COLOR(RED) "20 Rubine" COLOR(DEFAULT) "!\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Ja\n"
 "Nö" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4094, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "du want to go fische in a \n"
-"different fische pond?!\n"
-"What are du talking about?" BOX_BREAK "I'll go out of business if du go\n"
-"somewhere else!\n"
-"I'm serious!"
+"Was?" BOX_BREAK "D möchtsch imne angere Teich \n"
+"angle?\n"
+"Wa labasch du?" BOX_BREAK "I verdiene nüüt, wenn woangersch\n"
+"häregeisch!\n"
+"Im ärnscht!"
 )
 
 DEFINE_MESSAGE(0x4095, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "du want to know why I'm \n"
-"scratching all the time?\n"
-"What are du talking about?" BOX_BREAK "Actually, I have Nö idea.\n"
-"I'm serious!"
+"Was?" BOX_BREAK "D möchtisch wüsse wieso i \n"
+"mi die ganz Zyt chratze?\n"
+"Wa meinsch?" BOX_BREAK "Keh Ahnig im Fau.\n"
+"Min Ärnscht!"
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x4096, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Was?" BOX_BREAK "Are du trying to tell me du\n"
 "can't see the Fisch because the\n"
@@ -9031,7 +9029,7 @@ TWO_CHOICE  COLOR(ADJUSTABLE) "Nö, I don't want it\n"
 DEFINE_MESSAGE(0x4099, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Gosh! That's a strange Fisch du\n"
 "caught there! On top of that, it\n"
-"weighs " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
+"weighs " COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it anyway\n"
 "I don't want it" COLOR(DEFAULT)
@@ -9079,7 +9077,7 @@ DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "This Fisch is gigantic!!" BOX_BREAK "A Fisch this big can't even fit\n"
 "on the screen, und I can't weigh it\n"
 "accurately, but it looks like it's\n"
-"about " COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "du'll want to keep this one,\n"
+"about " COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "du'll want to keep this one,\n"
 "right?\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it\n"
 "Don't keep it" COLOR(DEFAULT)
@@ -9200,7 +9198,7 @@ DEFINE_MESSAGE(0x40AD, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 
 DEFINE_MESSAGE(0x40AE, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "The biggest Fisch ever caught in\n"
-"this pond weighed " Fisch_INFO " pounds.\n"
+"this pond weighed " FISH_INFO " pounds.\n"
 "The angler: the pond owner" QUICKTEXT_DISABLE
 )
 
@@ -9218,7 +9216,7 @@ DEFINE_MESSAGE(0x40B0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "YAHOOOOOO!\n"
 "This is HUGE!! A new Rekord!!\n"
 "This...this weighs as much as...\n"
-COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "Buuuuuuuut! That sinking lure is\n"
+COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "Buuuuuuuut! That sinking lure is\n"
 "in violation of the rules!\n"
 "So, Nö Priis for du.\n"
 "Wah ha ha ha ha ha!" EVENT
@@ -9226,7 +9224,7 @@ COLOR(RED)  Fisch_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "Buuuuuuuut! That
 
 DEFINE_MESSAGE(0x40B1, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "The biggest Fisch ever caught in\n"
-"this pond weighed " Fisch_INFO " pounds.\n"
+"this pond weighed " FISH_INFO " pounds.\n"
 "The angler: " NAME "\n"
 "(NOTE: With illegal sinking lure.)" QUICKTEXT_DISABLE
 )
