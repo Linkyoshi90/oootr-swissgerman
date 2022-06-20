@@ -13271,142 +13271,140 @@ DEFINE_MESSAGE(0x713F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "What is wrong with du?\n"
 "Do du have a bad attitude?"
 )
-
+/* EDIT! Hie */
 DEFINE_MESSAGE(0x7140, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"du idiot! \n"
-"When du talk to someone, du\n"
-"should make Oug contact!"
+"Du Idiot! \n"
+"Wenn mit öpperem redsch söttsch \n"
+"Ougekontakt mache!"
 )
 
 DEFINE_MESSAGE(0x7141, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"du idiot!\n"
-"When du talk to someone, du\n"
-"shouldn't stare!"
+"Du Idiot!\n"
+"Wenn mit öpperem redsch söttsch \n"
+"se nid aastarre!"
 )
 
 DEFINE_MESSAGE(0x7142, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"du idiot!\n"
-"When du talk to someone, du\n"
-"should take off dini Maske!"
+"Du Idiot!\n"
+"Wenn öpperen aasprichsch nimmsch\n"
+"gfäuigscht d Maske ab!"
 )
 
 DEFINE_MESSAGE(0x7143, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"du idiot!\n"
-"I don't know why I'm calling\n"
-"du that, but...du are one!"
+"Du idiot!\n"
+"Weiss nid wieso, aber d bisch\n"
+"eifach eine!"
 )
 
 DEFINE_MESSAGE(0x7144, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Where did du get that?\n"
+"Wo hesch ds här?\n"
 "Was?\n"
-"It's a Maske?"
+"S isch e Maske?"
 )
 
 DEFINE_MESSAGE(0x7145, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Uh, leave me alone...\n"
-"Can't du see I'm in a groove\n"
-"right now?"
+"Lah mi lah sii...\n"
+"Bi vou im Groove, Giu!"
 )
 
 DEFINE_MESSAGE(0x7146, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"A Maske is just like a musical \n"
-"instrument--it reflects the\n"
-"character of its owner. I like\n"
-"dini originality, Goof!"
+"E Maske reflektiert dr Charakter \n"
+"vom Bsitzer, wie Instrumänt oder\n"
+"dr Musigstiu wo meh gärn lost, \n"
+"genau wie dini Originalität!"
 )
 
 DEFINE_MESSAGE(0x7147, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What a big head!\n"
-"How'd du fit through that Tür?!"
+"Was für n grosse Gring!\n"
+"Wie hesch du dür d Tür passt?!"
 )
 
 DEFINE_MESSAGE(0x7148, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I HATE foxes, sonny!"
+"I HASSE FÜCHS!"
 )
 
 DEFINE_MESSAGE(0x7149, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Now if that isn't the most\n"
-"irritating face I've seen in\n"
-"all my days, I don't know what\n"
-"is!"
+"We ds nid ds gruusigschte Gsicht\n"
+"woni i au mire Zyt gseh ha, denn\n"
+"weiss i, ds i z'lang gläbt ha!\n"
+"Schlimmer aus die anderi da hinde!"
 )
 
 DEFINE_MESSAGE(0x714A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, that's a fine face\n"
-"D hesch there, sonny!"
+"Dsch es gäbigs Gsicht wo da\n"
+"hesch, Söhnli!"
 )
 
 DEFINE_MESSAGE(0x714B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Have D hesch esny complaints?\n"
-"Speak up, then!"
+"Möchtsch reklamiere?\n"
+"Chum, verzeu!"
 )
 
 DEFINE_MESSAGE(0x714C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Please quit playing around\n"
-"and dispel our curse!"
+"Hör uuf üüs z'mobbe und heb\n"
+"dr Fluech uuf!"
 )
 
 DEFINE_MESSAGE(0x714D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"If I wore something like that...\n"
-"I'd be a real Skulltula...\n"
+"Wenn i öppis wie ds träge...\n"
+"Wirdi zunere Skulltula...\n"
 "AAAAAAAAAAH!"
 )
 
 DEFINE_MESSAGE(0x714E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Please understand if I don't\n"
-"laugh... It's hard to be happy\n"
-"in this condition... \n"
-"Being cursed und all..."
+"Vrgib mir ds ig vor Lache oder\n"
+"Fröid nid id Luft gumpe...\n"
+"I has im Chrütz, weisch..."
 )
 
 DEFINE_MESSAGE(0x714F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 SFX("\x68\x67") "Hyaaaaah!\n"
-"That's scary!\n"
-"I know I'm scary, but...man!\n"
-"That's really scary!"
+"Gruslig!\n"
+"I weiss i bi o gruslig... Gopf!\n"
+"Dsch aber sehr gruslig!"
 )
 
 DEFINE_MESSAGE(0x7150, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Huh?! Wha--!" BOX_BREAK "Oh, it's just a Goof.\n"
-"Don't scare me like that!\n"
-"I may not look like it, but I'm a\n"
-"very sensitive guy!"
+"Oh, sh---!" BOX_BREAK "Oh, d bisch en Goof.\n"
+"Mach mir nid so Angscht!\n"
+"Gseh zwar nid so uus, aber i bi\n"
+"sensibu!"
 )
 
 DEFINE_MESSAGE(0x7151, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Well, will du lookit the noggin on \n"
-"this Goof! It's HUGE!\n"
-"Mine is huge too, though..."
+"Ha, lueg mau dr Gring vo däm \n"
+"Goof a! Die Stirn isch riesig!\n"
+"Mini o!"
 )
 
 DEFINE_MESSAGE(0x7152, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Do du know what kind of\n"
-"Maske D bisch wearing...?\n"
-"And D bisch still wearing it?"
+"Du weisch was das für e Maske \n"
+"isch, oder? Und d treisch se\n"
+"trotzdäm?"
 )
 
 DEFINE_MESSAGE(0x7153, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm on duty now... \n"
-"Wenn d want me to dig, don't\n"
-"bother me."
+"I bi am bügle... \n"
+"Wenn wosch ds i grabe, denn\n"
+"närv mi nid."
 )
 
 DEFINE_MESSAGE(0x7154, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What is that? It's something\n"
-"that hops around in a field...\n"
-"I forgot what those things are\n"
-"called..."
+"Was isch ds nomau gsii?\n"
+"S hoppst im Fäud desume...\n"
+"Aber wie heisse die Viecher\n"
+"nomau?"
 )
 
 DEFINE_MESSAGE(0x7155, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey! It's a Keaton Maske!!\n"
-"I asked my daddy to get me one,\n"
-"too!"
+"Hey, s isch d Keatonmaske!\n"
+"I ha Papi gfragt, ob er mir o eini\n"
+"bsteut!"
 )
 
 DEFINE_MESSAGE(0x7156, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"That's not very different from\n"
-"Mr. Dampé, is it?"
+"Dsch öppe so wie Dampé uusgseht, \n"
+"oder?"
 )
 
 DEFINE_MESSAGE(0x7157, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
