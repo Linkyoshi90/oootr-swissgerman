@@ -9555,7 +9555,7 @@ DEFINE_MESSAGE(0x5027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5028, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE  SFX("\x68\x55") "i bi the " COLOR(RED) "boss of the carpenters\n"
+UNSKIPPABLE  SFX("\x68\x55") "i bi the " COLOR(RED) "Boss of the carpenters\n"
 COLOR(DEFAULT) "that Impa hired to improve this\n"
 "Dorf und make it into a true\n"
 "city!" BOX_BREAK UNSKIPPABLE "But jung men Die days don't\n"
@@ -10038,7 +10038,7 @@ DEFINE_MESSAGE(0x506A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "All day long, Mir si working on \n"
 "many construction projects in the\n"
 "Dorf. It's going to take awhile\n"
-"bevor everything is done." BOX_BREAK "Our boss works us very hard!"
+"bevor everything is done." BOX_BREAK "Our Boss works us very hard!"
 )
 
 DEFINE_MESSAGE(0x506B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10107,7 +10107,7 @@ DEFINE_MESSAGE(0x5075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I heard that our boss's house is\n"
+"I heard that our Boss's house is\n"
 "just behind this house. He doesn't\n"
 "want any of us to know, though."
 )
@@ -10889,7 +10889,7 @@ UNSKIPPABLE "D bisch a cute Goof! Merci for\n"
 
 DEFINE_MESSAGE(0x605D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Thanks, Giu! D bisch Fantastisch!\n"
-"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have du seen our boss, Giu?\n"
+"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have du seen our Boss, Giu?\n"
 "He's probably worried about me!\n"
 "I have to get back to him \n"
 QUICKTEXT_ENABLE "immediately!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  COLOR(RED) "One more of our workers " COLOR(DEFAULT) "is still\n"
@@ -13029,249 +13029,244 @@ DEFINE_MESSAGE(0x7113, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Was? du say du can't imagine\n"
 "me doing that?"
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x7114, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Ohhhh...Hm...\n"
-"It's an illusion..."
+"Ohhhh... Hm...\n"
+"En Illusion..."
 )
 
 DEFINE_MESSAGE(0x7115, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, Goof, don't grow up to be\n"
-"like me..."
+"Hey, Goof, wachs nid so uuf wie\n"
+"ig..."
 )
 
 DEFINE_MESSAGE(0x7116, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 QUICKTEXT_ENABLE "AAAAAAAAAAAH!\n"
-"A GERUDO!!!!" QUICKTEXT_DISABLE  BOX_BREAK "Wha-? A Maske?\n"
-"Why do du have a Maske \n"
-"like that?!"
+"GERUDO!!!!" QUICKTEXT_DISABLE  BOX_BREAK "Wa-? E Maske?\n"
+"Wieso hesch so ne Maske?!"
 )
 
 DEFINE_MESSAGE(0x7117, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Sorry, I'm busy right now."
+"Sorry, i bi beschäftiget."
 )
 
 DEFINE_MESSAGE(0x7118, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh wow! It's Keaton!\n"
-"Hi, Keaton!"
+"Oh wow! S isch Keaton!\n"
+"Hoi, Keaton!"
 )
 
 DEFINE_MESSAGE(0x7119, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"How spooky!\n"
-"There's a Giu in Kakariko\n"
-"Dorf who was looking for a\n"
-"Maske like that!"
+"Gruslig!\n"
+"S gitt n Giu in Kakariko \n"
+"wo nach so ere Maske \n"
+"suecht!"
 )
 
 DEFINE_MESSAGE(0x711A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hmm...well...don't du have any\n"
-"other masks?"
+"Hmm... Hesch keh anderi \n"
+"Maske?"
 )
 
 DEFINE_MESSAGE(0x711B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What a strange Maske!\n"
-"hi hah haa!"
+"Was für e komischi Maske!\n"
+"Ha ha ha!"
 )
 
 DEFINE_MESSAGE(0x711C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey Goof! Can't du see we're\n"
-"busy?! Leave us alone!"
+"Hey Goof! Gsehsch nid, ds mir \n"
+"beschäftiget sii?! Hou ab!"
 )
 
 DEFINE_MESSAGE(0x711D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm sorry. I don't even want to\n"
-"look at any other woman!"
+"Sorry, aber i wott en anderi Frou \n"
+"nid mau aaluege!"
 )
 
 DEFINE_MESSAGE(0x711E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hihi.\n"
-"Don't pay any attention to that\n"
-"Goof, my dear... Just pretend we're\n"
-"in our own, private chlii world..."
+"Lueg nid uuf dise chlii Goof, \n"
+"Zuckerschnute... Mir si i üserer \n"
+"eigete chliine Wäut..."
 )
 
 DEFINE_MESSAGE(0x711F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, please!\n"
-"Go bother someone \n"
-"else!"
+"Oh, bitte!\n"
+"Gang öppern angeres go närve!"
 )
 
 DEFINE_MESSAGE(0x7120, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"There's a rumor going around that\n"
-"there is a Trank Lade that can\n"
-"make the ultimate medicine!"
+"Grücht göh ume, ds es en Tranklade\n"
+"gitt, wo d ultimativi Medizin\n"
+"mache cha..."
 )
 
 DEFINE_MESSAGE(0x7121, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I heard a rumor that there is a \n"
-"monster that eats " COLOR(LIGHTBLUE) "Hyliaschiuds" COLOR(DEFAULT) "\n"
-"somewhere out there in the world.\n"
-"Have du ever seen it?"
+"Grücht göi ume, ds es Monschter \n"
+"wo " COLOR(LIGHTBLUE) "Hyliaschiuder" COLOR(DEFAULT) "\n"
+"frässe.\n"
+"Heschs gseh?"
 )
 
 DEFINE_MESSAGE(0x7122, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I came here to sell Bombe...\n"
-"Please Chouffe some!"
+"Bi häre cho zum Bombe verchoufe...\n"
+"Bitte chouf e Paar!"
 )
 
 DEFINE_MESSAGE(0x7123, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-UNSKIPPABLE "I...i bi afraid...\n"
-"I have a feeling that man is going\n"
-"to destroy Hyrule." BOX_BREAK UNSKIPPABLE "He has such terrifying Chraft!" BOX_BREAK UNSKIPPABLE "But it's fortunate that du have \n"
-"come..." EVENT
+UNSKIPPABLE "I... I ha Angscht...\n"
+"Dise Mah wird Hyrule zerstöre, \n"
+"hani zgfüu." BOX_BREAK UNSKIPPABLE "Er het so e zerstörerischi Chraft!" BOX_BREAK UNSKIPPABLE "Aber s isch guet ds du cho \n"
+"bisch... Oder eher uuftoucht..." EVENT
 )
 
 DEFINE_MESSAGE(0x7124, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Was? Wenn d want something,\n"
-"just make it clear!"
+"Was? Wenn d öppis wosch,\n"
+"säg's!"
 )
 
 DEFINE_MESSAGE(0x7125, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm busy! Get out of my way,\n"
-"du bum!"
+"Bi beschäftiget! Usm Wäg,\n"
+"du Penner!"
 )
 
 DEFINE_MESSAGE(0x7126, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hey, du have some guet,\n"
-"quality wood there, Goof!"
+"Hey, d hesch hie zimli guets \n"
+"Houz, Goof!"
 )
 
 DEFINE_MESSAGE(0x7127, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hrrrrm!\n"
-"Get out of my face!\n"
-"du guet for nothin'..."
+"Hmpf!\n"
+"Verschwind!\n"
+"Du Nichtsnutz..."
 )
 
 DEFINE_MESSAGE(0x7128, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"EEEEEEAAAAH!\n"
-"Whoops, I shouldn't scream like\n"
-"that or the boss will yell at me!"
+"WÜÜÜÄÄÄÄÄH!\n"
+"Hoppla, i sött nid so umeschreie\n"
+"oder s gitt ZS vom Boss!"
 )
 
 DEFINE_MESSAGE(0x7129, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, sorry boss! \n"
-"I didn't mean to slack off!\n"
-"I'll get busy!" BOX_BREAK "Oh, that's not du, boss?"
+"Oh, sorry Boss! \n"
+"I bi nid am lauere!\n"
+"I mache vorwärts!" BOX_BREAK "Oh, du bisch nid dr Boss?"
 )
 
 DEFINE_MESSAGE(0x712A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Gerudos are schöni und brave...\n"
-"They are just so fascinating!"
+"Gerudos sii schön und muetig...\n"
+"So... faszinierend..."
 )
 
 DEFINE_MESSAGE(0x712B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Someday, when I have more skill,\n"
-"I'll carve a Maske like that one!"
+"Wenn i besser bi machi genau\n"
+"so e Maske!"
 )
 
 DEFINE_MESSAGE(0x712C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, that's the Maske\n"
-"everyone is talking about!\n"
-"Looks kind of strange..."
+"Oh, isch ds d Maske wo jede \n"
+"meint!\n"
+"Gseht komisch uus..."
 )
 
 DEFINE_MESSAGE(0x712D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Wa-ha-hah!\n"
-"How's business,\n"
+"Ha-ha-ha!\n"
+"Wie loufts,\n"
 "Herr Held?\n"
-"Hah hah hah!"
+"Ha ha ha!"
 )
 
 DEFINE_MESSAGE(0x712E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm on duty.\n"
-"Understand?\n"
-"ON DUTY!"
+"I bi beschäftigt.\n"
+"Tscheggsch?\n"
+"BESCHÄFTIGT!"
 )
 
 DEFINE_MESSAGE(0x712F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hmm, well, I don't really know\n"
-"what to say about that one..."
+"Hmm... Weiss nid was zu \n"
+"däm säge..."
 )
 
 DEFINE_MESSAGE(0x7130, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh wow! Cute!\n"
-"But Cuccos are much cuter!"
+"Oh wow! Süess!\n"
+"Aber Cuccos si süesser!"
 )
 
 DEFINE_MESSAGE(0x7131, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Eh, what?\n"
-"Are du sad?\n"
-"Happy?\n"
-"I really can't tell..."
+"Was?\n"
+"Bisch truurig?\n"
+"Zfride?\n"
+"I chas dim Gsicht nid abläse..."
 )
 
 DEFINE_MESSAGE(0x7132, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm sorry, I'm not really\n"
-"interested in that."
+"Sorry, ds interessiert mi nid."
 )
 
 DEFINE_MESSAGE(0x7133, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"The chlii Goof playing in the\n"
-"Fridhof was saying something\n"
-"about his face..."
+"Dr Giu wo am Fridhof spiut\n"
+"meint öppis über sis Gsicht..."
 )
 
 DEFINE_MESSAGE(0x7134, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I really am a guet man.\n"
-"Don't du believe me?"
+"I bi würk en guete Mönsch.\n"
+"Gloubsch mir nid?"
 )
 
 DEFINE_MESSAGE(0x7135, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"WHAAAA--!\n"
-"I thought du were that old hag!\n"
-"Don't scare me like that!"
+"WAAAAH--!\n"
+"D gsehsch wie d Grosle uus!\n"
+"Mach mir nid so Angscht!"
 )
 
 DEFINE_MESSAGE(0x7136, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I remember my father talking\n"
-"about a swordsmith...but that\n"
-"doesn't really matter to me\n"
-"anyway."
+"I cha mi dra erinnere, ds mi Vater\n"
+"über en Schmid gredt het...\n"
+"S geit mi aber eh nüüt a."
 )
 
 DEFINE_MESSAGE(0x7137, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I'm not afraid of any Waud \n"
-"monsters! Are du trying to\n"
-"make fun of me?"
+"Waudmonster mache mir nid Angscht! \n"
+"Möchtsch di über mi \n"
+"luschtig mache?"
 )
 
 DEFINE_MESSAGE(0x7138, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What is that? I can't see it\n"
-"very well from here..."
+"Wa isch ds? I gsehs nid\n"
+"richtig..."
 )
 
 DEFINE_MESSAGE(0x7139, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Hi again! How are du today?"
+"Hoi nomau! Wi geiz?"
 )
 
 DEFINE_MESSAGE(0x713A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Everything's fine today!"
+"Hütt gseht aues guet uus!"
 )
 
 DEFINE_MESSAGE(0x713B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Tired...I'm so tired..."
+"I bi so müed..."
 )
 
 DEFINE_MESSAGE(0x713C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"I don't care about any\n"
-"foxes!"
+"Mi interessiere keh Füchs, \n"
+"gäubi Ratte o nid!"
 )
 
 DEFINE_MESSAGE(0x713D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"That's irritating!\n"
-"It bothers my Ouge!"
+"Wie närvig!\n"
+"S tuet i de Ouge weh!"
 )
 
 DEFINE_MESSAGE(0x713E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"That looks quite handsome!"
+"D gsehsch zimli guet uus!"
 )
 
 DEFINE_MESSAGE(0x713F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Waaaaaaah!\n"
-"What is wrong with du?\n"
-"Do du have a bad attitude?"
+"Was louft mit diir?\n"
+"Steisch schlächt im Läbe?"
 )
-/* EDIT! Hie */
+
 DEFINE_MESSAGE(0x7140, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Du Idiot! \n"
 "Wenn mit öpperem redsch söttsch \n"
