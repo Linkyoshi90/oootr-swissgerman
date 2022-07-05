@@ -8969,7 +8969,7 @@ DEFINE_MESSAGE(0x4092, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "D Fische wärde o grösser...\n"
 "Villecht..."
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x4093, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 UNSKIPPABLE "Hey, Jüngling! I erinnere mi a di!\n"
 "Lang här!" BOX_BREAK UNSKIPPABLE "Wie lang?\n"
@@ -8996,93 +8996,93 @@ DEFINE_MESSAGE(0x4095, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Wa meinsch?" BOX_BREAK "Keh Ahnig im Fau.\n"
 "Min Ärnscht!"
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x4096, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Was?" BOX_BREAK "Are du trying to tell me du\n"
-"can't see the Fisch because the\n"
-"Wasser is cloudy?" BOX_BREAK "What are du talking about?\n"
-"This time of day makes for \n"
-"fische at its finest!" BOX_BREAK "du can hook a Fisch out of the\n"
-"blue, when du least expect it.\n"
-"Now that's exciting!" BOX_BREAK "I'm serious.  Really, i bi!"
+"Was?" BOX_BREAK "Möchtsch mir säge ds du d Fische\n"
+"nid gseh chasch wägm wouchige\n"
+"Wasser?" BOX_BREAK "Wa labasch du?\n"
+"Die Tagesziit isch die Beschti\n"
+"zum angle!" BOX_BREAK "D housch d Fische diräkt usm\n"
+"blaue Himu, richtig unerwartet.\n"
+"Isch ds nid geil!" BOX_BREAK "Min Ärnscht. I verarsche di nid!"
 )
 
 DEFINE_MESSAGE(0x4097, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, what are du doing?\n"
-"I told du not to do that!\n"
-"D bisch terrible!\n"
-"Seriously!" BOX_BREAK "Give me back my hat!\n"
+"Hey, wa machsch da?\n"
+"Mach da nid!\n"
+"Du Unmönsch!\n"
+"Im Ärnscht!" BOX_BREAK "Gimmer mi Huet!\n"
 "\n"
 TWO_CHOICE  COLOR(ADJUSTABLE) "OK\n"
-"Nö way" COLOR(DEFAULT)
+"Vrgiss es" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4098, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Was? Huch? Oh?\n"
-"I think the Fisch du already\n"
-"kept was grösser than this one..." BOX_BREAK "Do du still want to keep it?\n"
+"Dr Fisch wo du hesch isch gloubs\n"
+"grösser aus dise..." BOX_BREAK "Möchtsch ne trotzdäm bhaute?\n"
 "\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Nö, I don't want it\n"
-"Ja, I want to keep it anyway" COLOR(DEFAULT)
+TWO_CHOICE  COLOR(ADJUSTABLE) "Nö, mah nid\n"
+"Ja, i mah" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x4099, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Gosh! That's a strange Fisch du\n"
-"caught there! On top of that, it\n"
-"weighs " COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
+"Dsch e komische Fisch wo hie\n"
+"gfange hesch. Zuesätzlech wiegt\n"
+"er " COLOR(RED)  FISH_INFO "kg" COLOR(DEFAULT) "!" BOX_BREAK "Möchtsch ne?\n"
 "\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it anyway\n"
-"I don't want it" COLOR(DEFAULT)
+TWO_CHOICE  COLOR(ADJUSTABLE) "Bhaute\n"
+"Schmeisse" COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x409A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Wow!" BOX_BREAK "Is this what I think it is?\n"
-"Astonishing!\n"
-"du snagged a " COLOR(RED) "sinking lure" COLOR(DEFAULT) "!" BOX_BREAK "What do du want to do with it?\n"
+"Wow!" BOX_BREAK "Isch ds was i dänke ds es isch?\n"
+"Erstuunlech!\n"
+"D hesch n " COLOR(RED) "Sinkköder" COLOR(DEFAULT) " gfunde!" BOX_BREAK "Wa möchtsch mache?\n"
 "\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Use it now.\n"
-"Get rid of it." COLOR(DEFAULT)
+TWO_CHOICE  COLOR(ADJUSTABLE) "Bruuche.\n"
+"Schmeisse." COLOR(DEFAULT)
 )
 
 DEFINE_MESSAGE(0x409B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, well..." BOX_BREAK "WOW! What a rare Fisch!\n"
-"This is a " COLOR(RED) "Hyrule Loach" COLOR(DEFAULT) "!" BOX_BREAK "For this Fisch, size doesn't \n"
-"matter. I'll give du this \n"
+"Hoho..." BOX_BREAK "WOW! Ds isch en Säuteheit!\n"
+"Dsch e " COLOR(RED) "Hyrule Grundel" COLOR(DEFAULT) "!" BOX_BREAK "Für dise Fisch spiut Grössi keh \n"
+"Roue. I gibe diir dise \n"
 "Priis!" EVENT
 )
 
 DEFINE_MESSAGE(0x409C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Recently, the number of Die\n"
-"Fisch has decreased tremendously,\n"
-"so I'm going to release this one." EVENT
+"D Aazau vo dene Fische het \n"
+"starch abgno, drum schiessi ne \n"
+"wider zrugg is Wasser." EVENT
 )
 
 DEFINE_MESSAGE(0x409D, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Rules und Regulations\n"
-"1. Don't use sinking lures.\n"
-"2. Don't litter.\n"
-"3. Walk quietly." QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "Regle\n"
+"1. Keh Sinkköder.\n"
+"2. Keh Ghüdder.\n"
+"3. Lisli sii." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x409E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey! Hey!\n"
-"du can't take the rod out of\n"
-"here!" BOX_BREAK "When du quit fische, return \n"
-"the rod to the counter.\n"
-"I'm serious!"
+"D darfsch d Anguruete nid \n"
+"mitnäh!" BOX_BREAK "Wenn uufhöre möchtsch, \n"
+"gib se hie ab.\n"
+"Min Ärnscht!"
 )
 
 DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh my gosh!\n"
-"This Fisch is gigantic!!" BOX_BREAK "A Fisch this big can't even fit\n"
-"on the screen, und I can't weigh it\n"
-"accurately, but it looks like it's\n"
-"about " COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "du'll want to keep this one,\n"
-"right?\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it\n"
-"Don't keep it" COLOR(DEFAULT)
+"Oh Jesus!\n"
+"Dä Fisch isch risig!!" BOX_BREAK "E so grosse Fisch cha nid mau \n"
+"passt nid mau ufs biud und wäge \n"
+"chani ne o nume grob, \n"
+"öppe " COLOR(RED)  FISH_INFO " Kilo" COLOR(DEFAULT) "!!" BOX_BREAK "Du wirsch dä doch wöue bhaute, \n"
+"oder?\n"
+TWO_CHOICE  COLOR(ADJUSTABLE) "Bhaute\n"
+"Nid bhaute" COLOR(DEFAULT)
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x40A0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hey, baby!\n"
 "I'm " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi!\n"
@@ -9555,7 +9555,7 @@ DEFINE_MESSAGE(0x5027, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5028, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-UNSKIPPABLE  SFX("\x68\x55") "i bi the " COLOR(RED) "Boss of the carpenters\n"
+UNSKIPPABLE  SFX("\x68\x55") "i bi the " COLOR(RED) "boss of the carpenters\n"
 COLOR(DEFAULT) "that Impa hired to improve this\n"
 "Dorf und make it into a true\n"
 "city!" BOX_BREAK UNSKIPPABLE "But jung men Die days don't\n"
@@ -10038,7 +10038,7 @@ DEFINE_MESSAGE(0x506A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "All day long, Mir si working on \n"
 "many construction projects in the\n"
 "Dorf. It's going to take awhile\n"
-"bevor everything is done." BOX_BREAK "Our Boss works us very hard!"
+"bevor everything is done." BOX_BREAK "Our boss works us very hard!"
 )
 
 DEFINE_MESSAGE(0x506B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
@@ -10107,7 +10107,7 @@ DEFINE_MESSAGE(0x5075, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x5076, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"I heard that our Boss's house is\n"
+"I heard that our boss's house is\n"
 "just behind this house. He doesn't\n"
 "want any of us to know, though."
 )
@@ -10889,7 +10889,7 @@ UNSKIPPABLE "D bisch a cute Goof! Merci for\n"
 
 DEFINE_MESSAGE(0x605D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 UNSKIPPABLE "Thanks, Giu! D bisch Fantastisch!\n"
-"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have du seen our Boss, Giu?\n"
+"I'm " COLOR(RED) "Sabooro, the carpenter" COLOR(DEFAULT) "." BOX_BREAK UNSKIPPABLE "Have du seen our boss, Giu?\n"
 "He's probably worried about me!\n"
 "I have to get back to him \n"
 QUICKTEXT_ENABLE "immediately!" QUICKTEXT_DISABLE  BOX_BREAK UNSKIPPABLE  COLOR(RED) "One more of our workers " COLOR(DEFAULT) "is still\n"
