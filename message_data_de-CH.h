@@ -8095,7 +8095,7 @@ COLOR(DEFAULT) "oder?"
 )
 
 DEFINE_MESSAGE(0x4018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Grüess Gott, Jüngling. I bi grd\n"
+"Grüess Hylia, Jüngling. I bi grd\n"
 "ds Wasser vom Hyliasee mit\n"
 "einige ungwöhnleche Mixtüre \n"
 "am mische." BOX_BREAK "Villecht hesch d Grosle vom\n"
@@ -9043,46 +9043,46 @@ DEFINE_MESSAGE(0x409A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 TWO_CHOICE  COLOR(ADJUSTABLE) "Bruuche.\n"
 "Schmeisse." COLOR(DEFAULT)
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x409B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well, well..." BOX_BREAK "WOW! What a rare Fisch!\n"
-"This is a " COLOR(RED) "Hyrule Loach" COLOR(DEFAULT) "!" BOX_BREAK "For this Fisch, size doesn't \n"
-"matter. I'll give du this \n"
+"Hoho..." BOX_BREAK "WOW! Ds isch en Säuteheit!\n"
+"Dsch e " COLOR(RED) "Hyrule Grundel" COLOR(DEFAULT) "!" BOX_BREAK "Für dise Fisch spiut Grössi keh \n"
+"Roue. I gibe diir dise \n"
 "Priis!" EVENT
 )
 
 DEFINE_MESSAGE(0x409C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Recently, the number of Die\n"
-"Fisch has decreased tremendously,\n"
-"so I'm going to release this one." EVENT
+"D Aazau vo dene Fische het \n"
+"starch abgno, drum schiessi ne \n"
+"wider zrugg is Wasser." EVENT
 )
 
 DEFINE_MESSAGE(0x409D, TEXTBOX_TYPE_WOODEN, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Rules und Regulations\n"
-"1. Don't use sinking lures.\n"
-"2. Don't litter.\n"
-"3. Walk quietly." QUICKTEXT_DISABLE
+QUICKTEXT_ENABLE "Regle\n"
+"1. Keh Sinkköder.\n"
+"2. Keh Ghüdder.\n"
+"3. Lisli sii." QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x409E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Hey! Hey!\n"
-"du can't take the rod out of\n"
-"here!" BOX_BREAK "When du quit fische, return \n"
-"the rod to the counter.\n"
-"I'm serious!"
+"D darfsch d Anguruete nid \n"
+"mitnäh!" BOX_BREAK "Wenn uufhöre möchtsch, \n"
+"gib se hie ab.\n"
+"Min Ärnscht!"
 )
 
 DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh my gosh!\n"
-"This Fisch is gigantic!!" BOX_BREAK "A Fisch this big can't even fit\n"
-"on the screen, und I can't weigh it\n"
-"accurately, but it looks like it's\n"
-"about " COLOR(RED)  FISH_INFO " pounds" COLOR(DEFAULT) "!!" BOX_BREAK "du'll want to keep this one,\n"
-"right?\n"
-TWO_CHOICE  COLOR(ADJUSTABLE) "Keep it\n"
-"Don't keep it" COLOR(DEFAULT)
+"Oh Hylia!\n"
+"Dä Fisch isch risig!!" BOX_BREAK "E so grosse Fisch cha nid mau \n"
+"passt nid mau ufs biud und wäge \n"
+"chani ne o nume grob, \n"
+"öppe " COLOR(RED)  FISH_INFO " Kilo" COLOR(DEFAULT) "!!" BOX_BREAK "Du wirsch dä doch wöue bhaute, \n"
+"oder?\n"
+TWO_CHOICE  COLOR(ADJUSTABLE) "Bhaute\n"
+"Nid bhaute" COLOR(DEFAULT)
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x40A0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "Hey, baby!\n"
 "I'm " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi!\n"
