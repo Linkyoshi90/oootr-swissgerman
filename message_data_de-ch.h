@@ -8095,7 +8095,7 @@ COLOR(DEFAULT) "oder?"
 )
 
 DEFINE_MESSAGE(0x4018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Grüess Gott, Jüngling. I bi grd\n"
+"Grüess Hylia, Jüngling. I bi grd\n"
 "ds Wasser vom Hyliasee mit\n"
 "einige ungwöhnleche Mixtüre \n"
 "am mische." BOX_BREAK "Villecht hesch d Grosle vom\n"
@@ -9073,7 +9073,7 @@ DEFINE_MESSAGE(0x409E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh Jesus!\n"
+"Oh Hylia!\n"
 "Dä Fisch isch risig!!" BOX_BREAK "E so grosse Fisch cha nid mau \n"
 "passt nid mau ufs biud und wäge \n"
 "chani ne o nume grob, \n"
