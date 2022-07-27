@@ -8095,7 +8095,7 @@ COLOR(DEFAULT) "oder?"
 )
 
 DEFINE_MESSAGE(0x4018, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Grüess Hylia, Jüngling. I bi grd\n"
+"Grüess Gott, Jüngling. I bi grd\n"
 "ds Wasser vom Hyliasee mit\n"
 "einige ungwöhnleche Mixtüre \n"
 "am mische." BOX_BREAK "Villecht hesch d Grosle vom\n"
@@ -9073,7 +9073,7 @@ DEFINE_MESSAGE(0x409E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 )
 
 DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh Hylia!\n"
+"Oh Jesus!\n"
 "Dä Fisch isch risig!!" BOX_BREAK "E so grosse Fisch cha nid mau \n"
 "passt nid mau ufs biud und wäge \n"
 "chani ne o nume grob, \n"
@@ -9082,59 +9082,59 @@ DEFINE_MESSAGE(0x409F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 TWO_CHOICE  COLOR(ADJUSTABLE) "Bhaute\n"
 "Nid bhaute" COLOR(DEFAULT)
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x40A0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey, baby!\n"
-"I'm " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi!\n"
-"du've probably heard about my\n"
-"Fantastisch memory!" BOX_BREAK "Wenn d have a new Lied to play,\n"
-"blow it!" BOX_BREAK "This is the Lied du tooted last \n"
-"time, baby!" BOX_BREAK "Triff it!" EVENT
+"Hey, Baby!\n"
+"I bi " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", d Voguschüchi!\n"
+"du hesch sicher vo mim\n"
+"fantastische Gedächtnis!" BOX_BREAK "Wenn d s neus Lied hesch,\n"
+"gib ihm!" BOX_BREAK "Ds isch ds Lied wo ds letscht Mau \n"
+"gspiut hesch, Baby!" BOX_BREAK "Gib'm!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A1, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"i bi " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", the Voguschüchi\n"
-"musical genius!\n"
-"I hear a Lied once, und I never\n"
-"forget it, baby!"
+"I bi " COLOR(RED) "Bonooru" COLOR(DEFAULT) ", d Voguschüchi,\n"
+"musikalisches Genie!\n"
+"I ghör es Lied einisch und i \n"
+"vergiss es nie, Baby!"
 )
 
 DEFINE_MESSAGE(0x40A2, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Spiu ds usual Lied to call\n"
-"Pierre!\n"
-"If he's nearby, he'll come out to\n"
-"help du, baby!"
+"Spiu ds normale Lied um \n"
+"Pierre z'rüefe!\n"
+"Wenn ds machsch, chunnt er use \n"
+"um z'häuffe, Baby!"
 )
 
 DEFINE_MESSAGE(0x40A3, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Hey! Aren't du the Fee buddy I\n"
-"met a long time ago?\n"
-"Wow, du grew, dude!" BOX_BREAK "Well, here's dini Lied..." BOX_BREAK "Was?" BOX_BREAK "Nö, I never forget!\n"
-"du, D bisch the one who forgot...\n"
-"aren't du? Wenn d have an \n"
-"Muugiige, play das Lied, baby!"
+"Hey! Bisch du nid dr Fee-giu, woni\n"
+"vormne Ziitli troffe ha?\n"
+"Wow, du bisch gwachse, Dude!" BOX_BREAK "Naja, dsch dis Lied..." BOX_BREAK "Was?" BOX_BREAK "Nö, i vergisse nüüt!\n"
+"Du bisch dä, wo s vergässe het...\n"
+"Gäu? Wenn d en \n"
+"Muugiige hesch, spiu das Lied, Baby!"
 )
 
 DEFINE_MESSAGE(0x40A4, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Whoa! du have an Muulpfiefli!\n"
-"Hey, why don't du lay a Lied\n"
-"on me with it, baby?!" EVENT
+"Wow! Du hesch es Muulpfiefli!\n"
+"Hey, spiu es Lied\n"
+"für mi, Baby!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A5, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Well...not bad!\n"
-"I will remember it for du \n"
-"anyway!" BOX_BREAK "I don't mean I can remember only\n"
-"eight notes, but let's just cut it\n"
-"right there for now, baby!" EVENT
+"Naja... Nid schlächt!\n"
+"I wirde mi dra erinnere, \n"
+"für di." BOX_BREAK "I cha nid nume 8 Note in\n"
+"Erinnerig bhaute, aber verbliibe \n"
+"mir für di bi däm, Baby!" EVENT
 )
 
 DEFINE_MESSAGE(0x40A6, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
-"Play it like that und du'll\n"
-"never move this Voguschüchi's Härz,\n"
-"baby!" EVENT
+"Spiu eso und du wirsch nie \n"
+"mis Voguschüchi-Härz bewege,\n"
+"Baby!" EVENT
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x40A7, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_MIDDLE,
 "OH YEAHHH!!\n"
 "That's it, that's the Lied!!\n"
