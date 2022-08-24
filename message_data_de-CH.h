@@ -12965,71 +12965,71 @@ DEFINE_MESSAGE(0x7108, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Those cool Ouge are really\n"
 "fascinating..."
 )
-
+/*EDIT! Hie*/
 DEFINE_MESSAGE(0x7109, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh Nö! D bisch scary!\n"
-"Don't come any closer!"
+"Oh Nö! D bisch gruslig!\n"
+"Chum nid nöcher!"
 )
 
 DEFINE_MESSAGE(0x710A, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Wow...how nostalgic! That\n"
-"reminds me of when I was a\n"
-"chlii Goof."
+"Wow, wie nostalgisch! Es \n"
+"erinneret mi a mini Zyt aus \n"
+"chliine Goof."
 )
 
 DEFINE_MESSAGE(0x710B, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"That's kind of funny...it\n"
-"makes me laugh!\n"
+"Iwie isch ds luschtig...\n"
+"S bringt mi zum Lache!\n"
 "Hihi!"
 )
 
 DEFINE_MESSAGE(0x710C, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-QUICKTEXT_ENABLE "Uh-oh!" QUICKTEXT_DISABLE " I'm sorry, mom!\n"
-"Oh...hey, it's du!\n"
-"Don't scare me like\n"
-"that!"
+QUICKTEXT_ENABLE "Oh-oh!" QUICKTEXT_DISABLE " Sorry Mami!\n"
+"Oh, du bischs!\n"
+"Jag mir doch nid so ne Angscht\n"
+"ii!"
 )
 
 DEFINE_MESSAGE(0x710D, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"What a big head du have!"
+"Mann, hesch du e riisige Gring!"
 )
 
 DEFINE_MESSAGE(0x710E, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh, don't do that!\n"
-"I'm shy..."
+"Mach ds nid!\n"
+"I bi z'schüch..."
 )
 
 DEFINE_MESSAGE(0x710F, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Is there a Maske competition\n"
-"going on? \n"
-QUICKTEXT_ENABLE "I'm going to vote for du!" QUICKTEXT_DISABLE
+"Oh, gitz en Maskewettbewärb?\n"
+QUICKTEXT_ENABLE "I stimme sicher für di!" QUICKTEXT_DISABLE
 )
 
 DEFINE_MESSAGE(0x7110, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oh! A rabbit!\n"
-"Speaking of rabbits, I saw a \n"
-"strange man chasing rabbits \n"
-"around..."
+"Luda, es Häsli!\n"
+"Apropos, da isch n Giu im Fäud \n"
+"wo Häsli verfougt het... \n"
+"Angers komisch..."
 )
 
 DEFINE_MESSAGE(0x7111, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Oooh, what a pretty lady!\n"
-"But D bisch kind of short,\n"
-"aren't du?"
+"Oh la la, hey Hübschi!\n"
+"Chlii chlii, gäu... \n"
+"Standgebläse Energie isch gross\n"
+"bi dir!"
 )
 
 DEFINE_MESSAGE(0x7112, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"Well...I can't think of anything\n"
-"funny to say...sorry, Goof!"
+"Itz chani iwie nüüt luschtigs \n"
+"drzue säge... Keh Ahnig..."
 )
 
 DEFINE_MESSAGE(0x7113, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
-"A Maske... When I was a chlii \n"
-"Goof, I also wore masks around...\n"
-"Was? du say du can't imagine\n"
-"me doing that?"
+"E Maske... Woni no n chliine \n"
+"Goof bi gsii, hani Maske treit... \n"
+"Was? D chasch diir nid vorsteue, \n"
+"ds i das mache?"
 )
-/*EDIT! Hie*/
+
 DEFINE_MESSAGE(0x7114, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_VARIABLE,
 "Ohhhh... Hm...\n"
 "En Illusion..."
